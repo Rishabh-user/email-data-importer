@@ -1,0 +1,14 @@
+/* Make upload field large and modern */
+input[type="file"] {
+    padding: 25px !important;
+    border: 2px dashed #4a90e2 !important;
+    background: #f7faff;
+    width: 100% !important;
+    font-size: 16px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+input[type="file"]:hover {
+    background: #eef6ff;
+    border-color: #2f80ed;
+}

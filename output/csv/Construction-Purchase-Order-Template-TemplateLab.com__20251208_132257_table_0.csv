@@ -1,0 +1,19 @@
+Column_1,Column_2,Column_3,PURCHASE ORDER
+,,PO #:,
+,,Date:,
+Purchase Order To:,Ship To:,,
+,Time range,Price,
+"#
+Service Description",,,TOTAL PRICE
+,[Days],[per hour],
+,,TOTAL SERVICES:,
+"#
+Item Description",Qty,Price,TOTAL PRICE
+,,TOTAL MATERIALS:,
+,,,Total Job Cost
+,,,TAX
+Comments,,,
+Accepted By:,,,
+,,,TOTAL
+Date:,,,
+Approved By:,,,

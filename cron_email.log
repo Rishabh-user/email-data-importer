@@ -1,0 +1,180 @@
+Traceback (most recent call last):
+  File "/Users/adititomar/PycharmProjects/email-data-importer 2/manage.py", line 11, in main
+    from django.core.management import execute_from_command_line
+ModuleNotFoundError: No module named 'django'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/adititomar/PycharmProjects/email-data-importer 2/manage.py", line 22, in <module>
+    main()
+    ~~~~^^
+  File "/Users/adititomar/PycharmProjects/email-data-importer 2/manage.py", line 13, in main
+    raise ImportError(
+    ...<3 lines>...
+    ) from exc
+ImportError: Couldn't import Django. Are you sure it's installed and available on your PYTHONPATH environment variable? Did you forget to activate a virtual environment?
+Traceback (most recent call last):
+  File "/Users/adititomar/PycharmProjects/email-data-importer 2/manage.py", line 11, in main
+    from django.core.management import execute_from_command_line
+ModuleNotFoundError: No module named 'django'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/adititomar/PycharmProjects/email-data-importer 2/manage.py", line 22, in <module>
+    main()
+    ~~~~^^
+  File "/Users/adititomar/PycharmProjects/email-data-importer 2/manage.py", line 13, in main
+    raise ImportError(
+    ...<3 lines>...
+    ) from exc
+ImportError: Couldn't import Django. Are you sure it's installed and available on your PYTHONPATH environment variable? Did you forget to activate a virtual environment?
+Traceback (most recent call last):
+  File "/Users/adititomar/PycharmProjects/email-data-importer 2/manage.py", line 11, in main
+    from django.core.management import execute_from_command_line
+ModuleNotFoundError: No module named 'django'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/adititomar/PycharmProjects/email-data-importer 2/manage.py", line 22, in <module>
+    main()
+    ~~~~^^
+  File "/Users/adititomar/PycharmProjects/email-data-importer 2/manage.py", line 13, in main
+    raise ImportError(
+    ...<3 lines>...
+    ) from exc
+ImportError: Couldn't import Django. Are you sure it's installed and available on your PYTHONPATH environment variable? Did you forget to activate a virtual environment?
+2025-12-17 10:30:09,704 - INFO - Connecting to Email Server...
+2025-12-17 10:30:42,561 - INFO - Found 0 unread emails.
+2025-12-17 10:30:49,474 - INFO - Email fetch complete.
+📧 Starting email fetch...
+✅ Email fetch completed
+2025-12-17 10:35:03,072 - INFO - Connecting to Email Server...
+2025-12-17 10:35:50,248 - INFO - Found 0 unread emails.
+2025-12-17 10:35:57,244 - INFO - Email fetch complete.
+📧 Starting email fetch...
+✅ Email fetch completed
+2025-12-17 10:40:02,624 - INFO - Connecting to Email Server...
+2025-12-17 10:41:47,652 - INFO - Found 0 unread emails.
+2025-12-17 10:41:54,743 - INFO - Email fetch complete.
+📧 Starting email fetch...
+✅ Email fetch completed
+2025-12-17 10:45:02,898 - INFO - Connecting to Email Server...
+2025-12-17 10:47:02,734 - INFO - Found 0 unread emails.
+2025-12-17 10:47:21,903 - INFO - Email fetch complete.
+📧 Starting email fetch...
+✅ Email fetch completed
+2025-12-17 10:50:15,993 - INFO - Connecting to Email Server...
+2025-12-17 10:50:53,041 - INFO - Found 0 unread emails.
+2025-12-17 10:51:02,600 - INFO - Email fetch complete.
+📧 Starting email fetch...
+✅ Email fetch completed
+2025-12-17 10:55:03,393 - INFO - Connecting to Email Server...
+2025-12-17 10:55:17,579 - INFO - Found 0 unread emails.
+2025-12-17 10:55:19,630 - INFO - Email fetch complete.
+📧 Starting email fetch...
+✅ Email fetch completed
+2025-12-17 11:00:02,823 - INFO - Connecting to Email Server...
+2025-12-17 11:02:10,315 - INFO - Found 0 unread emails.
+2025-12-17 11:02:33,401 - INFO - Email fetch complete.
+📧 Starting email fetch...
+✅ Email fetch completed
+Traceback (most recent call last):
+  File "/Users/adititomar/PycharmProjects/email-data-importer 2/manage.py", line 22, in <module>
+    main()
+    ~~~~^^
+  File "/Users/adititomar/PycharmProjects/email-data-importer 2/manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/adititomar/PycharmProjects/email-data-importer/venv/lib/python3.13/site-packages/django/core/management/__init__.py", line 443, in execute_from_command_line
+    utility.execute()
+    ~~~~~~~~~~~~~~~^^
+  File "/Users/adititomar/PycharmProjects/email-data-importer/venv/lib/python3.13/site-packages/django/core/management/__init__.py", line 417, in execute
+    django.setup()
+    ~~~~~~~~~~~~^^
+  File "/Users/adititomar/PycharmProjects/email-data-importer/venv/lib/python3.13/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adititomar/PycharmProjects/email-data-importer/venv/lib/python3.13/site-packages/django/apps/registry.py", line 124, in populate
+    app_config.ready()
+    ~~~~~~~~~~~~~~~~^^
+  File "/Users/adititomar/PycharmProjects/email-data-importer/venv/lib/python3.13/site-packages/django/contrib/admin/apps.py", line 27, in ready
+    self.module.autodiscover()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/adititomar/PycharmProjects/email-data-importer/venv/lib/python3.13/site-packages/django/contrib/admin/__init__.py", line 52, in autodiscover
+    autodiscover_modules("admin", register_to=site)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adititomar/PycharmProjects/email-data-importer/venv/lib/python3.13/site-packages/django/utils/module_loading.py", line 58, in autodiscover_modules
+    import_module("%s.%s" % (app_config.name, module_to_search))
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.5/Frameworks/Python.framework/Versions/3.13/lib/python3.13/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/adititomar/PycharmProjects/email-data-importer 2/importer/admin.py", line 48, in <module>
+    @admin.register(ZSODemand)
+                    ^^^^^^^^^
+NameError: name 'ZSODemand' is not defined
+Traceback (most recent call last):
+  File "/Users/adititomar/PycharmProjects/email-data-importer 2/manage.py", line 22, in <module>
+    main()
+    ~~~~^^
+  File "/Users/adititomar/PycharmProjects/email-data-importer 2/manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/adititomar/PycharmProjects/email-data-importer/venv/lib/python3.13/site-packages/django/core/management/__init__.py", line 443, in execute_from_command_line
+    utility.execute()
+    ~~~~~~~~~~~~~~~^^
+  File "/Users/adititomar/PycharmProjects/email-data-importer/venv/lib/python3.13/site-packages/django/core/management/__init__.py", line 417, in execute
+    django.setup()
+    ~~~~~~~~~~~~^^
+  File "/Users/adititomar/PycharmProjects/email-data-importer/venv/lib/python3.13/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adititomar/PycharmProjects/email-data-importer/venv/lib/python3.13/site-packages/django/apps/registry.py", line 124, in populate
+    app_config.ready()
+    ~~~~~~~~~~~~~~~~^^
+  File "/Users/adititomar/PycharmProjects/email-data-importer/venv/lib/python3.13/site-packages/django/contrib/admin/apps.py", line 27, in ready
+    self.module.autodiscover()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/adititomar/PycharmProjects/email-data-importer/venv/lib/python3.13/site-packages/django/contrib/admin/__init__.py", line 52, in autodiscover
+    autodiscover_modules("admin", register_to=site)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adititomar/PycharmProjects/email-data-importer/venv/lib/python3.13/site-packages/django/utils/module_loading.py", line 58, in autodiscover_modules
+    import_module("%s.%s" % (app_config.name, module_to_search))
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.5/Frameworks/Python.framework/Versions/3.13/lib/python3.13/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/adititomar/PycharmProjects/email-data-importer 2/importer/admin.py", line 48, in <module>
+    @admin.register(ZSODemand)
+                    ^^^^^^^^^
+NameError: name 'ZSODemand' is not defined
+2025-12-17 11:15:03,127 - INFO - Connecting to Email Server...
+2025-12-17 11:15:39,888 - INFO - Found 0 unread emails.
+2025-12-17 11:15:46,146 - INFO - Email fetch complete.
+📧 Starting email fetch...
+✅ Email fetch completed
+2025-12-17 11:20:03,564 - INFO - Connecting to Email Server...
+2025-12-17 11:20:31,135 - INFO - Found 0 unread emails.
+2025-12-17 11:20:44,713 - INFO - Email fetch complete.
+📧 Starting email fetch...
+✅ Email fetch completed
+2025-12-17 11:25:03,185 - INFO - Connecting to Email Server...
+2025-12-17 11:27:29,407 - INFO - Found 0 unread emails.
+2025-12-17 11:27:35,163 - INFO - Email fetch complete.
+📧 Starting email fetch...
+✅ Email fetch completed

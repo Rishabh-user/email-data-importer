@@ -1,0 +1,120 @@
+{
+    "file": "/Users/adititomar/PycharmProjects/email-data-importer/test_files/Purchase-Order-Template-02-TemplateLab.pdf",
+    "scanned": false,
+    "raw_text": [
+        {
+            "page": 1,
+            "text": "PURCHASE ORDER\nDATE:\nPURCHASE ORDER NO.:\nVENDOR INFORMATION\nVENDOR NAME SALES PERSON\nADDRESS\nCONTACT NO. EMAIL ADDRESS\nCUSTOMER INFORMATION\nCUSTOMER NAME CONTACT PERSON\nADDRESS\nCONTACT NO. EMAIL ADDRESS\nItem No. Details Unit Quantity Unit Price Total\nAdditional Notes: Subtotal\nTaxes (%)\nDiscount (%)\nTotal\nAuthorized By"
+        }
+    ],
+    "tables": [
+        {
+            "columns": [
+                "VENDOR NAME\nSALES PERSON"
+            ],
+            "rows": [
+                {
+                    "VENDOR NAME\nSALES PERSON": "ADDRESS"
+                },
+                {
+                    "VENDOR NAME\nSALES PERSON": "CONTACT NO.\nEMAIL ADDRESS"
+                }
+            ]
+        },
+        {
+            "columns": [
+                "CUSTOMER NAME\nCONTACT PERSON",
+                ""
+            ],
+            "rows": [
+                {
+                    "CUSTOMER NAME\nCONTACT PERSON": "ADDRESS",
+                    "": ""
+                },
+                {
+                    "CUSTOMER NAME\nCONTACT PERSON": "CONTACT NO.\nEMAIL ADDRESS",
+                    "": ""
+                },
+                {
+                    "CUSTOMER NAME\nCONTACT PERSON": "Item No.\nDetails\nUnit\nQuantity\nUnit Price\nTotal",
+                    "": ""
+                },
+                {
+                    "CUSTOMER NAME\nCONTACT PERSON": "",
+                    "": ""
+                },
+                {
+                    "CUSTOMER NAME\nCONTACT PERSON": "",
+                    "": ""
+                },
+                {
+                    "CUSTOMER NAME\nCONTACT PERSON": "",
+                    "": ""
+                },
+                {
+                    "CUSTOMER NAME\nCONTACT PERSON": "",
+                    "": ""
+                },
+                {
+                    "CUSTOMER NAME\nCONTACT PERSON": "",
+                    "": ""
+                },
+                {
+                    "CUSTOMER NAME\nCONTACT PERSON": "",
+                    "": ""
+                },
+                {
+                    "CUSTOMER NAME\nCONTACT PERSON": "",
+                    "": ""
+                },
+                {
+                    "CUSTOMER NAME\nCONTACT PERSON": "",
+                    "": ""
+                },
+                {
+                    "CUSTOMER NAME\nCONTACT PERSON": "",
+                    "": ""
+                },
+                {
+                    "CUSTOMER NAME\nCONTACT PERSON": "",
+                    "": ""
+                },
+                {
+                    "CUSTOMER NAME\nCONTACT PERSON": "",
+                    "": ""
+                },
+                {
+                    "CUSTOMER NAME\nCONTACT PERSON": "",
+                    "": ""
+                },
+                {
+                    "CUSTOMER NAME\nCONTACT PERSON": "",
+                    "": ""
+                },
+                {
+                    "CUSTOMER NAME\nCONTACT PERSON": "",
+                    "": ""
+                },
+                {
+                    "CUSTOMER NAME\nCONTACT PERSON": "Additional Notes:",
+                    "": ""
+                }
+            ]
+        }
+    ],
+    "structured": {
+        "invoice_number": null,
+        "dates": [],
+        "vendor_name": "VENDOR NAME SALES PERSON",
+        "gstin": null,
+        "total_amount": null,
+        "line_items": [
+            {
+                "VENDOR NAME\nSALES PERSON": "ADDRESS"
+            },
+            {
+                "VENDOR NAME\nSALES PERSON": "CONTACT NO.\nEMAIL ADDRESS"
+            }
+        ]
+    }
+}

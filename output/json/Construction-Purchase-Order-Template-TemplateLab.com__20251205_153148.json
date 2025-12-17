@@ -1,0 +1,330 @@
+{
+    "tables": [
+        {
+            "columns": [
+                "Unnamed: 2",
+                "Unnamed: 4",
+                "Unnamed: 9",
+                "Unnamed: 12",
+                "Unnamed: 13",
+                "Unnamed: 16"
+            ],
+            "rows": [
+                {
+                    "Unnamed: 2": "",
+                    "Unnamed: 4": "",
+                    "Unnamed: 9": "",
+                    "Unnamed: 12": "",
+                    "Unnamed: 13": "PURCHASE ORDER",
+                    "Unnamed: 16": ""
+                },
+                {
+                    "Unnamed: 2": "CONSTRUCTION MASTERS",
+                    "Unnamed: 4": "",
+                    "Unnamed: 9": "",
+                    "Unnamed: 12": "",
+                    "Unnamed: 13": "",
+                    "Unnamed: 16": ""
+                },
+                {
+                    "Unnamed: 2": "",
+                    "Unnamed: 4": "",
+                    "Unnamed: 9": "",
+                    "Unnamed: 12": "",
+                    "Unnamed: 13": "PO #:",
+                    "Unnamed: 16": 1253
+                },
+                {
+                    "Unnamed: 2": "",
+                    "Unnamed: 4": "",
+                    "Unnamed: 9": "",
+                    "Unnamed: 12": "",
+                    "Unnamed: 13": "Date:",
+                    "Unnamed: 16": "2022-01-01T00:00:00"
+                },
+                {
+                    "Unnamed: 2": "270 Construction Road Drive      Dayton     25143     OH     PH: 555-1524-58554",
+                    "Unnamed: 4": "",
+                    "Unnamed: 9": "",
+                    "Unnamed: 12": "",
+                    "Unnamed: 13": "www.constructionmasters123.com",
+                    "Unnamed: 16": ""
+                },
+                {
+                    "Unnamed: 2": "Purchase Order To:",
+                    "Unnamed: 4": "Company Name",
+                    "Unnamed: 9": "Ship To:",
+                    "Unnamed: 12": "Company Name",
+                    "Unnamed: 13": "",
+                    "Unnamed: 16": ""
+                },
+                {
+                    "Unnamed: 2": "",
+                    "Unnamed: 4": "Street Address",
+                    "Unnamed: 9": "",
+                    "Unnamed: 12": "Street Address",
+                    "Unnamed: 13": "",
+                    "Unnamed: 16": ""
+                },
+                {
+                    "Unnamed: 2": "",
+                    "Unnamed: 4": "City, State ZIP",
+                    "Unnamed: 9": "",
+                    "Unnamed: 12": "City, State ZIP",
+                    "Unnamed: 13": "",
+                    "Unnamed: 16": ""
+                },
+                {
+                    "Unnamed: 2": "",
+                    "Unnamed: 4": "Phone Number",
+                    "Unnamed: 9": "",
+                    "Unnamed: 12": "Phone Number",
+                    "Unnamed: 13": "",
+                    "Unnamed: 16": ""
+                },
+                {
+                    "Unnamed: 2": "",
+                    "Unnamed: 4": "Email Address",
+                    "Unnamed: 9": "",
+                    "Unnamed: 12": "Email Address",
+                    "Unnamed: 13": "",
+                    "Unnamed: 16": ""
+                }
+            ],
+            "field_types": {
+                "Unnamed: 2": "text",
+                "Unnamed: 4": "text",
+                "Unnamed: 9": "text",
+                "Unnamed: 12": "text",
+                "Unnamed: 13": "text",
+                "Unnamed: 16": "text"
+            },
+            "section": "Data"
+        },
+        {
+            "columns": [
+                "Unnamed: 2",
+                "Unnamed: 3",
+                "Unnamed: 10",
+                "Unnamed: 14",
+                "Unnamed: 17"
+            ],
+            "rows": [
+                {
+                    "Unnamed: 2": "#",
+                    "Unnamed: 3": "Service Description",
+                    "Unnamed: 10": "Time range\n[Days]",
+                    "Unnamed: 14": "Price \n[per hour]",
+                    "Unnamed: 17": "TOTAL PRICE"
+                },
+                {
+                    "Unnamed: 2": 1,
+                    "Unnamed: 3": "Inspect and review project documentation",
+                    "Unnamed: 10": 2,
+                    "Unnamed: 14": 50,
+                    "Unnamed: 17": 800
+                },
+                {
+                    "Unnamed: 2": 2,
+                    "Unnamed: 3": "Deliver safety related documentation",
+                    "Unnamed: 10": 3,
+                    "Unnamed: 14": 105,
+                    "Unnamed: 17": 2520
+                },
+                {
+                    "Unnamed: 2": 3,
+                    "Unnamed: 3": "Permits: Zoning, environmental",
+                    "Unnamed: 10": 1,
+                    "Unnamed: 14": 30,
+                    "Unnamed: 17": 240
+                },
+                {
+                    "Unnamed: 2": 4,
+                    "Unnamed: 3": "Equipment setup",
+                    "Unnamed: 10": 1,
+                    "Unnamed: 14": 50,
+                    "Unnamed: 17": 400
+                },
+                {
+                    "Unnamed: 2": 5,
+                    "Unnamed: 3": "Electrical works - entire building",
+                    "Unnamed: 10": 6,
+                    "Unnamed: 14": 25,
+                    "Unnamed: 17": 1200
+                },
+                {
+                    "Unnamed: 2": 6,
+                    "Unnamed: 3": "Lorem Ipsum",
+                    "Unnamed: 10": 4,
+                    "Unnamed: 14": 20,
+                    "Unnamed: 17": 640
+                }
+            ],
+            "field_types": {
+                "Unnamed: 2": "text",
+                "Unnamed: 3": "text",
+                "Unnamed: 10": "text",
+                "Unnamed: 14": "text",
+                "Unnamed: 17": "text"
+            },
+            "section": "SERVICES"
+        },
+        {
+            "columns": [
+                "Unnamed: 2"
+            ],
+            "rows": [
+                {
+                    "Unnamed: 2": "MATERIALS"
+                }
+            ],
+            "field_types": {
+                "Unnamed: 2": "text"
+            },
+            "section": "TOTAL SERVICES: 5800"
+        },
+        {
+            "columns": [
+                "Unnamed: 2",
+                "Unnamed: 3",
+                "Unnamed: 10",
+                "Unnamed: 14",
+                "Unnamed: 17"
+            ],
+            "rows": [
+                {
+                    "Unnamed: 2": 1,
+                    "Unnamed: 3": "Bricks",
+                    "Unnamed: 10": 5000,
+                    "Unnamed: 14": 1.7,
+                    "Unnamed: 17": 8500
+                },
+                {
+                    "Unnamed: 2": 2,
+                    "Unnamed: 3": "Clay",
+                    "Unnamed: 10": 4,
+                    "Unnamed: 14": 150.0,
+                    "Unnamed: 17": 600
+                },
+                {
+                    "Unnamed: 2": 3,
+                    "Unnamed: 3": "Wood",
+                    "Unnamed: 10": 150,
+                    "Unnamed: 14": 100.0,
+                    "Unnamed: 17": 15000
+                },
+                {
+                    "Unnamed: 2": 4,
+                    "Unnamed: 3": "Electrical cables & wiring",
+                    "Unnamed: 10": 100,
+                    "Unnamed: 14": 2.1,
+                    "Unnamed: 17": 210
+                },
+                {
+                    "Unnamed: 2": 5,
+                    "Unnamed: 3": "Ceramics",
+                    "Unnamed: 10": 100,
+                    "Unnamed: 14": 10.0,
+                    "Unnamed: 17": 1000
+                },
+                {
+                    "Unnamed: 2": 6,
+                    "Unnamed: 3": "Cement",
+                    "Unnamed: 10": 600,
+                    "Unnamed: 14": 5.8,
+                    "Unnamed: 17": 3480
+                },
+                {
+                    "Unnamed: 2": 7,
+                    "Unnamed: 3": "Windows",
+                    "Unnamed: 10": 10,
+                    "Unnamed: 14": 180.0,
+                    "Unnamed: 17": 1800
+                },
+                {
+                    "Unnamed: 2": 8,
+                    "Unnamed: 3": "Miscellaneous",
+                    "Unnamed: 10": 1,
+                    "Unnamed: 14": 2500.0,
+                    "Unnamed: 17": 2500
+                }
+            ],
+            "field_types": {
+                "Unnamed: 2": "number",
+                "Unnamed: 3": "text",
+                "Unnamed: 10": "number",
+                "Unnamed: 14": "decimal",
+                "Unnamed: 17": "number"
+            },
+            "section": "# Item Description Qty Price TOTAL PRICE"
+        },
+        {
+            "columns": [
+                "Unnamed: 2",
+                "Unnamed: 15",
+                "Unnamed: 16",
+                "Unnamed: 18"
+            ],
+            "rows": [
+                {
+                    "Unnamed: 2": "This Purchase Order is for completing the job as described above. It is based on evaluation of the use of the physical, human, financial, and informational resources required to complete work.",
+                    "Unnamed: 15": " Total Job Cost",
+                    "Unnamed: 16": "",
+                    "Unnamed: 18": ""
+                },
+                {
+                    "Unnamed: 2": "",
+                    "Unnamed: 15": 38890,
+                    "Unnamed: 16": "",
+                    "Unnamed: 18": ""
+                },
+                {
+                    "Unnamed: 2": "",
+                    "Unnamed: 15": "",
+                    "Unnamed: 16": "TAX",
+                    "Unnamed: 18": 10
+                },
+                {
+                    "Unnamed: 2": "Comments",
+                    "Unnamed: 15": "",
+                    "Unnamed: 16": "",
+                    "Unnamed: 18": ""
+                },
+                {
+                    "Unnamed: 2": "Put comments here. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue.",
+                    "Unnamed: 15": "",
+                    "Unnamed: 16": "",
+                    "Unnamed: 18": ""
+                }
+            ],
+            "field_types": {
+                "Unnamed: 2": "text",
+                "Unnamed: 15": "text",
+                "Unnamed: 16": "text",
+                "Unnamed: 18": "text"
+            },
+            "section": "TOTAL MATERIALS: 33090"
+        },
+        {
+            "columns": [
+                "Unnamed: 2",
+                "Unnamed: 14"
+            ],
+            "rows": [
+                {
+                    "Unnamed: 2": "Date:",
+                    "Unnamed: 14": 42779
+                },
+                {
+                    "Unnamed: 2": "Approved By:",
+                    "Unnamed: 14": ""
+                }
+            ],
+            "field_types": {
+                "Unnamed: 2": "text",
+                "Unnamed: 14": "text"
+            },
+            "section": "Accepted By: TOTAL"
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "file": "/Users/adititomar/Downloads/School-Purchase-Order-Template-TemplateLab.com_.pdf",
+    "scanned": false,
+    "raw_text": [
+        {
+            "page": 1,
+            "text": "PURCHASE\nORDER\nPO #:\nDATE:\nVENDOR INFORMATION Ordered by\nPosition\nBudget area to be charged\nREFERENCE & SPECIAL INSTRUCTIONS\nID ITEM DESCRIPTION QTY UNIT PRICE TOTAL\nSUBTOTAL\nPrincipal Signature TAX RATE\nSHIPPING\nGRAND TOTAL:\nBusiness Manager Signature"
+        }
+    ],
+    "tables": [
+        {
+            "columns": [
+                "VENDOR INFORMATION"
+            ],
+            "rows": [
+                {
+                    "VENDOR INFORMATION": ""
+                }
+            ]
+        },
+        {
+            "columns": [
+                ""
+            ],
+            "rows": [
+                {
+                    "": ""
+                },
+                {
+                    "": ""
+                },
+                {
+                    "": ""
+                },
+                {
+                    "": ""
+                },
+                {
+                    "": ""
+                }
+            ]
+        }
+    ],
+    "structured": {
+        "invoice_number": null,
+        "dates": [],
+        "vendor_name": "REFERENCE & SPECIAL INSTRUCTIONS",
+        "gstin": null,
+        "total_amount": null,
+        "line_items": [
+            {
+                "VENDOR INFORMATION": ""
+            }
+        ]
+    }
+}

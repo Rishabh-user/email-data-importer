@@ -1,0 +1,367 @@
+2025-12-04 15:12:19,649 - INFO - Parsing: test_files/po_data.xlsx
+2025-12-04 15:12:19,650 - INFO - Routing file test_files/po_data.xlsx (ext=.xlsx)
+2025-12-04 15:12:19,650 - INFO - Parsing Excel file: test_files/po_data.xlsx
+2025-12-04 15:12:19,758 - INFO - Parsing complete.
+2025-12-04 15:21:15,109 - INFO - Parsing: /Users/adititomar/PycharmProjects/email-data-importer/test_files/Construction-Purchase-Order-Template-TemplateLab.com_.pdf
+2025-12-04 15:21:15,110 - INFO - Routing file /Users/adititomar/PycharmProjects/email-data-importer/test_files/Construction-Purchase-Order-Template-TemplateLab.com_.pdf (ext=.pdf)
+2025-12-04 15:21:15,110 - INFO - Parsing PDF file (tables) with Camelot: /Users/adititomar/PycharmProjects/email-data-importer/test_files/Construction-Purchase-Order-Template-TemplateLab.com_.pdf
+2025-12-04 15:21:15,959 - WARNING - No tables extracted from PDF: /Users/adititomar/PycharmProjects/email-data-importer/test_files/Construction-Purchase-Order-Template-TemplateLab.com_.pdf
+2025-12-04 15:21:15,959 - INFO - Parsing complete.
+2025-12-04 15:24:31,080 - INFO - Parsing: /Users/adititomar/PycharmProjects/email-data-importer/test_files/Construction-Purchase-Order-Template-TemplateLab.com_.pdf
+2025-12-04 15:24:31,082 - INFO - Routing file /Users/adititomar/PycharmProjects/email-data-importer/test_files/Construction-Purchase-Order-Template-TemplateLab.com_.pdf (ext=.pdf)
+2025-12-04 15:24:31,082 - INFO - Parsing PDF file (tables) with Camelot: /Users/adititomar/PycharmProjects/email-data-importer/test_files/Construction-Purchase-Order-Template-TemplateLab.com_.pdf
+2025-12-04 15:24:31,530 - WARNING - No Camelot tables found — using fallback parser.
+2025-12-04 15:24:31,549 - WARNING - Fallback: No '|' separated rows found.
+2025-12-04 15:24:31,549 - INFO - Parsing complete.
+2025-12-04 16:44:09,306 - INFO - Parsing: /Users/adititomar/PycharmProjects/email-data-importer/test_files/Construction-Purchase-Order-Template-TemplateLab.com_.xlsx
+2025-12-04 16:44:09,308 - INFO - Routing file /Users/adititomar/PycharmProjects/email-data-importer/test_files/Construction-Purchase-Order-Template-TemplateLab.com_.xlsx (ext=.xlsx)
+2025-12-04 16:44:09,308 - INFO - Parsing Excel file: /Users/adititomar/PycharmProjects/email-data-importer/test_files/Construction-Purchase-Order-Template-TemplateLab.com_.xlsx
+2025-12-04 16:44:09,430 - INFO - Parsing complete.
+2025-12-05 14:59:47,634 - INFO - Parsing: /Users/adititomar/PycharmProjects/email-data-importer/test_files/Construction-Purchase-Order-Template-TemplateLab.com_.xlsx
+2025-12-05 14:59:47,638 - INFO - Routing file /Users/adititomar/PycharmProjects/email-data-importer/test_files/Construction-Purchase-Order-Template-TemplateLab.com_.xlsx (ext=.xlsx)
+2025-12-05 14:59:47,639 - INFO - Parsing Excel file: /Users/adititomar/PycharmProjects/email-data-importer/test_files/Construction-Purchase-Order-Template-TemplateLab.com_.xlsx
+2025-12-05 14:59:47,756 - INFO - Saved JSON output to: /Users/adititomar/PycharmProjects/email-data-importer/output/json/Construction-Purchase-Order-Template-TemplateLab.com__20251205_145947.json
+2025-12-05 14:59:47,757 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/Construction-Purchase-Order-Template-TemplateLab.com__20251205_145947_table_0.csv
+2025-12-05 14:59:47,757 - INFO - Parsing complete.
+2025-12-05 15:31:48,470 - INFO - Parsing: /Users/adititomar/PycharmProjects/email-data-importer/test_files/Construction-Purchase-Order-Template-TemplateLab.com_.xlsx
+2025-12-05 15:31:48,472 - INFO - Routing file /Users/adititomar/PycharmProjects/email-data-importer/test_files/Construction-Purchase-Order-Template-TemplateLab.com_.xlsx (ext=.xlsx)
+2025-12-05 15:31:48,472 - INFO - Parsing Excel file: /Users/adititomar/PycharmProjects/email-data-importer/test_files/Construction-Purchase-Order-Template-TemplateLab.com_.xlsx
+2025-12-05 15:31:48,600 - INFO - Saved JSON output to: /Users/adititomar/PycharmProjects/email-data-importer/output/json/Construction-Purchase-Order-Template-TemplateLab.com__20251205_153148.json
+2025-12-05 15:31:48,601 - INFO - Saved HTML output to: /Users/adititomar/PycharmProjects/email-data-importer/output/html/Construction-Purchase-Order-Template-TemplateLab.com__20251205_153148.html
+2025-12-05 15:31:48,601 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/Construction-Purchase-Order-Template-TemplateLab.com__20251205_153148_table_0.csv
+2025-12-05 15:31:48,601 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/Construction-Purchase-Order-Template-TemplateLab.com__20251205_153148_table_1.csv
+2025-12-05 15:31:48,601 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/Construction-Purchase-Order-Template-TemplateLab.com__20251205_153148_table_2.csv
+2025-12-05 15:31:48,602 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/Construction-Purchase-Order-Template-TemplateLab.com__20251205_153148_table_3.csv
+2025-12-05 15:31:48,602 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/Construction-Purchase-Order-Template-TemplateLab.com__20251205_153148_table_4.csv
+2025-12-05 15:31:48,602 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/Construction-Purchase-Order-Template-TemplateLab.com__20251205_153148_table_5.csv
+2025-12-05 15:31:48,602 - INFO - Parsing complete.
+2025-12-05 15:37:22,225 - INFO - Parsing: /Users/adititomar/PycharmProjects/email-data-importer/test_files/Electronic-Purchase-Order-Template-TemplateLab.com_.xlsx
+2025-12-05 15:37:22,230 - INFO - Routing file /Users/adititomar/PycharmProjects/email-data-importer/test_files/Electronic-Purchase-Order-Template-TemplateLab.com_.xlsx (ext=.xlsx)
+2025-12-05 15:37:22,230 - INFO - Parsing Excel file: /Users/adititomar/PycharmProjects/email-data-importer/test_files/Electronic-Purchase-Order-Template-TemplateLab.com_.xlsx
+2025-12-05 15:37:22,410 - INFO - Saved JSON output to: /Users/adititomar/PycharmProjects/email-data-importer/output/json/Electronic-Purchase-Order-Template-TemplateLab.com__20251205_153722.json
+2025-12-05 15:37:22,410 - INFO - Saved HTML output to: /Users/adititomar/PycharmProjects/email-data-importer/output/html/Electronic-Purchase-Order-Template-TemplateLab.com__20251205_153722.html
+2025-12-05 15:37:22,411 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/Electronic-Purchase-Order-Template-TemplateLab.com__20251205_153722_table_0.csv
+2025-12-05 15:37:22,411 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/Electronic-Purchase-Order-Template-TemplateLab.com__20251205_153722_table_1.csv
+2025-12-05 15:37:22,411 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/Electronic-Purchase-Order-Template-TemplateLab.com__20251205_153722_table_2.csv
+2025-12-05 15:37:22,411 - INFO - Parsing complete.
+2025-12-08 11:27:57,673 - INFO - Parsing: /Users/adititomar/PycharmProjects/email-data-importer/test_files/Construction-Purchase-Order-Template-TemplateLab.com_.xlsx
+2025-12-08 11:27:57,676 - INFO - Routing file /Users/adititomar/PycharmProjects/email-data-importer/test_files/Construction-Purchase-Order-Template-TemplateLab.com_.xlsx (ext=.xlsx)
+2025-12-08 11:27:57,676 - INFO - Parsing Excel file: /Users/adititomar/PycharmProjects/email-data-importer/test_files/Construction-Purchase-Order-Template-TemplateLab.com_.xlsx
+2025-12-08 11:27:57,837 - INFO - Saved JSON output to: /Users/adititomar/PycharmProjects/email-data-importer/output/json/Construction-Purchase-Order-Template-TemplateLab.com__20251208_112757.json
+2025-12-08 11:27:57,837 - INFO - Saved HTML output to: /Users/adititomar/PycharmProjects/email-data-importer/output/html/Construction-Purchase-Order-Template-TemplateLab.com__20251208_112757.html
+2025-12-08 11:27:57,838 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/Construction-Purchase-Order-Template-TemplateLab.com__20251208_112757_table_0.csv
+2025-12-08 11:27:57,838 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/Construction-Purchase-Order-Template-TemplateLab.com__20251208_112757_table_1.csv
+2025-12-08 11:27:57,838 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/Construction-Purchase-Order-Template-TemplateLab.com__20251208_112757_table_2.csv
+2025-12-08 11:27:57,838 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/Construction-Purchase-Order-Template-TemplateLab.com__20251208_112757_table_3.csv
+2025-12-08 11:27:57,838 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/Construction-Purchase-Order-Template-TemplateLab.com__20251208_112757_table_4.csv
+2025-12-08 11:27:57,838 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/Construction-Purchase-Order-Template-TemplateLab.com__20251208_112757_table_5.csv
+2025-12-08 11:27:57,839 - INFO - Parsing complete.
+2025-12-08 13:05:51,464 - INFO - Parsing: /Users/adititomar/PycharmProjects/email-data-importer/test_files/Construction-Purchase-Order-Template-TemplateLab.com_.pdf
+2025-12-08 13:05:51,466 - INFO - Routing file /Users/adititomar/PycharmProjects/email-data-importer/test_files/Construction-Purchase-Order-Template-TemplateLab.com_.pdf (ext=.pdf)
+2025-12-08 13:05:51,466 - INFO - Parsing PDF file (tables) with Camelot: /Users/adititomar/PycharmProjects/email-data-importer/test_files/Construction-Purchase-Order-Template-TemplateLab.com_.pdf
+2025-12-08 13:05:51,895 - WARNING - No Camelot tables found — using fallback parser.
+2025-12-08 13:05:51,914 - WARNING - Fallback: No '|' separated rows found.
+2025-12-08 13:05:51,914 - INFO - Saved JSON output to: /Users/adititomar/PycharmProjects/email-data-importer/output/json/Construction-Purchase-Order-Template-TemplateLab.com__20251208_130551.json
+2025-12-08 13:05:51,914 - INFO - Saved HTML output to: /Users/adititomar/PycharmProjects/email-data-importer/output/html/Construction-Purchase-Order-Template-TemplateLab.com__20251208_130551.html
+2025-12-08 13:05:51,914 - INFO - Parsing complete.
+2025-12-08 13:19:07,679 - INFO - Parsing: /Users/adititomar/PycharmProjects/email-data-importer/test_files/Construction-Purchase-Order-Template-TemplateLab.com_.pdf
+2025-12-08 13:19:07,682 - INFO - Routing file /Users/adititomar/PycharmProjects/email-data-importer/test_files/Construction-Purchase-Order-Template-TemplateLab.com_.pdf (ext=.pdf)
+2025-12-08 13:19:07,682 - INFO - Parsing PDF file with Camelot (lattice + stream): /Users/adititomar/PycharmProjects/email-data-importer/test_files/Construction-Purchase-Order-Template-TemplateLab.com_.pdf
+2025-12-08 13:22:56,777 - INFO - Parsing: /Users/adititomar/PycharmProjects/email-data-importer/test_files/Construction-Purchase-Order-Template-TemplateLab.com_.pdf
+2025-12-08 13:22:56,778 - INFO - Routing file /Users/adititomar/PycharmProjects/email-data-importer/test_files/Construction-Purchase-Order-Template-TemplateLab.com_.pdf (ext=.pdf)
+2025-12-08 13:22:56,778 - INFO - Parsing PDF file with Camelot (lattice + stream): /Users/adititomar/PycharmProjects/email-data-importer/test_files/Construction-Purchase-Order-Template-TemplateLab.com_.pdf
+2025-12-08 13:22:57,336 - INFO - Saved JSON output to: /Users/adititomar/PycharmProjects/email-data-importer/output/json/Construction-Purchase-Order-Template-TemplateLab.com__20251208_132257.json
+2025-12-08 13:22:57,336 - INFO - Saved HTML output to: /Users/adititomar/PycharmProjects/email-data-importer/output/html/Construction-Purchase-Order-Template-TemplateLab.com__20251208_132257.html
+2025-12-08 13:22:57,336 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/Construction-Purchase-Order-Template-TemplateLab.com__20251208_132257_table_0.csv
+2025-12-08 13:22:57,337 - INFO - Parsing complete.
+2025-12-08 14:59:35,881 - INFO - Parsing: /Users/adititomar/PycharmProjects/email-data-importer/test_files/Construction-Purchase-Order-Template-TemplateLab.com_.pdf
+2025-12-08 14:59:35,899 - INFO - Routing file /Users/adititomar/PycharmProjects/email-data-importer/test_files/Construction-Purchase-Order-Template-TemplateLab.com_.pdf (ext=.pdf)
+2025-12-08 14:59:35,900 - INFO - Parsing PDF file with Camelot + pdfplumber: /Users/adititomar/PycharmProjects/email-data-importer/test_files/Construction-Purchase-Order-Template-TemplateLab.com_.pdf
+2025-12-08 14:59:36,321 - INFO - Camelot (lattice) found: 0 tables
+2025-12-08 14:59:36,394 - INFO - Camelot (stream) found: 1 tables
+2025-12-08 14:59:36,407 - INFO - Saved JSON output to: /Users/adititomar/PycharmProjects/email-data-importer/output/json/Construction-Purchase-Order-Template-TemplateLab.com__20251208_145936.json
+2025-12-08 14:59:36,407 - INFO - Saved HTML output to: /Users/adititomar/PycharmProjects/email-data-importer/output/html/Construction-Purchase-Order-Template-TemplateLab.com__20251208_145936.html
+2025-12-08 14:59:36,408 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/Construction-Purchase-Order-Template-TemplateLab.com__20251208_145936_table_0.csv
+2025-12-08 14:59:36,408 - INFO - Parsing complete.
+2025-12-08 15:03:14,730 - INFO - Parsing: /Users/adititomar/PycharmProjects/email-data-importer/test_files/Purchase-Order-Template-02-TemplateLab.pdf
+2025-12-08 15:03:14,733 - INFO - Routing file /Users/adititomar/PycharmProjects/email-data-importer/test_files/Purchase-Order-Template-02-TemplateLab.pdf (ext=.pdf)
+2025-12-08 15:03:14,734 - INFO - Parsing PDF file with Camelot + pdfplumber: /Users/adititomar/PycharmProjects/email-data-importer/test_files/Purchase-Order-Template-02-TemplateLab.pdf
+2025-12-08 15:03:15,178 - INFO - Camelot (lattice) found: 2 tables
+2025-12-08 15:03:15,200 - INFO - Saved JSON output to: /Users/adititomar/PycharmProjects/email-data-importer/output/json/Purchase-Order-Template-02-TemplateLab_20251208_150315.json
+2025-12-08 15:03:15,200 - INFO - Saved HTML output to: /Users/adititomar/PycharmProjects/email-data-importer/output/html/Purchase-Order-Template-02-TemplateLab_20251208_150315.html
+2025-12-08 15:03:15,201 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/Purchase-Order-Template-02-TemplateLab_20251208_150315_table_0.csv
+2025-12-08 15:03:15,201 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/Purchase-Order-Template-02-TemplateLab_20251208_150315_table_1.csv
+2025-12-08 15:03:15,201 - INFO - Parsing complete.
+2025-12-08 15:24:41,391 - INFO - Parsing: /Users/adititomar/PycharmProjects/email-data-importer/test_files/Purchase-Order-Template-02-TemplateLab.pdf
+2025-12-08 15:24:41,393 - INFO - Routing file /Users/adititomar/PycharmProjects/email-data-importer/test_files/Purchase-Order-Template-02-TemplateLab.pdf (ext=.pdf)
+2025-12-08 15:24:41,394 - INFO - Parsing PDF file with Camelot + pdfplumber + layout engine: /Users/adititomar/PycharmProjects/email-data-importer/test_files/Purchase-Order-Template-02-TemplateLab.pdf
+2025-12-08 15:24:41,850 - INFO - Camelot (lattice) found: 2 tables
+2025-12-08 15:24:41,874 - INFO - Saved Excel output to: /Users/adititomar/PycharmProjects/email-data-importer/output/Purchase-Order-Template-02-TemplateLab_20251208_152441.xlsx
+2025-12-08 15:24:41,874 - INFO - Parsing complete.
+2025-12-08 15:58:46,892 - INFO - Parsing: /Users/adititomar/PycharmProjects/email-data-importer/test_files/Purchase-Order-Template-02-TemplateLab.pdf
+2025-12-08 15:58:46,894 - INFO - Routing file /Users/adititomar/PycharmProjects/email-data-importer/test_files/Purchase-Order-Template-02-TemplateLab.pdf (ext=.pdf)
+2025-12-08 15:58:46,894 - INFO - Parsing PDF file with Camelot + pdfplumber + layout engine: /Users/adititomar/PycharmProjects/email-data-importer/test_files/Purchase-Order-Template-02-TemplateLab.pdf
+2025-12-08 15:58:47,302 - INFO - Camelot (lattice) found: 2 tables
+2025-12-08 15:58:47,315 - INFO - Saved JSON output to: /Users/adititomar/PycharmProjects/email-data-importer/output/json/Purchase-Order-Template-02-TemplateLab_20251208_155847.json
+2025-12-08 15:58:47,315 - INFO - Saved HTML output to: /Users/adititomar/PycharmProjects/email-data-importer/output/html/Purchase-Order-Template-02-TemplateLab_20251208_155847.html
+2025-12-08 15:58:47,315 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/Purchase-Order-Template-02-TemplateLab_20251208_155847_table_0.csv
+2025-12-08 15:58:47,315 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/Purchase-Order-Template-02-TemplateLab_20251208_155847_table_1.csv
+2025-12-08 15:58:47,315 - INFO - Parsing complete.
+2025-12-08 16:00:26,782 - INFO - Parsing: /Users/adititomar/PycharmProjects/email-data-importer/test_files/Purchase-Order-Template-02-TemplateLab.pdf
+2025-12-08 16:00:26,784 - INFO - Routing file /Users/adititomar/PycharmProjects/email-data-importer/test_files/Purchase-Order-Template-02-TemplateLab.pdf (ext=.pdf)
+2025-12-08 16:00:26,784 - INFO - Parsing PDF file with Camelot + pdfplumber + layout engine: /Users/adititomar/PycharmProjects/email-data-importer/test_files/Purchase-Order-Template-02-TemplateLab.pdf
+2025-12-08 16:00:27,236 - INFO - Camelot (lattice) found: 2 tables
+2025-12-08 16:00:27,253 - INFO - Saved JSON output to: /Users/adititomar/PycharmProjects/email-data-importer/output/json/Purchase-Order-Template-02-TemplateLab_20251208_160027.json
+2025-12-08 16:00:27,254 - INFO - Saved HTML output to: /Users/adititomar/PycharmProjects/email-data-importer/output/html/Purchase-Order-Template-02-TemplateLab_20251208_160027.html
+2025-12-08 16:00:27,254 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/Purchase-Order-Template-02-TemplateLab_20251208_160027_table_0.csv
+2025-12-08 16:00:27,254 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/Purchase-Order-Template-02-TemplateLab_20251208_160027_table_1.csv
+2025-12-08 16:00:27,255 - INFO - Parsing complete.
+2025-12-09 11:53:43,810 - INFO - Parsing: 
+2025-12-09 11:53:43,819 - INFO - Routing file  (ext=)
+2025-12-09 11:54:25,209 - INFO - Parsing: /Users/adititomar/PycharmProjects/email-data-importer/test_files/Purchase-Order-Template-02-TemplateLab.pdf
+2025-12-09 11:54:25,210 - INFO - Routing file /Users/adititomar/PycharmProjects/email-data-importer/test_files/Purchase-Order-Template-02-TemplateLab.pdf (ext=.pdf)
+2025-12-09 11:54:26,119 - INFO - Saved JSON output to: /Users/adititomar/PycharmProjects/email-data-importer/output/json/Purchase-Order-Template-02-TemplateLab_20251209_115426.json
+2025-12-09 11:57:24,933 - INFO - Parsing: /Users/adititomar/PycharmProjects/email-data-importer/test_files/Purchase-Order-Template-02-TemplateLab.pdf
+2025-12-09 11:57:24,934 - INFO - Routing file /Users/adititomar/PycharmProjects/email-data-importer/test_files/Purchase-Order-Template-02-TemplateLab.pdf (ext=.pdf)
+2025-12-09 11:57:25,779 - INFO - Saved JSON output to: /Users/adititomar/PycharmProjects/email-data-importer/output/json/Purchase-Order-Template-02-TemplateLab_20251209_115725.json
+2025-12-09 11:57:25,779 - INFO - Saved HTML output to: /Users/adititomar/PycharmProjects/email-data-importer/output/html/Purchase-Order-Template-02-TemplateLab_20251209_115725.html
+2025-12-09 11:57:25,780 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/Purchase-Order-Template-02-TemplateLab_20251209_115725_table_0.csv
+2025-12-09 11:57:25,780 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/Purchase-Order-Template-02-TemplateLab_20251209_115725_table_1.csv
+2025-12-09 11:57:25,780 - INFO - Parsing complete.
+2025-12-09 12:17:13,074 - INFO - Parsing: WhatsApp Image 2025-12-09 at 12.00.49.pdf
+2025-12-09 12:17:13,075 - INFO - Routing file WhatsApp Image 2025-12-09 at 12.00.49.pdf (ext=.pdf)
+2025-12-09 12:22:00,895 - INFO - Parsing: WhatsApp Image 2025-12-09 at 12.00.49.jpeg
+2025-12-09 12:22:00,899 - INFO - Routing file WhatsApp Image 2025-12-09 at 12.00.49.jpeg (ext=.jpeg)
+2025-12-09 12:22:21,468 - INFO - Parsing: Document 50.pdf
+2025-12-09 12:22:21,470 - INFO - Routing file Document 50.pdf (ext=.pdf)
+2025-12-09 13:19:56,100 - INFO - Parsing: Document 50.pdf
+2025-12-09 13:19:56,104 - INFO - Routing file Document 50.pdf (ext=.pdf)
+2025-12-09 13:20:29,465 - INFO - Parsing: /Users/adititomar/PycharmProjects/email-data-importer/test_files/Document 50.pdf
+2025-12-09 13:20:29,466 - INFO - Routing file /Users/adititomar/PycharmProjects/email-data-importer/test_files/Document 50.pdf (ext=.pdf)
+2025-12-09 13:22:30,641 - INFO - Parsing: /Users/adititomar/PycharmProjects/email-data-importer/test_files/Document 50.pdf
+2025-12-09 13:22:30,646 - INFO - Routing file /Users/adititomar/PycharmProjects/email-data-importer/test_files/Document 50.pdf (ext=.pdf)
+2025-12-09 16:15:58,559 - INFO - Parsing: /Users/adititomar/Downloads/CBXPT7950C-2024 (1).pdf
+2025-12-09 16:15:58,564 - INFO - Routing file /Users/adititomar/Downloads/CBXPT7950C-2024 (1).pdf (ext=.pdf)
+2025-12-09 16:16:03,505 - INFO - Saved JSON output to: /Users/adititomar/PycharmProjects/email-data-importer/output/json/CBXPT7950C-2024 (1)_20251209_161603.json
+2025-12-09 16:16:03,506 - INFO - Saved HTML output to: /Users/adititomar/PycharmProjects/email-data-importer/output/html/CBXPT7950C-2024 (1)_20251209_161603.html
+2025-12-09 16:16:03,506 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/CBXPT7950C-2024 (1)_20251209_161603_table_0.csv
+2025-12-09 16:16:03,506 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/CBXPT7950C-2024 (1)_20251209_161603_table_1.csv
+2025-12-09 16:16:03,506 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/CBXPT7950C-2024 (1)_20251209_161603_table_2.csv
+2025-12-09 16:16:03,507 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/CBXPT7950C-2024 (1)_20251209_161603_table_3.csv
+2025-12-09 16:16:03,507 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/CBXPT7950C-2024 (1)_20251209_161603_table_4.csv
+2025-12-09 16:16:03,507 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/CBXPT7950C-2024 (1)_20251209_161603_table_5.csv
+2025-12-09 16:16:03,507 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/CBXPT7950C-2024 (1)_20251209_161603_table_6.csv
+2025-12-09 16:16:03,507 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/CBXPT7950C-2024 (1)_20251209_161603_table_7.csv
+2025-12-09 16:16:03,507 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/CBXPT7950C-2024 (1)_20251209_161603_table_8.csv
+2025-12-09 16:16:03,507 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/CBXPT7950C-2024 (1)_20251209_161603_table_9.csv
+2025-12-09 16:16:03,507 - INFO - Parsing complete.
+2025-12-10 10:45:41,316 - INFO - Parsing: /Users/adititomar/Downloads/Customer Portal Dum and PDF/Customer P 2 Schedules.xls
+2025-12-10 10:45:41,318 - INFO - Routing file /Users/adititomar/Downloads/Customer Portal Dum and PDF/Customer P 2 Schedules.xls (ext=.xls)
+2025-12-10 10:45:41,319 - INFO - Parsing Excel file: /Users/adititomar/Downloads/Customer Portal Dum and PDF/Customer P 2 Schedules.xls
+2025-12-10 10:46:42,218 - INFO - Parsing: /Users/adititomar/Downloads/Customer Portal Dum and PDF/Customer P 2 Schedules.xls
+2025-12-10 10:46:42,220 - INFO - Routing file /Users/adititomar/Downloads/Customer Portal Dum and PDF/Customer P 2 Schedules.xls (ext=.xls)
+2025-12-10 10:46:42,220 - INFO - Parsing Excel file: /Users/adititomar/Downloads/Customer Portal Dum and PDF/Customer P 2 Schedules.xls
+2025-12-10 10:46:42,433 - INFO - Saved JSON output to: /Users/adititomar/PycharmProjects/email-data-importer/output/json/Customer P 2 Schedules_20251210_104642.json
+2025-12-10 10:46:42,441 - INFO - Saved HTML output to: /Users/adititomar/PycharmProjects/email-data-importer/output/html/Customer P 2 Schedules_20251210_104642.html
+2025-12-10 10:46:42,454 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/Customer P 2 Schedules_20251210_104642_table_0.csv
+2025-12-10 10:46:42,454 - INFO - Parsing complete.
+2025-12-10 15:03:51,200 - INFO - Parsing: /Users/adititomar/PycharmProjects/email-data-importer/test_files/Purchase-Order-Template-02-TemplateLab.pdf
+2025-12-10 15:03:51,201 - INFO - Routing file /Users/adititomar/PycharmProjects/email-data-importer/test_files/Purchase-Order-Template-02-TemplateLab.pdf (ext=.pdf)
+2025-12-10 15:03:51,201 - INFO - Parsing PDF: /Users/adititomar/PycharmProjects/email-data-importer/test_files/Purchase-Order-Template-02-TemplateLab.pdf
+2025-12-10 15:03:51,281 - INFO - Saved JSON output to: /Users/adititomar/PycharmProjects/email-data-importer/output/json/Purchase-Order-Template-02-TemplateLab_20251210_150351.json
+2025-12-10 15:03:51,281 - INFO - Saved HTML output to: /Users/adititomar/PycharmProjects/email-data-importer/output/html/Purchase-Order-Template-02-TemplateLab_20251210_150351.html
+2025-12-10 15:03:51,282 - INFO - Parsing complete.
+2025-12-10 15:04:14,827 - INFO - Parsing: /Users/adititomar/PycharmProjects/email-data-importer/test_files/Purchase-Order-Template-01-TemplateLab.com_.pdf
+2025-12-10 15:04:14,830 - INFO - Routing file /Users/adititomar/PycharmProjects/email-data-importer/test_files/Purchase-Order-Template-01-TemplateLab.com_.pdf (ext=.pdf)
+2025-12-10 15:04:14,830 - INFO - Parsing PDF: /Users/adititomar/PycharmProjects/email-data-importer/test_files/Purchase-Order-Template-01-TemplateLab.com_.pdf
+2025-12-10 15:04:14,925 - INFO - Saved JSON output to: /Users/adititomar/PycharmProjects/email-data-importer/output/json/Purchase-Order-Template-01-TemplateLab.com__20251210_150414.json
+2025-12-10 15:04:14,925 - INFO - Saved HTML output to: /Users/adititomar/PycharmProjects/email-data-importer/output/html/Purchase-Order-Template-01-TemplateLab.com__20251210_150414.html
+2025-12-10 15:04:14,925 - INFO - Parsing complete.
+2025-12-10 15:05:12,316 - INFO - Parsing: /Users/adititomar/PycharmProjects/email-data-importer/test_files/Purchase-Order-Template-02-TemplateLab.pdf
+2025-12-10 15:05:12,320 - INFO - Routing file /Users/adititomar/PycharmProjects/email-data-importer/test_files/Purchase-Order-Template-02-TemplateLab.pdf (ext=.pdf)
+2025-12-10 15:05:13,139 - INFO - Saved JSON output to: /Users/adititomar/PycharmProjects/email-data-importer/output/json/Purchase-Order-Template-02-TemplateLab_20251210_150513.json
+2025-12-10 15:05:13,140 - INFO - Saved HTML output to: /Users/adititomar/PycharmProjects/email-data-importer/output/html/Purchase-Order-Template-02-TemplateLab_20251210_150513.html
+2025-12-10 15:05:13,141 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/Purchase-Order-Template-02-TemplateLab_20251210_150513_table_0.csv
+2025-12-10 15:05:13,141 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/Purchase-Order-Template-02-TemplateLab_20251210_150513_table_1.csv
+2025-12-10 15:05:13,141 - INFO - Parsing complete.
+2025-12-10 15:17:38,892 - INFO - Parsing: /Users/adititomar/PycharmProjects/email-data-importer/test_files/Purchase-Order-Template-02-TemplateLab.pdf
+2025-12-10 15:17:38,898 - INFO - Routing file /Users/adititomar/PycharmProjects/email-data-importer/test_files/Purchase-Order-Template-02-TemplateLab.pdf (ext=.pdf)
+2025-12-10 15:17:40,559 - INFO - Saved JSON output to: /Users/adititomar/PycharmProjects/email-data-importer/output/json/Purchase-Order-Template-02-TemplateLab_20251210_151740.json
+2025-12-10 15:17:40,564 - INFO - Saved HTML output to: /Users/adititomar/PycharmProjects/email-data-importer/output/html/Purchase-Order-Template-02-TemplateLab_20251210_151740.html
+2025-12-10 15:17:40,567 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/Purchase-Order-Template-02-TemplateLab_20251210_151740_table_0.csv
+2025-12-10 15:17:40,567 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/Purchase-Order-Template-02-TemplateLab_20251210_151740_table_1.csv
+2025-12-10 15:17:40,569 - INFO - Parsing complete.
+2025-12-10 17:22:03,152 - INFO - Parsing: /Users/adititomar/Downloads/Customer Portal Dum and PDF/PO_Customer S 2.xlsx
+2025-12-10 17:22:03,156 - INFO - Routing file /Users/adititomar/Downloads/Customer Portal Dum and PDF/PO_Customer S 2.xlsx (ext=.xlsx)
+2025-12-10 17:22:03,156 - INFO - Parsing Excel file: /Users/adititomar/Downloads/Customer Portal Dum and PDF/PO_Customer S 2.xlsx
+2025-12-10 17:22:04,015 - INFO - Saved JSON output to: /Users/adititomar/PycharmProjects/email-data-importer/output/json/PO_Customer S 2_20251210_172204.json
+2025-12-10 17:22:04,016 - INFO - Saved HTML output to: /Users/adititomar/PycharmProjects/email-data-importer/output/html/PO_Customer S 2_20251210_172204.html
+2025-12-10 17:22:04,017 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/PO_Customer S 2_20251210_172204_table_0.csv
+2025-12-10 17:22:04,017 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/PO_Customer S 2_20251210_172204_table_1.csv
+2025-12-10 17:22:04,017 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/PO_Customer S 2_20251210_172204_table_2.csv
+2025-12-10 17:22:04,018 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/PO_Customer S 2_20251210_172204_table_3.csv
+2025-12-10 17:22:04,018 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/PO_Customer S 2_20251210_172204_table_4.csv
+2025-12-10 17:22:04,018 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/PO_Customer S 2_20251210_172204_table_5.csv
+2025-12-10 17:22:04,018 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/PO_Customer S 2_20251210_172204_table_6.csv
+2025-12-10 17:22:04,018 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/PO_Customer S 2_20251210_172204_table_7.csv
+2025-12-10 17:22:04,018 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/PO_Customer S 2_20251210_172204_table_8.csv
+2025-12-10 17:22:04,019 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/PO_Customer S 2_20251210_172204_table_9.csv
+2025-12-10 17:22:04,019 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/PO_Customer S 2_20251210_172204_table_10.csv
+2025-12-10 17:22:04,019 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/PO_Customer S 2_20251210_172204_table_11.csv
+2025-12-10 17:22:04,019 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/PO_Customer S 2_20251210_172204_table_12.csv
+2025-12-10 17:22:04,019 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/PO_Customer S 2_20251210_172204_table_13.csv
+2025-12-10 17:22:04,020 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/PO_Customer S 2_20251210_172204_table_14.csv
+2025-12-10 17:22:04,020 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/PO_Customer S 2_20251210_172204_table_15.csv
+2025-12-10 17:22:04,020 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/PO_Customer S 2_20251210_172204_table_16.csv
+2025-12-10 17:22:04,021 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/PO_Customer S 2_20251210_172204_table_17.csv
+2025-12-10 17:22:04,021 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/PO_Customer S 2_20251210_172204_table_18.csv
+2025-12-10 17:22:04,021 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/PO_Customer S 2_20251210_172204_table_19.csv
+2025-12-10 17:22:04,021 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/PO_Customer S 2_20251210_172204_table_20.csv
+2025-12-10 17:22:04,021 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/PO_Customer S 2_20251210_172204_table_21.csv
+2025-12-10 17:22:04,021 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/PO_Customer S 2_20251210_172204_table_22.csv
+2025-12-10 17:22:04,022 - INFO - Parsing complete.
+2025-12-10 17:46:51,086 - INFO - Parsing: /Users/adititomar/Downloads/Customer Portal Dum and PDF/PO Customer W 1 (4).xlsx
+2025-12-10 17:46:51,089 - INFO - Routing file /Users/adititomar/Downloads/Customer Portal Dum and PDF/PO Customer W 1 (4).xlsx (ext=.xlsx)
+2025-12-10 17:46:51,089 - INFO - Parsing Excel file: /Users/adititomar/Downloads/Customer Portal Dum and PDF/PO Customer W 1 (4).xlsx
+2025-12-10 17:46:51,184 - INFO - Saved JSON output to: /Users/adititomar/PycharmProjects/email-data-importer/output/json/PO Customer W 1 (4)_20251210_174651.json
+2025-12-10 17:46:51,184 - INFO - Saved HTML output to: /Users/adititomar/PycharmProjects/email-data-importer/output/html/PO Customer W 1 (4)_20251210_174651.html
+2025-12-10 17:46:51,185 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/PO Customer W 1 (4)_20251210_174651_table_0.csv
+2025-12-10 17:46:51,185 - INFO - Parsing complete.
+2025-12-11 12:59:40,704 - INFO - Parsing: /Users/adititomar/Downloads/Customer Portal Dum and PDF/523202410I3356700S20241011110303.pdf
+2025-12-11 12:59:40,710 - INFO - Routing file /Users/adititomar/Downloads/Customer Portal Dum and PDF/523202410I3356700S20241011110303.pdf (ext=.pdf)
+2025-12-11 12:59:42,893 - INFO - Saved JSON output to: /Users/adititomar/PycharmProjects/email-data-importer/output/json/523202410I3356700S20241011110303_20251211_125942.json
+2025-12-11 12:59:42,894 - INFO - Saved HTML output to: /Users/adititomar/PycharmProjects/email-data-importer/output/html/523202410I3356700S20241011110303_20251211_125942.html
+2025-12-11 12:59:42,895 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/523202410I3356700S20241011110303_20251211_125942_table_0.csv
+2025-12-11 12:59:42,895 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/523202410I3356700S20241011110303_20251211_125942_table_1.csv
+2025-12-11 12:59:42,895 - INFO - Parsing complete.
+2025-12-11 16:13:49,578 - INFO - Parsing: /Users/adititomar/Downloads/School-Purchase-Order-Template-TemplateLab.com_.pdf
+2025-12-11 16:13:49,582 - INFO - Routing file /Users/adititomar/Downloads/School-Purchase-Order-Template-TemplateLab.com_.pdf (ext=.pdf)
+2025-12-11 16:13:50,428 - INFO - Saved JSON output to: /Users/adititomar/PycharmProjects/email-data-importer/output/json/School-Purchase-Order-Template-TemplateLab.com__20251211_161350.json
+2025-12-11 16:13:50,428 - INFO - Saved HTML output to: /Users/adititomar/PycharmProjects/email-data-importer/output/html/School-Purchase-Order-Template-TemplateLab.com__20251211_161350.html
+2025-12-11 16:13:50,428 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/School-Purchase-Order-Template-TemplateLab.com__20251211_161350_table_0.csv
+2025-12-11 16:13:50,429 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/School-Purchase-Order-Template-TemplateLab.com__20251211_161350_table_1.csv
+2025-12-11 16:13:50,429 - INFO - Parsing complete.
+2025-12-11 16:24:04,254 - INFO - Parsing: /Users/adititomar/Downloads/School-Purchase-Order-Template-TemplateLab.com_.pdf
+2025-12-11 16:24:04,255 - INFO - Routing file /Users/adititomar/Downloads/School-Purchase-Order-Template-TemplateLab.com_.pdf (ext=.pdf)
+2025-12-11 16:24:05,018 - INFO - Saved JSON output to: /Users/adititomar/PycharmProjects/email-data-importer/output/json/School-Purchase-Order-Template-TemplateLab.com__20251211_162405.json
+2025-12-11 16:24:05,018 - INFO - Saved HTML output to: /Users/adititomar/PycharmProjects/email-data-importer/output/html/School-Purchase-Order-Template-TemplateLab.com__20251211_162405.html
+2025-12-11 16:24:05,021 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/School-Purchase-Order-Template-TemplateLab.com__20251211_162405_table_0.csv
+2025-12-11 16:24:05,021 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/School-Purchase-Order-Template-TemplateLab.com__20251211_162405_table_1.csv
+2025-12-11 16:24:05,021 - INFO - Parsing complete.
+2025-12-11 16:27:14,735 - INFO - Parsing: /Users/adititomar/Downloads/School-Purchase-Order-Template-TemplateLab.com_.pdf
+2025-12-11 16:27:14,736 - INFO - Routing file /Users/adititomar/Downloads/School-Purchase-Order-Template-TemplateLab.com_.pdf (ext=.pdf)
+2025-12-11 16:27:15,485 - INFO - Saved JSON output to: /Users/adititomar/PycharmProjects/email-data-importer/output/json/School-Purchase-Order-Template-TemplateLab.com__20251211_162715.json
+2025-12-11 16:27:15,485 - INFO - Saved HTML output to: /Users/adititomar/PycharmProjects/email-data-importer/output/html/School-Purchase-Order-Template-TemplateLab.com__20251211_162715.html
+2025-12-11 16:27:15,490 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/School-Purchase-Order-Template-TemplateLab.com__20251211_162715_table_0.csv
+2025-12-11 16:27:15,490 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/School-Purchase-Order-Template-TemplateLab.com__20251211_162715_table_1.csv
+2025-12-11 16:27:15,490 - INFO - Parsing complete.
+2025-12-11 16:30:32,231 - INFO - Parsing: /Users/adititomar/Downloads/Interior-Design-Purchase-Order-Template-TemplateLab.com_.pdf
+2025-12-11 16:30:32,232 - INFO - Routing file /Users/adititomar/Downloads/Interior-Design-Purchase-Order-Template-TemplateLab.com_.pdf (ext=.pdf)
+2025-12-11 16:37:49,907 - INFO - Parsing: /Users/adititomar/Downloads/Interior-Design-Purchase-Order-Template-TemplateLab.com_.pdf
+2025-12-11 16:37:49,908 - INFO - Routing file /Users/adititomar/Downloads/Interior-Design-Purchase-Order-Template-TemplateLab.com_.pdf (ext=.pdf)
+2025-12-11 16:39:46,512 - INFO - Parsing: /Users/adititomar/Downloads/Interior-Design-Purchase-Order-Template-TemplateLab.com_.pdf
+2025-12-11 16:39:46,513 - INFO - Routing file /Users/adititomar/Downloads/Interior-Design-Purchase-Order-Template-TemplateLab.com_.pdf (ext=.pdf)
+2025-12-11 16:41:42,972 - INFO - Parsing: /Users/adititomar/Downloads/Interior-Design-Purchase-Order-Template-TemplateLab.com_.pdf
+2025-12-11 16:41:42,973 - INFO - Routing file /Users/adititomar/Downloads/Interior-Design-Purchase-Order-Template-TemplateLab.com_.pdf (ext=.pdf)
+2025-12-11 16:59:29,683 - INFO - Parsing: /Users/adititomar/Downloads/Interior-Design-Purchase-Order-Template-TemplateLab.com_.pdf
+2025-12-11 16:59:29,688 - INFO - Routing file /Users/adititomar/Downloads/Interior-Design-Purchase-Order-Template-TemplateLab.com_.pdf (ext=.pdf)
+2025-12-11 16:59:30,469 - INFO - Saved JSON output to: /Users/adititomar/PycharmProjects/email-data-importer/output/json/Interior-Design-Purchase-Order-Template-TemplateLab.com__20251211_165930.json
+2025-12-11 16:59:30,469 - INFO - Saved HTML output to: /Users/adititomar/PycharmProjects/email-data-importer/output/html/Interior-Design-Purchase-Order-Template-TemplateLab.com__20251211_165930.html
+2025-12-11 16:59:30,470 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/Interior-Design-Purchase-Order-Template-TemplateLab.com__20251211_165930_table_0.csv
+2025-12-11 16:59:30,470 - INFO - Parsing complete.
+2025-12-11 17:15:24,882 - INFO - Parsing: /Users/adititomar/Downloads/Customer Portal Dum and PDF/523202410I3356700S20241011110303.pdf
+2025-12-11 17:15:24,886 - INFO - Routing file /Users/adititomar/Downloads/Customer Portal Dum and PDF/523202410I3356700S20241011110303.pdf (ext=.pdf)
+2025-12-11 17:15:26,233 - INFO - Saved JSON output to: /Users/adititomar/PycharmProjects/email-data-importer/output/json/523202410I3356700S20241011110303_20251211_171526.json
+2025-12-11 17:15:26,233 - INFO - Saved HTML output to: /Users/adititomar/PycharmProjects/email-data-importer/output/html/523202410I3356700S20241011110303_20251211_171526.html
+2025-12-11 17:15:26,234 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/523202410I3356700S20241011110303_20251211_171526_table_0.csv
+2025-12-11 17:15:26,234 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer/output/csv/523202410I3356700S20241011110303_20251211_171526_table_1.csv
+2025-12-11 17:15:26,234 - INFO - Parsing complete.
+2025-12-12 15:31:32,505 - INFO - Parsing: /Users/adititomar/Downloads/Customer Portal Dum and PDF/Body of the Mail OP-Excel.xlsx
+2025-12-12 15:31:32,522 - INFO - Routing file /Users/adititomar/Downloads/Customer Portal Dum and PDF/Body of the Mail OP-Excel.xlsx (ext=.xlsx)
+2025-12-12 15:31:32,523 - INFO - Parsing Excel file: /Users/adititomar/Downloads/Customer Portal Dum and PDF/Body of the Mail OP-Excel.xlsx
+2025-12-12 15:31:32,874 - INFO - Saved JSON output to: /Users/adititomar/PycharmProjects/email-data-importer 2/output/json/Body of the Mail OP-Excel_20251212_153132.json
+2025-12-12 15:31:32,874 - INFO - Saved HTML output to: /Users/adititomar/PycharmProjects/email-data-importer 2/output/html/Body of the Mail OP-Excel_20251212_153132.html
+2025-12-12 15:31:32,875 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer 2/output/csv/Body of the Mail OP-Excel_20251212_153132_table_0.csv
+2025-12-12 15:31:32,875 - INFO - Parsing complete.
+2025-12-12 15:34:25,635 - INFO - Parsing: /Users/adititomar/Downloads/Customer Portal Dum and PDF/PO Customer W 1.xlsx
+2025-12-12 15:34:25,641 - INFO - Routing file /Users/adititomar/Downloads/Customer Portal Dum and PDF/PO Customer W 1.xlsx (ext=.xlsx)
+2025-12-12 15:34:25,641 - INFO - Parsing Excel file: /Users/adititomar/Downloads/Customer Portal Dum and PDF/PO Customer W 1.xlsx
+2025-12-12 15:34:25,977 - INFO - Saved JSON output to: /Users/adititomar/PycharmProjects/email-data-importer 2/output/json/PO Customer W 1_20251212_153425.json
+2025-12-12 15:34:25,982 - INFO - Saved HTML output to: /Users/adititomar/PycharmProjects/email-data-importer 2/output/html/PO Customer W 1_20251212_153425.html
+2025-12-12 15:34:25,990 - INFO - Saved CSV output to: /Users/adititomar/PycharmProjects/email-data-importer 2/output/csv/PO Customer W 1_20251212_153425_table_0.csv
+2025-12-12 15:34:25,990 - INFO - Parsing complete.
+2025-12-12 17:08:18,572 - ERROR - EMAIL_USER / EMAIL_PASSWORD environment variables must be set.
+2025-12-12 17:15:42,962 - INFO - Connecting to IMAP server imap.gmail.com:993 ...
+2025-12-12 17:15:44,367 - INFO - Selected mailbox: INBOX
+2025-12-12 17:15:44,641 - INFO - Found 0 messages matching criteria.
+2025-12-12 17:15:44,901 - INFO - IMAP fetch_and_process_all complete.
+2025-12-12 17:19:55,125 - INFO - Connecting to IMAP server imap.gmail.com:993 ...
+2025-12-12 17:19:56,630 - INFO - Selected mailbox: INBOX
+2025-12-12 17:19:56,902 - INFO - Found 1 messages matching criteria.
+2025-12-12 17:19:57,394 - INFO - Processing message: From=Aditi Dawra <aditi.dawra18@gmail.com> Subject=Extraction Date=Fri, 12 Dec 2025 17:19:30 +0530 UID=4
+2025-12-12 17:19:57,397 - INFO - Saved attachment: /Users/adititomar/PycharmProjects/email-data-importer 2/attachments/raw/Body of the Mail OP-Excel.xlsx
+2025-12-12 17:19:57,397 - INFO - Routing file /Users/adititomar/PycharmProjects/email-data-importer 2/attachments/raw/Body of the Mail OP-Excel.xlsx (ext=.xlsx)
+2025-12-12 17:19:57,397 - INFO - Parsing Excel file: /Users/adititomar/PycharmProjects/email-data-importer 2/attachments/raw/Body of the Mail OP-Excel.xlsx
+2025-12-12 17:19:57,536 - INFO - Imported attachment /Users/adititomar/PycharmProjects/email-data-importer 2/attachments/raw/Body of the Mail OP-Excel.xlsx -> saved Body of the Mail OP-Excel_20251212_171957.json
+2025-12-12 17:19:57,537 - INFO - Saved body extraction -> email_body_20251212_171957.json
+2025-12-12 17:19:58,089 - INFO - IMAP fetch_and_process_all complete.
+2025-12-14 10:54:43,019 - INFO - Connecting to IMAP server imap.gmail.com:993 ...
+2025-12-14 10:54:45,918 - INFO - Selected mailbox: INBOX
+2025-12-14 10:54:46,342 - INFO - Found 2 messages matching criteria.
+2025-12-14 10:54:46,895 - INFO - Processing message: From=Aditi Tomar <adititomar201098@gmail.com> Subject=TEST MAIL Date=Sun, 14 Dec 2025 10:51:15 +0530 UID=5
+2025-12-14 10:54:46,897 - INFO - Saved attachment: /Users/adititomar/PycharmProjects/email-data-importer 2/attachments/raw/Body of the Mail OP-Excel_20251214_052446_897037.xlsx
+2025-12-14 10:54:46,897 - INFO - Routing file /Users/adititomar/PycharmProjects/email-data-importer 2/attachments/raw/Body of the Mail OP-Excel_20251214_052446_897037.xlsx (ext=.xlsx)
+2025-12-14 10:54:46,897 - INFO - Parsing Excel file: /Users/adititomar/PycharmProjects/email-data-importer 2/attachments/raw/Body of the Mail OP-Excel_20251214_052446_897037.xlsx
+2025-12-14 10:54:47,264 - INFO - Imported attachment /Users/adititomar/PycharmProjects/email-data-importer 2/attachments/raw/Body of the Mail OP-Excel_20251214_052446_897037.xlsx -> saved Body of the Mail OP-Excel_20251214_052446_897037_20251214_105447.json
+2025-12-14 10:54:47,265 - INFO - Saved body extraction -> email_body_20251214_105447.json
+2025-12-14 10:54:47,985 - INFO - Processing message: From=Aditi Tomar <adititomar201098@gmail.com> Subject=mail Date=Sun, 14 Dec 2025 10:53:09 +0530 UID=6
+2025-12-14 10:54:47,986 - INFO - Saved body extraction -> email_body_20251214_105447.json
+2025-12-14 10:54:48,538 - INFO - IMAP fetch_and_process_all complete.
+2025-12-17 06:27:21,846 - INFO - Routing file /Users/adititomar/PycharmProjects/email-data-importer 2/media/raw_files/PO_Customer_W_1.xlsx (ext=.xlsx)
+2025-12-17 06:27:21,849 - INFO - Parsing Excel file: /Users/adititomar/PycharmProjects/email-data-importer 2/media/raw_files/PO_Customer_W_1.xlsx
+2025-12-17 06:41:01,163 - INFO - Routing file /Users/adititomar/PycharmProjects/email-data-importer 2/media/raw_files/Body_of_the_Mail_OP-Excel_Zh0Tirh.xlsx (ext=.xlsx)
+2025-12-17 06:41:01,164 - INFO - Parsing Excel file: /Users/adititomar/PycharmProjects/email-data-importer 2/media/raw_files/Body_of_the_Mail_OP-Excel_Zh0Tirh.xlsx
+2025-12-17 06:42:24,802 - INFO - Routing file /Users/adititomar/PycharmProjects/email-data-importer 2/media/raw_files/Body_of_the_Mail_OP-Excel_8zoyo2Q.xlsx (ext=.xlsx)
+2025-12-17 06:42:24,803 - INFO - Parsing Excel file: /Users/adititomar/PycharmProjects/email-data-importer 2/media/raw_files/Body_of_the_Mail_OP-Excel_8zoyo2Q.xlsx
+2025-12-17 06:45:19,834 - INFO - Routing file /Users/adititomar/PycharmProjects/email-data-importer 2/media/raw_files/Body_of_the_Mail_OP-Excel_FeWxpui.xlsx (ext=.xlsx)
+2025-12-17 06:45:19,835 - INFO - Parsing Excel file: /Users/adititomar/PycharmProjects/email-data-importer 2/media/raw_files/Body_of_the_Mail_OP-Excel_FeWxpui.xlsx
+2025-12-17 06:45:59,833 - INFO - Routing file /Users/adititomar/PycharmProjects/email-data-importer 2/media/raw_files/Customer_P_1_Schedules_jSHgWAf.xls (ext=.xls)
+2025-12-17 06:45:59,834 - INFO - Parsing Excel file: /Users/adititomar/PycharmProjects/email-data-importer 2/media/raw_files/Customer_P_1_Schedules_jSHgWAf.xls
+2025-12-17 06:58:37,061 - INFO - Routing file /Users/adititomar/PycharmProjects/email-data-importer 2/media/raw_files/Customer_P_1.xls (ext=.xls)
+2025-12-17 06:58:37,062 - INFO - Parsing Excel file: /Users/adititomar/PycharmProjects/email-data-importer 2/media/raw_files/Customer_P_1.xls
+2025-12-17 07:36:14,320 - INFO - Routing file /Users/adititomar/PycharmProjects/email-data-importer 2/media/raw_files/Body_of_the_Mail_OP-Excel_vq6PGnt.xlsx (ext=.xlsx)
+2025-12-17 07:36:14,321 - INFO - Parsing Excel file: /Users/adititomar/PycharmProjects/email-data-importer 2/media/raw_files/Body_of_the_Mail_OP-Excel_vq6PGnt.xlsx
+2025-12-17 10:11:45,988 - INFO - Connecting to Email Server...
+2025-12-17 10:12:29,099 - INFO - Found 0 unread emails.
+2025-12-17 10:12:53,635 - INFO - Email fetch complete.
+2025-12-17 10:19:46,898 - INFO - Connecting to Email Server...
+2025-12-17 10:30:09,704 - INFO - Connecting to Email Server...
+2025-12-17 10:30:42,561 - INFO - Found 0 unread emails.
+2025-12-17 10:30:49,474 - INFO - Email fetch complete.
+2025-12-17 10:35:03,072 - INFO - Connecting to Email Server...
+2025-12-17 10:35:50,248 - INFO - Found 0 unread emails.
+2025-12-17 10:35:57,244 - INFO - Email fetch complete.
+2025-12-17 10:40:02,624 - INFO - Connecting to Email Server...
+2025-12-17 10:41:47,652 - INFO - Found 0 unread emails.
+2025-12-17 10:41:54,743 - INFO - Email fetch complete.
+2025-12-17 10:45:02,898 - INFO - Connecting to Email Server...
+2025-12-17 10:47:02,734 - INFO - Found 0 unread emails.
+2025-12-17 10:47:21,903 - INFO - Email fetch complete.
+2025-12-17 10:50:15,993 - INFO - Connecting to Email Server...
+2025-12-17 10:50:53,041 - INFO - Found 0 unread emails.
+2025-12-17 10:51:02,600 - INFO - Email fetch complete.
+2025-12-17 10:55:03,393 - INFO - Connecting to Email Server...
+2025-12-17 10:55:17,579 - INFO - Found 0 unread emails.
+2025-12-17 10:55:19,630 - INFO - Email fetch complete.
+2025-12-17 11:00:02,823 - INFO - Connecting to Email Server...
+2025-12-17 11:02:10,315 - INFO - Found 0 unread emails.
+2025-12-17 11:02:33,401 - INFO - Email fetch complete.
+2025-12-17 11:15:03,127 - INFO - Connecting to Email Server...
+2025-12-17 11:15:39,888 - INFO - Found 0 unread emails.
+2025-12-17 11:15:46,146 - INFO - Email fetch complete.
+2025-12-17 11:20:03,564 - INFO - Connecting to Email Server...
+2025-12-17 11:20:31,135 - INFO - Found 0 unread emails.
+2025-12-17 11:20:44,713 - INFO - Email fetch complete.
+2025-12-17 11:25:03,185 - INFO - Connecting to Email Server...
+2025-12-17 11:27:29,407 - INFO - Found 0 unread emails.
+2025-12-17 11:27:35,163 - INFO - Email fetch complete.

@@ -1,0 +1,72 @@
+{
+    "file_type": "pdf",
+    "scanned": false,
+    "invoice_number": null,
+    "dates": [],
+    "gstin": null,
+    "total_amount": null,
+    "vendor_name": "PURCHASE ORDER NO.",
+    "line_items": [
+        {
+            "description": "VENDOR INFORMATION",
+            "quantity": null,
+            "price": null,
+            "amount": null
+        },
+        {
+            "description": "VENDOR NAME",
+            "quantity": null,
+            "price": "SALES PERSON",
+            "amount": null
+        },
+        {
+            "description": "ADDRESS",
+            "quantity": null,
+            "price": null,
+            "amount": null
+        },
+        {
+            "description": "CONTACT NO.",
+            "quantity": null,
+            "price": "EMAIL ADDRESS",
+            "amount": null
+        },
+        {
+            "description": "CUSTOMER INFORMATION",
+            "quantity": null,
+            "price": null,
+            "amount": null
+        },
+        {
+            "description": "CUSTOMER NAME",
+            "quantity": null,
+            "price": "CONTACT PERSON",
+            "amount": null
+        },
+        {
+            "description": "ADDRESS",
+            "quantity": null,
+            "price": null,
+            "amount": null
+        },
+        {
+            "description": "CONTACT NO.",
+            "quantity": null,
+            "price": "EMAIL ADDRESS",
+            "amount": null
+        },
+        {
+            "description": "Item No.",
+            "quantity": "Details",
+            "price": "Unit",
+            "amount": "Quantity"
+        },
+        {
+            "description": "Additional Notes:",
+            "quantity": null,
+            "price": null,
+            "amount": null
+        }
+    ],
+    "raw_text": "PURCHASE ORDER DATE: PURCHASE ORDER NO.: VENDOR INFORMATION VENDOR NAME SALES PERSON ADDRESS CONTACT NO. EMAIL ADDRESS CUSTOMER INFORMATION CUSTOMER NAME CONTACT PERSON ADDRESS CONTACT NO. EMAIL ADDRESS Item No. Details Unit Quantity Unit Price Total Additional Notes: Subtotal Taxes (%) Discount (%) Total Authorized By"
+}

@@ -1,0 +1,79 @@
+{% extends "admin/change_form.html" %}
+{% load static %}
+{% block content %}
+<style>
+    .upload-box {
+        border: 2px dashed #cbd5e1;
+        border-radius: 12px;
+        padding: 40px;
+        text-align: center;
+        background: #f8fafc;
+        margin-bottom: 30px;
+        transition: 0.3s ease;
+    }
+    .upload-box:hover {
+        border-color: #94a3b8;
+        background: #f1f5f9;
+    }
+    .upload-icon {
+        font-size: 40px;
+        color: #64748b;
+        margin-bottom: 10px;
+    }
+    .upload-box input[type="file"] {
+        margin-top: 20px;
+        padding: 12px;
+        background: white;
+        border-radius: 10px;
+        border: 1px solid #cbd5e1;
+        width: 70%;
+        cursor: pointer;
+    }
+    .upload-submit-btn {
+        display: block;
+        width: 100%;
+        background: #0f172a;
+        color: white;
+        padding: 14px;
+        font-size: 18px;
+        border-radius: 10px;
+        margin-top: 20px;
+        border: none;
+        cursor: pointer;
+    }
+    .upload-submit-btn:hover {
+        background: #1e293b;
+    }
+</style>
+<h1>Upload Files</h1>
+<div class="upload-box">
+    <div class="upload-icon">⬆️</div>
+    <h3>Drag & Drop Files Here</h3>
+    <p>or</p>
+    {{ adminform.form.raw_file }}
+</div>
+<button type="submit" class="upload-submit-btn">Upload</button>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const box = document.querySelector(".upload-box");
+    const input = document.querySelector("input[type='file']");
+
+    box.addEventListener("dragover", (e) => {
+        e.preventDefault();
+        box.style.borderColor = "#0ea5e9";
+        box.style.background = "#e0f2fe";
+    });
+
+    box.addEventListener("dragleave", () => {
+        box.style.borderColor = "#cbd5e1";
+        box.style.background = "#f8fafc";
+    });
+
+    box.addEventListener("drop", (e) => {
+        e.preventDefault();
+        const file = e.dataTransfer.files[0];
+        input.files = e.dataTransfer.files;
+    });
+});
+</script>
+{% endblock %}

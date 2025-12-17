@@ -1,0 +1,94 @@
+{
+    "file": "/Users/adititomar/Downloads/Interior-Design-Purchase-Order-Template-TemplateLab.com_.pdf",
+    "scanned": false,
+    "raw_text": [
+        {
+            "page": 1,
+            "text": "PURCHASE ORDER\nImage Item Supplier Price Info\nQty:\nPrice:\nDelivery Charges:\nTotal:\nQty:\nPrice:\nDelivery Charges:\nTotal:\nQty:\nPrice:\nDelivery Charges:\nTotal:\nQty:\nPrice:\nDelivery Charges:\nTotal:\nQty:\nPrice:\nDelivery Charges:\nTotal:\nQty:\nPrice:\nDelivery Charges:\nTotal:\nService Price\nGRAND TOTAL:"
+        }
+    ],
+    "tables": [
+        {
+            "columns": [
+                "Qty:"
+            ],
+            "rows": [
+                {
+                    "Qty:": "Price:"
+                },
+                {
+                    "Qty:": "Delivery Charges:"
+                },
+                {
+                    "Qty:": "Total:"
+                },
+                {
+                    "Qty:": "Qty:"
+                },
+                {
+                    "Qty:": "Price:"
+                },
+                {
+                    "Qty:": "Delivery Charges:"
+                },
+                {
+                    "Qty:": "Total:"
+                },
+                {
+                    "Qty:": "Qty:"
+                },
+                {
+                    "Qty:": "Price:"
+                },
+                {
+                    "Qty:": "Delivery Charges:"
+                },
+                {
+                    "Qty:": "Total:"
+                },
+                {
+                    "Qty:": "Qty:"
+                },
+                {
+                    "Qty:": "Price:"
+                },
+                {
+                    "Qty:": "Delivery Charges:"
+                },
+                {
+                    "Qty:": "Total:"
+                },
+                {
+                    "Qty:": "Qty:"
+                },
+                {
+                    "Qty:": "Price:"
+                },
+                {
+                    "Qty:": "Delivery Charges:"
+                },
+                {
+                    "Qty:": "Total:"
+                },
+                {
+                    "Qty:": "Qty:"
+                },
+                {
+                    "Qty:": "Price:"
+                },
+                {
+                    "Qty:": "Delivery Charges:"
+                },
+                {
+                    "Qty:": "Total:"
+                }
+            ]
+        }
+    ],
+    "structured": {
+        "invoice_number": null,
+        "dates": [],
+        "gstin": null,
+        "total_amount": null
+    }
+}

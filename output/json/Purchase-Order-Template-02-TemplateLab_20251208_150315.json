@@ -1,0 +1,104 @@
+{
+    "tables": [
+        {
+            "columns": [
+                "VENDOR NAME\nSALES PERSON"
+            ],
+            "rows": [
+                {
+                    "VENDOR NAME\nSALES PERSON": "ADDRESS"
+                },
+                {
+                    "VENDOR NAME\nSALES PERSON": "CONTACT NO.\nEMAIL ADDRESS"
+                }
+            ],
+            "field_types": {
+                "VENDOR NAME\nSALES PERSON": "text"
+            }
+        },
+        {
+            "columns": [
+                "CUSTOMER NAME\nCONTACT PERSON",
+                "Column_3"
+            ],
+            "rows": [
+                {
+                    "CUSTOMER NAME\nCONTACT PERSON": "ADDRESS",
+                    "Column_3": null
+                },
+                {
+                    "CUSTOMER NAME\nCONTACT PERSON": "CONTACT NO.\nEMAIL ADDRESS",
+                    "Column_3": null
+                },
+                {
+                    "CUSTOMER NAME\nCONTACT PERSON": "Item No.\nDetails\nUnit\nQuantity\nUnit Price\nTotal",
+                    "Column_3": null
+                },
+                {
+                    "CUSTOMER NAME\nCONTACT PERSON": null,
+                    "Column_3": null
+                },
+                {
+                    "CUSTOMER NAME\nCONTACT PERSON": null,
+                    "Column_3": null
+                },
+                {
+                    "CUSTOMER NAME\nCONTACT PERSON": null,
+                    "Column_3": null
+                },
+                {
+                    "CUSTOMER NAME\nCONTACT PERSON": null,
+                    "Column_3": null
+                },
+                {
+                    "CUSTOMER NAME\nCONTACT PERSON": null,
+                    "Column_3": null
+                },
+                {
+                    "CUSTOMER NAME\nCONTACT PERSON": null,
+                    "Column_3": null
+                },
+                {
+                    "CUSTOMER NAME\nCONTACT PERSON": null,
+                    "Column_3": null
+                },
+                {
+                    "CUSTOMER NAME\nCONTACT PERSON": null,
+                    "Column_3": null
+                },
+                {
+                    "CUSTOMER NAME\nCONTACT PERSON": null,
+                    "Column_3": null
+                },
+                {
+                    "CUSTOMER NAME\nCONTACT PERSON": null,
+                    "Column_3": null
+                },
+                {
+                    "CUSTOMER NAME\nCONTACT PERSON": null,
+                    "Column_3": null
+                },
+                {
+                    "CUSTOMER NAME\nCONTACT PERSON": null,
+                    "Column_3": null
+                },
+                {
+                    "CUSTOMER NAME\nCONTACT PERSON": null,
+                    "Column_3": null
+                },
+                {
+                    "CUSTOMER NAME\nCONTACT PERSON": null,
+                    "Column_3": null
+                },
+                {
+                    "CUSTOMER NAME\nCONTACT PERSON": "Additional Notes:",
+                    "Column_3": "Subtotal\nTaxes (%)\nDiscount (%)\nTotal\nAuthorized By"
+                }
+            ],
+            "field_types": {
+                "CUSTOMER NAME\nCONTACT PERSON": "text",
+                "Column_3": "text"
+            }
+        }
+    ]
+}

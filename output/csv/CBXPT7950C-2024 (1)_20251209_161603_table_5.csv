@@ -1,0 +1,15 @@
+Legend,Description,Definition
+U,Unmatched,"Deductors have not deposited taxes or have furnished incorrect particulars of tax payment. Final credit will be reflected only 
+when payment details in bank match with details of deposit in TDS / TCS statement"
+M,Matched,Particulars of challan details provided in TDS statement have matched with the challan details available in OLTAS
+P,Provisional,"Provisional tax credit is effected only for TDS / TCS Statements filed by Government deductors.""P"" status will be changed to 
+Final (F) on verification of payment details submitted by Pay and Accounts Officer (PAO)"
+F,Final,"In case of non-government deductors, payment details of TDS / TCS deposited in bank by deductors have matched with the 
+payment details mentioned in the TDS / TCS statement filed by the deductors. In case of government deductors, details of 
+TDS / TCS booked in Government account have been verified with payment details submitted by Pay and Accounts Officer 
+(PAO)"
+O,Overbooked,"Payment details of TDS / TCS deposited in bank by deductor have matched with details mentioned in the TDS / TCS 
+statement but the amount is over claimed in the statement. Final (F) credit will be reflected only when deductor reduces 
+claimed amount in the statement or makes additional payment for excess amount claimed in the statement"
+Z,Mismatch,"Particulars of challan details provided in TDS statement have not matched with the challan details available in OLTAS. Status 
+of challan will be updated as ""M"" (Matched), once correction is done by the deductor."

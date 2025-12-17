@@ -1,0 +1,30 @@
+{
+    "file_type": "pdf",
+    "scanned": false,
+    "invoice_number": null,
+    "dates": [],
+    "gstin": null,
+    "total_amount": null,
+    "vendor_name": "PURCHASE ORDER DATE PO #",
+    "line_items": [
+        {
+            "description": "SHIPPING TERMS SHIPPING METHOD DELIVERY DATE",
+            "quantity": null,
+            "price": "",
+            "amount": ""
+        },
+        {
+            "description": "ITEM # DESCRIPTION QTY UNIT PRICE TOTAL",
+            "quantity": null,
+            "price": "",
+            "amount": ""
+        },
+        {
+            "description": "Comments or Special Instructions",
+            "quantity": "",
+            "price": "",
+            "amount": ""
+        }
+    ],
+    "raw_text": "PURCHASE ORDER DATE PO # VENDOR SHIP TO SHIPPING TERMS SHIPPING METHOD DELIVERY DATE ITEM # DESCRIPTION QTY UNIT PRICE TOTAL Comments or Special Instructions SUBTOTAL [42] TAX SHIPPING TOTAL"
+}

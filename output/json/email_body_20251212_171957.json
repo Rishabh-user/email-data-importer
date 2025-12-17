@@ -1,0 +1,13 @@
+{
+    "source": "email_body",
+    "subject": "Extraction",
+    "from": "Aditi Dawra <aditi.dawra18@gmail.com>",
+    "date": "Fri, 12 Dec 2025 17:19:30 +0530",
+    "structured": {
+        "invoice_number": null,
+        "dates": [],
+        "gstin": null,
+        "total_amount": null
+    },
+    "body_snippet": "Hey! This is a test mail."
+}

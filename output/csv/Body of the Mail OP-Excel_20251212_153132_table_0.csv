@@ -1,0 +1,11 @@
+PO Number,PO Line,PO Status,Item Number,Description,Vendor Item,Safran Due Date,Vendor Due Date,Qty Ordered,Unit of Measure,Qty Received,Qty Rejected,Last Reception Date
+SNZR000189,1,Ordered,156-111-420-6SP,LOCK for seal 4,-,Dec 14 2025,Dec 5 2025,1000,EA,0,0,
+SNZR000189,2,Planned,156-111-420-6SP,LOCK for seal 4,-,Jun 5 2026,May 27 2026,1000,EA,0,0,
+SNZR000189,3,Planned,156-111-420-6SP,LOCK for seal 4,-,Feb 4 2027,Jan 26 2027,1000,EA,0,0,
+SNZR000200,1,Planned,056-000-420-6SP,LOCK for seal 4,-,Oct 8 2027,Sep 29 2027,1000,EA,0,0,
+SNZR000183,2,Ordered,305-056-201-0SP,Turbine shaft bushing,-,Jun 8 2025,Jun 1 2025,3000,EA,2917,0,Oct 16 2025
+SNZR000194,1,Ordered,315-265-208-0SP,Turbine shaft bushing,-,Oct 8 2025,Oct 1 2025,3000,EA,0,0,
+SNZR000198,1,Planned,315-265-208-0SP,Turbine shaft bushing,-,Jan 15 2026,Jan 8 2026,3000,EA,0,0,
+SNZR000198,2,Planned,315-265-208-0SP,Turbine shaft bushing,-,Apr 15 2026,Apr 8 2026,3000,EA,0,0,
+SNZR000198,3,Planned,315-265-208-0SP,Turbine shaft bushing,-,Aug 15 2026,Aug 8 2026,3000,EA,0,0,
+SNZR000198,4,Planned,315-265-208-0SP,Turbine shaft bushing,-,Jan 15 2027,Jan 8 2027,3000,EA,0,0,

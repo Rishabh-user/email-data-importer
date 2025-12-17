@@ -1,0 +1,116 @@
+{
+    "tables": [
+        {
+            "columns": [
+                "Column_1",
+                "Column_2",
+                "Column_3",
+                "PURCHASE ORDER"
+            ],
+            "rows": [
+                {
+                    "Column_1": null,
+                    "Column_2": null,
+                    "Column_3": "PO #:",
+                    "PURCHASE ORDER": null
+                },
+                {
+                    "Column_1": null,
+                    "Column_2": null,
+                    "Column_3": "Date:",
+                    "PURCHASE ORDER": null
+                },
+                {
+                    "Column_1": "Purchase Order To:",
+                    "Column_2": "Ship To:",
+                    "Column_3": null,
+                    "PURCHASE ORDER": null
+                },
+                {
+                    "Column_1": null,
+                    "Column_2": "Time range",
+                    "Column_3": "Price",
+                    "PURCHASE ORDER": null
+                },
+                {
+                    "Column_1": "#\nService Description",
+                    "Column_2": null,
+                    "Column_3": null,
+                    "PURCHASE ORDER": "TOTAL PRICE"
+                },
+                {
+                    "Column_1": null,
+                    "Column_2": "[Days]",
+                    "Column_3": "[per hour]",
+                    "PURCHASE ORDER": null
+                },
+                {
+                    "Column_1": null,
+                    "Column_2": null,
+                    "Column_3": "TOTAL SERVICES:",
+                    "PURCHASE ORDER": null
+                },
+                {
+                    "Column_1": "#\nItem Description",
+                    "Column_2": "Qty",
+                    "Column_3": "Price",
+                    "PURCHASE ORDER": "TOTAL PRICE"
+                },
+                {
+                    "Column_1": null,
+                    "Column_2": null,
+                    "Column_3": "TOTAL MATERIALS:",
+                    "PURCHASE ORDER": null
+                },
+                {
+                    "Column_1": null,
+                    "Column_2": null,
+                    "Column_3": null,
+                    "PURCHASE ORDER": "Total Job Cost"
+                },
+                {
+                    "Column_1": null,
+                    "Column_2": null,
+                    "Column_3": null,
+                    "PURCHASE ORDER": "TAX"
+                },
+                {
+                    "Column_1": "Comments",
+                    "Column_2": null,
+                    "Column_3": null,
+                    "PURCHASE ORDER": null
+                },
+                {
+                    "Column_1": "Accepted By:",
+                    "Column_2": null,
+                    "Column_3": null,
+                    "PURCHASE ORDER": null
+                },
+                {
+                    "Column_1": null,
+                    "Column_2": null,
+                    "Column_3": null,
+                    "PURCHASE ORDER": "TOTAL"
+                },
+                {
+                    "Column_1": "Date:",
+                    "Column_2": null,
+                    "Column_3": null,
+                    "PURCHASE ORDER": null
+                },
+                {
+                    "Column_1": "Approved By:",
+                    "Column_2": null,
+                    "Column_3": null,
+                    "PURCHASE ORDER": null
+                }
+            ],
+            "field_types": {
+                "Column_1": "text",
+                "Column_2": "text",
+                "Column_3": "text",
+                "PURCHASE ORDER": "text"
+            }
+        }
+    ]
+}

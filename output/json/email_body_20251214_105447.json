@@ -1,0 +1,13 @@
+{
+    "source": "email_body",
+    "subject": "mail",
+    "from": "Aditi Tomar <adititomar201098@gmail.com>",
+    "date": "Sun, 14 Dec 2025 10:53:09 +0530",
+    "structured": {
+        "invoice_number": null,
+        "dates": [],
+        "gstin": null,
+        "total_amount": 420.0
+    },
+    "body_snippet": "PO Number PO Line PO Status Item Number Description Vendor Item Safran\r\nDue Date Vendor Due Date Qty Ordered Unit of Measure Qty Received Qty\r\nRejected Drawing Number Last Reception Date Promise Date\r\nSNZR000189 1 Ordered 156-111-420-6SP LOCK for seal 4 - Dec 14 2025 Dec\r\n5 2025 1000 EA 0 0\r\nSNZR000189 2 Planned 156-111-420-6SP LOCK for seal 4 - Jun 5 2026 May\r\n27 2026 1000 EA 0 0\r\nSNZR000189 3 Planned 156-111-420-6SP LOCK for seal 4 - Feb 4 2027 Jan\r\n26 2027 1000 EA 0 0\r\nSNZR000200 1 Planned 056-000-420-6SP LOCK for seal 4 - Oct 8 2027 Sep\r\n29 2027 1000 EA 0 0\r\nSNZR000183 2 Ordered 305-056-201-0SP Turbine shaft bushing - Jun 8\r\n2025 Jun 1 2025 3000 EA 2917 0 Oct 16 2025\r\nSNZR000194 1 Ordered 315-265-208-0SP Turbine shaft bushing - Oct 8\r\n2025 Oct 1 2025 3000 EA 0 0\r\nSNZR000198 1 Planned 315-265-208-0SP Turbine shaft bushing - Jan 15\r\n2026 Jan 8 2026 3000 EA 0 0\r\nSNZR000198 2 Planned 315-265-208-0SP Turbine shaft bushing - Apr 15\r\n2026 Apr 8 2026 3000 EA 0 0\r\nSNZR000198 3 Planned 315-265-208-0SP Turbine shaft bushing - Aug 15\r\n2026 Aug 8 2026 3000 EA 0 0\r\nSNZR000198 4 Planned 315-265-208-0SP Turbine shaft bushing - Jan 15\r\n2027 Jan 8 2027 3000 EA 0 0"
+}
