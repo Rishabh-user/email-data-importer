@@ -365,3 +365,5 @@
 2025-12-17 11:25:03,185 - INFO - Connecting to Email Server...
 2025-12-17 11:27:29,407 - INFO - Found 0 unread emails.
 2025-12-17 11:27:35,163 - INFO - Email fetch complete.
+2025-12-17 13:14:44,430 - INFO - Routing file /Users/adititomar/PycharmProjects/email-data-importer-git/email-data-importer/media/raw_files/Body_of_the_Mail_OP-Excel_FE8xgc8.xlsx (ext=.xlsx)
+2025-12-17 13:14:44,431 - INFO - Parsing Excel file: /Users/adititomar/PycharmProjects/email-data-importer-git/email-data-importer/media/raw_files/Body_of_the_Mail_OP-Excel_FE8xgc8.xlsx

@@ -22,6 +22,7 @@ class UploadFileView(APIView):
         return Response({
             "message": "File processed",
             "file_id": raw.id,
-            "result": result
+            "result": result,
+            # expose zso_preview at top-level for convenience (if present)
+            "zso_preview": result.get("zso_preview", []),
         })
-
