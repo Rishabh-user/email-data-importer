@@ -2,92 +2,187 @@
 {% load static %}
 
 {% block content %}
-<form method="post" enctype="multipart/form-data" novalidate>
+<form method="post" enctype="multipart/form-data" novalidate class="file-upload-form">
     {% csrf_token %}
 
     <style>
-        .upload-box {
+        /* ===== Container ===== */
+        .upload-wrapper {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .upload-title {
+            font-size: 22px;
+            font-weight: 600;
+            margin-bottom: 16px;
+        }
+
+        /* ===== Upload Card ===== */
+        .upload-card {
+            background: #ffffff;
+            border: 1px solid #e5e7eb;
+            border-radius: 14px;
+            padding: 30px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+        }
+
+        /* ===== Drop Zone ===== */
+        .drop-zone {
             border: 2px dashed #cbd5e1;
-            border-radius: 12px;
-            padding: 40px;
+            border-radius: 14px;
+            padding: 48px 20px;
             text-align: center;
-            background: #f8fafc;
-            margin-bottom: 30px;
-            transition: 0.3s ease;
+            background: #f9fafb;
+            cursor: pointer;
+            transition: all 0.25s ease;
+            position: relative;
         }
-        .upload-box:hover {
-            border-color: #94a3b8;
-            background: #f1f5f9;
+
+        .drop-zone.dragover {
+            border-color: #2563eb;
+            background: #eff6ff;
         }
-        .upload-icon {
-            font-size: 40px;
-            color: #64748b;
+
+        .drop-icon {
+            font-size: 42px;
+            color: #2563eb;
             margin-bottom: 10px;
         }
-        .upload-box input[type="file"] {
-            margin-top: 20px;
-            padding: 12px;
-            background: white;
-            border-radius: 10px;
-            border: 1px solid #cbd5e1;
-            width: 70%;
-            cursor: pointer;
-        }
-        .upload-submit-btn {
-            display: block;
-            width: 100%;
-            background: #0f172a;
-            color: white;
-            padding: 14px;
+
+        .drop-zone h3 {
+            margin: 10px 0 6px;
             font-size: 18px;
-            border-radius: 10px;
-            margin-top: 20px;
-            border: none;
+            font-weight: 600;
+        }
+
+        .drop-zone p {
+            margin: 0;
+            color: #6b7280;
+            font-size: 14px;
+        }
+
+        /* Hide default file input */
+        .drop-zone input[type="file"] {
+            position: absolute;
+            inset: 0;
+            opacity: 0;
             cursor: pointer;
         }
-        .upload-submit-btn:hover {
-            background: #1e293b;
+
+        /* ===== File Info ===== */
+        .file-info {
+            margin-top: 18px;
+            padding: 14px 16px;
+            background: #f1f5f9;
+            border-radius: 10px;
+            font-size: 14px;
+            display: none;
+        }
+
+        .file-info span {
+            font-weight: 500;
+        }
+
+        /* ===== Submit Button ===== */
+        .upload-btn {
+            width: 100%;
+            margin-top: 28px;
+            padding: 14px;
+            background: var(--admin-interface-save-button-background-color);
+            color: var(--admin-interface-save-button-text-color);
+            font-size: 16px;
+            font-weight: 600;
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: transform 0.15s ease, box-shadow 0.15s ease;
+        }
+
+        .upload-btn:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+        }
+
+        /* ===== Current File ===== */
+        .current-file {
+            margin-bottom: 18px;
+            font-size: 14px;
+            color: #374151;
+        }
+
+        .current-file strong {
+            color: #111827;
         }
     </style>
 
-    <h1>Upload Files</h1>
+    <div class="upload-wrapper">
+        <h1 class="upload-title">Upload File</h1>
 
-    <div class="upload-box">
-        <div class="upload-icon">⬆️</div>
-        <h3>Drag & Drop Files Here</h3>
-        <p>or</p>
+        <div class="upload-card">
 
-        {{ adminform.form.raw_file }}
+            {% if adminform.form.instance.raw_file %}
+            <div class="current-file">
+                <strong>Current file:</strong>
+                {{ adminform.form.instance.raw_file.name }}
+            </div>
+            {% endif %}
+
+            <div class="drop-zone" id="dropZone">
+                <div class="drop-icon">⬆️</div>
+                <h3>Drag & drop your file here</h3>
+                <p>or click to browse</p>
+
+                {{ adminform.form.raw_file }}
+            </div>
+
+            <div class="file-info" id="fileInfo">
+                Selected file: <span id="fileName"></span>
+            </div>
+
+            <!-- Required Django admin fields -->
+            {{ adminform.form.non_field_errors }}
+            {% for hidden in adminform.form.hidden_fields %}
+                {{ hidden }}
+            {% endfor %}
+
+            <button type="submit" class="upload-btn">Upload</button>
+        </div>
     </div>
-
-    <!-- IMPORTANT: Django admin hidden fields -->
-    {{ adminform.form.non_field_errors }}
-    {% for hidden in adminform.form.hidden_fields %}
-        {{ hidden }}
-    {% endfor %}
-
-    <button type="submit" class="upload-submit-btn">Upload</button>
 </form>
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
-    const box = document.querySelector(".upload-box");
-    const input = document.querySelector("input[type='file']");
+    const dropZone = document.getElementById("dropZone");
+    const fileInput = dropZone.querySelector("input[type='file']");
+    const fileInfo = document.getElementById("fileInfo");
+    const fileName = document.getElementById("fileName");
 
-    box.addEventListener("dragover", (e) => {
+    const showFileName = (files) => {
+        if (files.length > 0) {
+            fileName.textContent = files[0].name;
+            fileInfo.style.display = "block";
+        }
+    };
+
+    dropZone.addEventListener("dragover", (e) => {
         e.preventDefault();
-        box.style.borderColor = "#0ea5e9";
-        box.style.background = "#e0f2fe";
+        dropZone.classList.add("dragover");
     });
 
-    box.addEventListener("dragleave", () => {
-        box.style.borderColor = "#cbd5e1";
-        box.style.background = "#f8fafc";
+    dropZone.addEventListener("dragleave", () => {
+        dropZone.classList.remove("dragover");
     });
 
-    box.addEventListener("drop", (e) => {
+    dropZone.addEventListener("drop", (e) => {
         e.preventDefault();
-        input.files = e.dataTransfer.files;
+        dropZone.classList.remove("dragover");
+        fileInput.files = e.dataTransfer.files;
+        showFileName(e.dataTransfer.files);
+    });
+
+    fileInput.addEventListener("change", () => {
+        showFileName(fileInput.files);
     });
 });
 </script>

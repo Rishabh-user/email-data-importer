@@ -1,0 +1,160 @@
+{% extends "admin/base_site.html" %}
+{% load static %}
+
+{% block content %}
+<style>
+/* DASHBOARD LAYOUT */
+.dashboard {
+    padding: 10px;
+}
+
+.dashboard h2 {
+    margin-bottom: 20px;
+}
+
+/* KPI CARDS */
+.kpi-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-bottom: 24px;
+}
+
+.kpi-card {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #e5e7eb;
+}
+
+.kpi-card h4 {
+    font-size: 14px;
+    color: #374151;
+    margin-bottom: 10px;
+}
+
+.kpi-card .value {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+/* CHART GRID */
+.chart-grid {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+/* CHART CARD (50% WIDTH) */
+.chart-card {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #e5e7eb;
+    width: 46.2%;
+    height: 340px;
+}
+
+/* CHART CANVAS */
+.chart-card canvas {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1200px) {
+    .kpi-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .chart-card {
+        width: 100%;
+    }
+}
+</style>
+
+<div class="dashboard">
+
+    <h2>Dashboard Overview</h2>
+
+    <!-- KPI CARDS -->
+    <div class="kpi-grid">
+        <div class="kpi-card">
+            <h4>Total Files Uploaded</h4>
+            <div class="value">--</div>
+        </div>
+        <div class="kpi-card">
+            <h4>Processing Success Rate</h4>
+            <div class="value">--</div>
+        </div>
+        <div class="kpi-card">
+            <h4>OCR Accuracy Score</h4>
+            <div class="value">--</div>
+        </div>
+        <div class="kpi-card">
+            <h4>Pending Jobs</h4>
+            <div class="value">--</div>
+        </div>
+    </div>
+
+    <!-- CHARTS -->
+    <div class="chart-grid">
+
+        <div class="chart-card">
+            <canvas id="fileTypeChart"></canvas>
+        </div>
+
+        <div class="chart-card">
+            <canvas id="trendChart"></canvas>
+        </div>
+
+    </div>
+
+</div>
+
+<!-- CHART.JS -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+/* FILE TYPE BAR CHART */
+new Chart(document.getElementById('fileTypeChart'), {
+    type: 'bar',
+    data: {
+        labels: ['PDF', 'Excel', 'CSV'],
+        datasets: [{
+            data: [12, 8, 5], // Replace with Django values
+            backgroundColor: '#e81c3d'
+        }]
+    },
+    options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+            legend: { display: false }
+        }
+    }
+});
+
+/* TREND LINE CHART */
+new Chart(document.getElementById('trendChart'), {
+    type: 'line',
+    data: {
+        labels: ['2025-01-01', '2025-01-02'],
+        datasets: [{
+            data: [10, 18], // Replace with Django values
+            borderColor: '#e81c3d',
+            tension: 0.4,
+            fill: false
+        }]
+    },
+    options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+            legend: { display: false }
+        }
+    }
+});
+</script>
+
+{% endblock %}
