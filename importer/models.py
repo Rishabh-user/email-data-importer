@@ -54,6 +54,7 @@ class ExtractedRecord(models.Model):
     promised_date = models.DateField(null=True, blank=True)
     ship_date = models.DateField(null=True, blank=True)
 
+    is_processed = models.BooleanField(default=False)
     full_row_json = models.JSONField(null=True, blank=True)
     created_at = models.DateTimeField(auto_now_add=True)
 

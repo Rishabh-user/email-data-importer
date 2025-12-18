@@ -1,0 +1,73 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+venv/
+*.py[cod]
+*$py.class
+
+# =========================
+# Django stuff
+# =========================
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# =========================
+# Virtual Environments
+# =========================
+env/
+venv/
+.venv/
+ENV/
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+*.env
+
+# =========================
+# IDEs & Editors
+# =========================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# =========================
+# OS generated files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Static & Media (optional)
+# =========================
+staticfiles/
+media/
+
+# =========================
+# Test & Coverage
+# =========================
+.coverage
+htmlcov/
+pytest_cache/
+.tox/
+nosetests.xml
+coverage.xml
+
+# =========================
+# Migrations (optional)
+# =========================
+# Uncomment if you don't want migrations tracked
+# **/migrations/
+# !**/migrations/__init__.py
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
