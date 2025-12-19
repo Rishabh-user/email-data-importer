@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'importer',
     'rest_framework',
+    "rangefilter",
 ]
 
 MIDDLEWARE = [

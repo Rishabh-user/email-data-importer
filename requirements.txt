@@ -35,3 +35,4 @@ pandas
 python-docx
 pdfplumber
 django-admin-interface
+django-admin-rangefilter

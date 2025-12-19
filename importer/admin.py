@@ -10,7 +10,14 @@ from django.urls import path
 from django.shortcuts import redirect
 from django.contrib import messages
 import os
+from datetime import datetime
 from django.utils.dateparse import parse_date
+import csv
+from django.http import HttpResponse
+from django.contrib.admin import DateFieldListFilter
+from django.contrib import admin
+
+
 
 
 ZSO_API_TOKEN = os.getenv("ZSO_API_TOKEN")
@@ -199,11 +206,8 @@ class ExtractedRecordAdmin(admin.ModelAdmin):
                     unit_price_inr=row.get("unit_price_in_inr"),
                     total_inr=row.get("total_in_inr"),
 
-                    doc_date=parse_date(row.get("document_date"))
-                    if row.get("document_date") else None,
-
-                    ship_date=parse_date(row.get("ship_date"))
-                    if row.get("ship_date") else None,
+                    doc_date=parse_any_date(row.get("document_date")),
+                    ship_date=parse_any_date(row.get("ship_date")),
 
                     sales_month=row.get("sales_month", ""),
                     confidence_score=confidence_score,
@@ -238,5 +242,108 @@ class ZSODemandAdmin(admin.ModelAdmin):
         "confidence_score",
     )
 
-    list_filter = ("sales_month",)
+    # ✅ BUILT-IN DATE RANGE FILTER
+    list_filter = (
+        ("ship_date", DateFieldListFilter),
+        "sales_month",
+    )
+
     search_fields = ("po_or_forecast", "customer_part")
+
+    actions = ["download_csv"]
+
+    # 🔗 URL FOR TOP DOWNLOAD BUTTON
+    def get_urls(self):
+        urls = super().get_urls()
+        custom_urls = [
+            path(
+                "export-csv/",
+                self.admin_site.admin_view(self.export_csv),
+                name="zsodemand_export_csv",
+            )
+        ]
+        return custom_urls + urls
+
+    # 🔘 BUTTON CSV (uses filters)
+    def export_csv(self, request):
+        changelist = self.get_changelist_instance(request)
+        queryset = changelist.get_queryset(request)
+        return self._build_csv_response(queryset)
+
+    # 🔘 ACTION CSV (uses selected rows)
+    def download_csv(self, request, queryset):
+        return self._build_csv_response(queryset)
+
+    download_csv.short_description = "⬇️ Download filtered records as CSV"
+
+    # 🔧 SHARED CSV BUILDER
+    def _build_csv_response(self, queryset):
+        response = HttpResponse(content_type="text/csv")
+        response["Content-Disposition"] = 'attachment; filename="zso_demands.csv"'
+
+        writer = csv.writer(response)
+
+        # ✅ EXACT HEADERS
+        writer.writerow([
+            "S No",
+            "KAS Name",
+            "Customer Name",
+            "Site location",
+            "Country",
+            "Incoterms",
+            "Direct Sales /  WH Movement",
+            "PO # / Forecast",
+            "Category",
+            "Sub Category",
+            "Cust part #",
+            "Maini part #",
+            "Open qty",
+            "Unit Price",
+            "Currency",
+            "Unit Price in INR",
+            "Total in INR",
+            "Doc date",
+            "Ship date",
+            "Sales Month",
+        ])
+
+        for idx, obj in enumerate(queryset, start=1):
+            writer.writerow([
+                idx,
+                obj.kas_name or "",
+                obj.customer_name or "",
+                obj.site_location or "",
+                obj.country or "",
+                obj.incoterms or "",
+                obj.sales_type or "",
+                obj.po_or_forecast or "",
+                obj.category or "",
+                obj.sub_category or "",
+                obj.customer_part or "",
+                obj.maini_part or "",
+                obj.open_qty or "",
+                obj.unit_price or "",
+                obj.currency or "",
+                obj.unit_price_inr or "",
+                obj.total_inr or "",
+                obj.doc_date.strftime("%d-%m-%Y") if obj.doc_date else "",
+                obj.ship_date.strftime("%d-%m-%Y") if obj.ship_date else "",
+                obj.sales_month or "",
+            ])
+
+        return response
+
+def parse_any_date(value):
+    if not value:
+        return None
+
+    # Try ISO format first (YYYY-MM-DD)
+    date = parse_date(value)
+    if date:
+        return date
+
+    # Try DD-MM-YYYY
+    try:
+        return datetime.strptime(value, "%d-%m-%Y").date()
+    except ValueError:
+        return None

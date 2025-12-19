@@ -1,0 +1,24 @@
+{% extends "admin/change_list.html" %}
+{% load i18n %}
+
+{% block object-tools %}
+<ul class="object-tools">
+    <li>
+        <a href="{% url 'admin:zsodemand_export_csv' %}?{{ request.GET.urlencode }}"
+           class="button"
+           style="
+               background:#16a34a;
+               color:white;
+               padding:8px 14px;
+               font-weight:600;
+               border-radius:8px;
+               position: relative;
+               right: 300px;
+           ">
+            ⬇ Download CSV
+        </a>
+    </li>
+</ul>
+
+{{ block.super }}
+{% endblock %}
