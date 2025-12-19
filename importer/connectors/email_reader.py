@@ -2,10 +2,10 @@
 Django-integrated IMAP email reader.
 
 Flow:
-1. Fetch emails
-2. Save each attachment as RawFile
-3. Run process_file(rawfile)
-4. (Optional) Extract invoice fields from body
+1. Fetch unread emails
+2. Save each attachment to media/raw_files
+3. Save email body to media/raw_files
+4. Raw folder processor picks files → extraction → ZSO
 """
 
 import os
@@ -16,11 +16,14 @@ from pathlib import Path
 from bs4 import BeautifulSoup
 
 from django.conf import settings
-from importer.models import RawFile
-from importer.services.process_file import process_file
+
 from importer.extraction.unified import pdf_importer as pdf_parser
 from config.logger import logger
 
+
+# ------------------------------------------------------------------
+# IMAP CONFIG
+# ------------------------------------------------------------------
 
 IMAP_HOST = os.getenv("EMAIL_IMAP_HOST")
 IMAP_PORT = int(os.getenv("EMAIL_IMAP_PORT", 993))
@@ -30,21 +33,25 @@ MAILBOX = os.getenv("EMAIL_MAILBOX", "INBOX")
 SEARCH_CRITERIA = os.getenv("EMAIL_SEARCH_CRITERIA", "(UNSEEN)")
 
 
+# ------------------------------------------------------------------
+# HELPERS
+# ------------------------------------------------------------------
+
+def _safe_filename(name: str) -> str:
+    return "".join(c for c in name if c.isalnum() or c in ("_", "-", "."))[:80]
+
+
 # --------------------------
-# Save attachment to media/
+# Save attachment to raw_files
 # --------------------------
 def save_attachment_to_media(part):
-    filename = part.get_filename()
-    if not filename:
-        filename = f"attachment_{datetime.datetime.now().timestamp()}.bin"
-
-    filename = "".join(c for c in filename if c not in "/\\<>:|?*")
+    filename = part.get_filename() or f"attachment_{datetime.datetime.now().timestamp()}.bin"
+    filename = _safe_filename(filename)
 
     raw_dir = Path(settings.MEDIA_ROOT) / "raw_files"
     raw_dir.mkdir(parents=True, exist_ok=True)
 
     file_path = raw_dir / filename
-
     with open(file_path, "wb") as f:
         f.write(part.get_payload(decode=True))
 
@@ -53,66 +60,97 @@ def save_attachment_to_media(part):
 
 
 # --------------------------
-# Extract body text
+# Extract email body text
 # --------------------------
-def extract_body_text(message):
+def extract_body_text(message) -> str:
     for part in message.walk():
         ctype = part.get_content_type()
-        disp = str(part.get("Content-Disposition"))
+        disp = str(part.get("Content-Disposition") or "")
 
         if ctype == "text/plain" and "attachment" not in disp:
-            try:
-                return part.get_payload(decode=True).decode(part.get_content_charset() or "utf-8")
-            except:
-                return part.get_payload(decode=True).decode("utf-8")
+            payload = part.get_payload(decode=True)
+            if payload:
+                return payload.decode(part.get_content_charset() or "utf-8", errors="ignore")
 
         if ctype == "text/html" and "attachment" not in disp:
-            html = part.get_payload(decode=True).decode("utf-8")
-            soup = BeautifulSoup(html, "html.parser")
-            return soup.get_text("\n")
+            payload = part.get_payload(decode=True)
+            if payload:
+                soup = BeautifulSoup(payload.decode("utf-8", errors="ignore"), "html.parser")
+                return soup.get_text(" ")
 
     return ""
 
 
 # --------------------------
-# MAIN EMAIL PROCESSOR
+# Detect PO table in body
 # --------------------------
+def looks_like_po_table(text: str) -> bool:
+    keywords = [
+        "PO Number",
+        "PO Line",
+        "Qty Ordered",
+        "Unit of Measure",
+        "Vendor Due Date",
+    ]
+    return sum(1 for k in keywords if k.lower() in text.lower()) >= 3
+
+
+# --------------------------
+# Save email body to raw_files
+# --------------------------
+def save_email_body_to_media(body_text: str, subject: str, uid):
+    ts = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+    safe_subject = _safe_filename(subject or "email")
+
+    filename = f"email_body_{safe_subject}_{uid}_{ts}.txt"
+
+    raw_dir = Path(settings.MEDIA_ROOT) / "raw_files"
+    raw_dir.mkdir(parents=True, exist_ok=True)
+
+    path = raw_dir / filename
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(body_text)
+
+    logger.info(f"Saved email body → {path}")
+    return path
+
+
+# ------------------------------------------------------------------
+# MAIN EMAIL PROCESSOR
+# ------------------------------------------------------------------
+
 def process_email_message(msg_bytes, uid=None):
     msg = email.message_from_bytes(msg_bytes)
 
-    subject = msg.get("Subject")
-    sender = msg.get("From")
-    date = msg.get("Date")
+    subject = msg.get("Subject", "no_subject")
     logger.info(f"Processing Email: {subject}")
 
     body_text = extract_body_text(msg)
 
-    # 1️⃣ Process attachments
+    # 1️⃣ Save attachments ONLY
     for part in msg.walk():
         if part.get_content_disposition() == "attachment":
-            file_path = save_attachment_to_media(part)
+            save_attachment_to_media(part)
 
-            # Create a RawFile entry in Django
-            rf = RawFile.objects.create(raw_file=f"raw_files/{file_path.name}")
+    # 2️⃣ Save PO-table email body as raw file (same as attachment)
+    if body_text.strip() and looks_like_po_table(body_text):
+        save_email_body_to_media(body_text, subject, uid)
 
-            # Run extraction
-            process_file(rf)
-
-    # 2️⃣ Optional: Extract invoice-like fields from body
-    if body_text.strip():
+    # 3️⃣ Optional: invoice-like free text (LOG ONLY)
+    elif body_text.strip():
         structured = {
             "invoice_number": pdf_parser.extract_invoice_no(body_text),
             "dates": pdf_parser.extract_dates(body_text),
             "gstin": pdf_parser.extract_gstin(body_text),
             "total_amount": pdf_parser.extract_total(body_text),
         }
-
         logger.info(f"Email body structured result: {structured}")
 
 
-# --------------------------
+# ------------------------------------------------------------------
 # FETCH EMAILS FROM SERVER
-# --------------------------
+# ------------------------------------------------------------------
+
 def fetch_and_process_all():
     logger.info("Connecting to Email Server...")
 
@@ -130,12 +168,15 @@ def fetch_and_process_all():
 
     for uid in uids:
         typ, msg_data = mail.fetch(uid, "(RFC822)")
-        msg_bytes = msg_data[0][1]
+        if typ != "OK":
+            logger.error(f"Failed to fetch email {uid}")
+            continue
 
+        msg_bytes = msg_data[0][1]
         process_email_message(msg_bytes, uid)
 
-        # Mark seen + move to processed
-        mail.store(uid, '+FLAGS', '\\Seen')
+        # Mark email as seen
+        mail.store(uid, "+FLAGS", "\\Seen")
 
     mail.logout()
     logger.info("Email fetch complete.")

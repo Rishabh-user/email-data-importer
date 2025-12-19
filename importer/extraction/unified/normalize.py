@@ -31,7 +31,12 @@ def detect_field_type(series: pd.Series) -> str:
 
     # Date
     try:
-        parsed = pd.to_datetime(s, errors="raise")
+        parsed = pd.to_datetime(
+            s,
+            errors="coerce",
+            dayfirst=False,
+            infer_datetime_format=False
+        )
         return "datetime"
     except Exception:
         pass

@@ -16,7 +16,7 @@ import csv
 from django.http import HttpResponse
 from django.contrib.admin import DateFieldListFilter
 from django.contrib import admin
-
+from django.db.models import Exists, OuterRef
 
 
 
@@ -131,7 +131,14 @@ class ExtractedRecordAdmin(admin.ModelAdmin):
 
    
     def process_records(self, request):
-        records = ExtractedRecord.objects.filter(is_processed=False)
+        
+        records = ExtractedRecord.objects.filter(
+            is_processed=False
+        ).annotate(
+            has_zso=Exists(
+                ZSODemand.objects.filter(extracted_record=OuterRef("pk"))
+            )
+        ).filter(has_zso=False)
 
         if not records.exists():
             messages.warning(request, "No unprocessed records found.")
