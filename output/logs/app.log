@@ -2448,3 +2448,6 @@
 2025-12-21 19:56:09,682 - INFO - Parsing Excel file: D:\targeticon\email-data-importer\new\email-data-importer\media\raw_files\Customer_P_1_MhJtUhb.xls
 2025-12-21 19:56:09,745 - INFO - Converted .xls to .xlsx: C:\Users\RISHAB~1\AppData\Local\Temp\tmp6hx8oq82.xlsx
 2025-12-21 19:56:22,057 - INFO - Routing file: D:\targeticon\email-data-importer\new\email-data-importer\media\raw_files\Rishabh_10EQLk5.pdf (ext=.pdf)
+2025-12-21 20:00:59,036 - INFO - Routing file: D:\targeticon\email-data-importer\new\email-data-importer\media\raw_files\Customer_P_1_gRJJsev.xls (ext=.xls)
+2025-12-21 20:00:59,037 - INFO - Parsing Excel file: D:\targeticon\email-data-importer\new\email-data-importer\media\raw_files\Customer_P_1_gRJJsev.xls
+2025-12-21 20:00:59,104 - INFO - Converted .xls to .xlsx: C:\Users\RISHAB~1\AppData\Local\Temp\tmp41q6drvh.xlsx
