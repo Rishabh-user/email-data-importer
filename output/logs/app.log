@@ -2457,3 +2457,9 @@
 2025-12-21 20:47:44,390 - INFO - Routing file: D:\targeticon\email-data-importer\new\email-data-importer\media\raw_files\Customer_P_2_EO6TPrp.xls (ext=.xls)
 2025-12-21 20:47:44,391 - INFO - Parsing Excel file: D:\targeticon\email-data-importer\new\email-data-importer\media\raw_files\Customer_P_2_EO6TPrp.xls
 2025-12-21 20:47:44,461 - INFO - Converted .xls to .xlsx: C:\Users\RISHAB~1\AppData\Local\Temp\tmp0zvhjygb.xlsx
+2025-12-21 21:05:07,321 - INFO - Routing file: D:\targeticon\email-data-importer\new\email-data-importer\media\raw_files\Customer_P_1_6uRmxbz.xls (ext=.xls)
+2025-12-21 21:05:07,326 - INFO - Parsing Excel file: D:\targeticon\email-data-importer\new\email-data-importer\media\raw_files\Customer_P_1_6uRmxbz.xls
+2025-12-21 21:05:07,445 - INFO - Converted .xls to .xlsx: C:\Users\RISHAB~1\AppData\Local\Temp\tmpp5ak_qx6.xlsx
+2025-12-21 21:07:04,998 - INFO - Routing file: D:\targeticon\email-data-importer\new\email-data-importer\media\raw_files\PO_Customer_S_2.xlsx (ext=.xlsx)
+2025-12-21 21:07:04,998 - INFO - Parsing Excel file: D:\targeticon\email-data-importer\new\email-data-importer\media\raw_files\PO_Customer_S_2.xlsx
+2025-12-21 21:07:43,804 - INFO - Routing file: D:\targeticon\email-data-importer\new\email-data-importer\media\raw_files\Rishabh_Dv2oFwp.pdf (ext=.pdf)
