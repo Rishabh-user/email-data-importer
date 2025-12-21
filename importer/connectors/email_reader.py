@@ -1,11 +1,11 @@
 """
-Django-integrated IMAP email reader.
+Django-integrated IMAP email reader (PURE INGESTION).
 
 Flow:
 1. Fetch unread emails
 2. Save each attachment to media/raw_files
-3. Save email body to media/raw_files
-4. Raw folder processor picks files → extraction → ZSO
+3. Save email body to media/raw_files (as Excel)
+4. Raw folder processor handles extraction → ZSO
 """
 
 import os
@@ -14,10 +14,9 @@ import email
 import datetime
 from pathlib import Path
 from bs4 import BeautifulSoup
+import pandas as pd
 
 from django.conf import settings
-
-from importer.extraction.unified import pdf_importer as pdf_parser
 from config.logger import logger
 
 
@@ -60,59 +59,60 @@ def save_attachment_to_media(part):
 
 
 # --------------------------
-# Extract email body text
+# Extract email body text (plain + html)
 # --------------------------
 def extract_body_text(message) -> str:
+    plain_text = None
+    html_text = None
+
     for part in message.walk():
         ctype = part.get_content_type()
         disp = str(part.get("Content-Disposition") or "")
 
-        if ctype == "text/plain" and "attachment" not in disp:
-            payload = part.get_payload(decode=True)
-            if payload:
-                return payload.decode(part.get_content_charset() or "utf-8", errors="ignore")
+        if "attachment" in disp:
+            continue
 
-        if ctype == "text/html" and "attachment" not in disp:
-            payload = part.get_payload(decode=True)
-            if payload:
-                soup = BeautifulSoup(payload.decode("utf-8", errors="ignore"), "html.parser")
-                return soup.get_text(" ")
+        payload = part.get_payload(decode=True)
+        if not payload:
+            continue
 
-    return ""
+        if ctype == "text/plain" and not plain_text:
+            plain_text = payload.decode(
+                part.get_content_charset() or "utf-8",
+                errors="ignore",
+            )
 
+        elif ctype == "text/html" and not html_text:
+            soup = BeautifulSoup(
+                payload.decode("utf-8", errors="ignore"),
+                "html.parser",
+            )
+            html_text = soup.get_text(" ")
 
-# --------------------------
-# Detect PO table in body
-# --------------------------
-def looks_like_po_table(text: str) -> bool:
-    keywords = [
-        "PO Number",
-        "PO Line",
-        "Qty Ordered",
-        "Unit of Measure",
-        "Vendor Due Date",
-    ]
-    return sum(1 for k in keywords if k.lower() in text.lower()) >= 3
+    # ✅ Prefer plain text, fallback to HTML
+    return (plain_text or html_text or "").strip()
 
 
 # --------------------------
-# Save email body to raw_files
+# Save email body to Excel file
 # --------------------------
-def save_email_body_to_media(body_text: str, subject: str, uid):
+def save_email_body_to_excel(body_text: str, subject: str, uid):
     ts = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
     safe_subject = _safe_filename(subject or "email")
-
-    filename = f"email_body_{safe_subject}_{uid}_{ts}.txt"
+    filename = f"email_body_{safe_subject}_{uid}_{ts}.xlsx"
 
     raw_dir = Path(settings.MEDIA_ROOT) / "raw_files"
     raw_dir.mkdir(parents=True, exist_ok=True)
+    file_path = raw_dir / filename
 
-    path = raw_dir / filename
-    with open(path, "w", encoding="utf-8") as f:
-        f.write(body_text)
+    # Convert body text → rows
+    lines = [line.strip() for line in body_text.splitlines() if line.strip()]
+    df = pd.DataFrame(lines, columns=["email_text"])
 
-    logger.info(f"Saved email body → {path}")
-    return path
+    df.to_excel(file_path, index=False)
+    logger.info(f"Saved email body as Excel → {file_path}")
+
+    return file_path
 
 
 # ------------------------------------------------------------------
@@ -121,30 +121,21 @@ def save_email_body_to_media(body_text: str, subject: str, uid):
 
 def process_email_message(msg_bytes, uid=None):
     msg = email.message_from_bytes(msg_bytes)
-
     subject = msg.get("Subject", "no_subject")
+
     logger.info(f"Processing Email: {subject}")
 
-    body_text = extract_body_text(msg)
-
-    # 1️⃣ Save attachments ONLY
+    # 1️⃣ Save attachments
     for part in msg.walk():
         if part.get_content_disposition() == "attachment":
             save_attachment_to_media(part)
 
-    # 2️⃣ Save PO-table email body as raw file (same as attachment)
-    if body_text.strip() and looks_like_po_table(body_text):
-        save_email_body_to_media(body_text, subject, uid)
-
-    # 3️⃣ Optional: invoice-like free text (LOG ONLY)
-    elif body_text.strip():
-        structured = {
-            "invoice_number": pdf_parser.extract_invoice_no(body_text),
-            "dates": pdf_parser.extract_dates(body_text),
-            "gstin": pdf_parser.extract_gstin(body_text),
-            "total_amount": pdf_parser.extract_total(body_text),
-        }
-        logger.info(f"Email body structured result: {structured}")
+    # 2️⃣ Save FULL email body as Excel (always)
+    body_text = extract_body_text(msg)
+    if body_text:
+        save_email_body_to_excel(body_text, subject, uid)
+    else:
+        logger.info("Email has no body content")
 
 
 # ------------------------------------------------------------------
