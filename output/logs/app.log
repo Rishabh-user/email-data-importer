@@ -2419,3 +2419,7 @@
 2025-12-21 07:16:06,288 - INFO - Email fetch complete.
 2025-12-21 07:16:06,288 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
 2025-12-21 07:16:06,289 - INFO - Raw folder processing complete.
+2025-12-21 12:53:39,197 - INFO - Routing file D:\targeticon\email-data-importer\email-data-importer\media\raw_files\Rishabh.pdf (ext=.pdf)
+2025-12-21 13:24:24,729 - INFO - Routing file D:\targeticon\email-data-importer\email-data-importer\media\raw_files\Rishabh_pXqOTYs.pdf (ext=.pdf)
+2025-12-21 13:33:32,476 - INFO - Routing file D:\targeticon\email-data-importer\email-data-importer\media\raw_files\Rishabh_oxj9Lp0.pdf (ext=.pdf)
+2025-12-21 13:36:49,351 - INFO - Routing file D:\targeticon\email-data-importer\email-data-importer\media\raw_files\dummy_purchase_order_multiple_items.pdf (ext=.pdf)

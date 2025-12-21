@@ -1,6 +1,7 @@
 import json
 from pathlib import Path
 from django.utils.dateparse import parse_date
+from django.db import transaction
 
 from importer.models import (
     RawFile,
@@ -12,13 +13,10 @@ from importer.services.zso_mapper import map_extracted_to_zso
 
 
 # ---------------------------------------------------------
-# JSON SAFETY HELPERS
+# Helpers
 # ---------------------------------------------------------
 
 def _json_safe(value):
-    """
-    Convert non-JSON-serializable values (Timestamp, date, etc.)
-    """
     try:
         json.dumps(value)
         return value
@@ -29,9 +27,6 @@ def _json_safe(value):
 
 
 def make_json_safe(obj):
-    """
-    Recursively make dict/list JSON serializable
-    """
     if isinstance(obj, dict):
         return {k: make_json_safe(v) for k, v in obj.items()}
     if isinstance(obj, list):
@@ -39,39 +34,12 @@ def make_json_safe(obj):
     return _json_safe(obj)
 
 
-# ---------------------------------------------------------
-# ZSO ENRICHMENT
-# ---------------------------------------------------------
-
-def enrich_row_for_zso(row: dict) -> dict:
-    """
-    Add normalized ZSO-friendly keys into the row.
-    Does NOT remove existing keys.
-    """
-    enriched = dict(row)
-
-    for target_key, possible_keys in ZSO_FIELD_RULES.items():
-        for k in possible_keys:
-            if row.get(k) not in (None, "", []):
-                enriched[target_key] = row[k]
-                break
-
-    return enriched
-
-
-# ---------------------------------------------------------
-# SAVE EXTRACTED JSON FILE
-# ---------------------------------------------------------
-
 def save_extracted_json_file(file_id, extracted_rows):
-    """
-    Save extracted rows to media/extracted_json/<raw_file_id>.json
-    """
     output_dir = Path("media/extracted_json")
     output_dir.mkdir(parents=True, exist_ok=True)
 
     path = output_dir / f"{file_id}.json"
-    with open(path, "w") as f:
+    with open(path, "w", encoding="utf-8") as f:
         json.dump(make_json_safe(extracted_rows), f, indent=2)
 
 
@@ -81,11 +49,10 @@ def save_extracted_json_file(file_id, extracted_rows):
 
 def process_file(raw_file: RawFile):
     """
-    Pipeline:
+    Main orchestration:
     RawFile → ExtractedRecord → ZSODemand
     """
 
-    # ---- LOG START ----
     ExtractionLog.objects.create(
         raw_file=raw_file,
         level="INFO",
@@ -94,39 +61,20 @@ def process_file(raw_file: RawFile):
 
     try:
         importer = UnifiedImporter()
-        extracted_output = importer.parse(raw_file.raw_file.path)
 
-        if not extracted_output:
-            raise ValueError("Extractor returned empty output")
+        # 🔥 IMPORTANT: importer.parse() NOW RETURNS LIST[DICT]
+        extracted_rows = importer.parse(raw_file.raw_file.path) or []
 
-        # -------------------------------------------------
-        # RAW DATA STORAGE
-        # -------------------------------------------------
-        raw_text = extracted_output.get("raw_text")
-        raw_json = make_json_safe(extracted_output)
+        # ---- Save RAW JSON ALWAYS ----
+        raw_file.raw_json = make_json_safe(extracted_rows)
+        raw_file.save(update_fields=["raw_json"])
 
-        # -------------------------------------------------
-        # TABLE → ROW NORMALIZATION (CRITICAL FIX)
-        # -------------------------------------------------
-        tables = extracted_output.get("tables", [])
-        extracted_rows = []
-
-        for table in tables:
-            extracted_rows.extend(table.get("rows", []))
-
-        # ---- SAVE RAW EXTRACTION ----
-        raw_file.raw_text = raw_text
-        raw_file.raw_json = raw_json
-        raw_file.save(update_fields=["raw_text", "raw_json"])
-
-        # ---- SAFETY CHECK ----
         if not extracted_rows:
             ExtractionLog.objects.create(
                 raw_file=raw_file,
-                level="ERROR",
-                message="No rows extracted",
+                level="WARNING",
+                message="No structured rows found, raw JSON saved",
             )
-            return
 
         save_extracted_json_file(raw_file.id, extracted_rows)
 
@@ -136,26 +84,40 @@ def process_file(raw_file: RawFile):
         rows_saved = 0
         zso_created = 0
 
-        # -------------------------------------------------
-        # ROW PROCESSING
-        # -------------------------------------------------
+        # ---- PROCESS ROWS ----
         for idx, row in enumerate(extracted_rows, start=1):
             try:
-                row = enrich_row_for_zso(make_json_safe(row))
+                row = make_json_safe(row)
 
                 extracted = ExtractedRecord.objects.create(
                     raw_file=raw_file,
 
-                    po_number=row.get("po_or_forecast") or row.get("PO"),
-                    customer_part=row.get("customer_part"),
-                    description=row.get("description") or row.get("Description"),
+                    po_number=row.get("PO")
+                        or row.get("PO Number")
+                        or row.get("PURCHASE_ORDER"),
 
-                    quantity=row.get("quantity") or row.get("Qty Ordered"),
-                    open_qty=row.get("open_qty"),
+                    customer_part=row.get("ERP Code")
+                        or row.get("Customer Material Number")
+                        or row.get("ITEM_NO"),
 
-                    need_date=parse_date(str(row.get("need_date"))) if row.get("need_date") else None,
-                    promised_date=parse_date(str(row.get("promised_date"))) if row.get("promised_date") else None,
-                    ship_date=parse_date(str(row.get("ship_date"))) if row.get("ship_date") else None,
+                    description=row.get("Description")
+                        or row.get("DESCRIPTION"),
+
+                    quantity=row.get("Qty Ordered")
+                        or row.get("QUANTITY"),
+
+                    open_qty=row.get("Open Sched Qty")
+                        or row.get("Balance Due")
+                        or row.get("QUANTITY"),
+
+                    need_date=parse_date(str(row.get("Need Date")))
+                        if row.get("Need Date") else None,
+
+                    promised_date=parse_date(str(row.get("Promised Date")))
+                        if row.get("Promised Date") else None,
+
+                    ship_date=parse_date(str(row.get("Ship Date")))
+                        if row.get("Ship Date") else None,
 
                     full_row_json=row,
                 )
@@ -185,6 +147,7 @@ def process_file(raw_file: RawFile):
                     context={
                         "row": idx,
                         "error": str(row_err),
+                        "row_data": row,
                     },
                 )
 
