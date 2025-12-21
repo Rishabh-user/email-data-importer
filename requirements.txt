@@ -10,8 +10,8 @@ ghostscript==0.8.1
 lxml==6.0.2
 numpy==2.2.6
 opencv-python-headless==4.12.0.88
-openpyxl==3.1.5
-pandas==2.3.3
+openpyxl
+pandas
 pdfminer.six==20251107
 pdfplumber==0.11.8
 pillow==12.0.0
@@ -31,8 +31,8 @@ djangorestframework
 python-dotenv
 pytesseract
 pdf2image
-pandas
 python-docx
 pdfplumber
 django-admin-interface
 django-admin-rangefilter
+xlrd==1.2.0

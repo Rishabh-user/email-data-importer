@@ -2423,3 +2423,28 @@
 2025-12-21 13:24:24,729 - INFO - Routing file D:\targeticon\email-data-importer\email-data-importer\media\raw_files\Rishabh_pXqOTYs.pdf (ext=.pdf)
 2025-12-21 13:33:32,476 - INFO - Routing file D:\targeticon\email-data-importer\email-data-importer\media\raw_files\Rishabh_oxj9Lp0.pdf (ext=.pdf)
 2025-12-21 13:36:49,351 - INFO - Routing file D:\targeticon\email-data-importer\email-data-importer\media\raw_files\dummy_purchase_order_multiple_items.pdf (ext=.pdf)
+2025-12-21 19:22:21,784 - INFO - Routing file D:\targeticon\email-data-importer\new\email-data-importer\media\raw_files\Customer_P_1.xls (ext=.xls)
+2025-12-21 19:22:21,785 - INFO - Parsing Excel file: D:\targeticon\email-data-importer\new\email-data-importer\media\raw_files\Customer_P_1.xls
+2025-12-21 19:22:46,837 - INFO - Routing file D:\targeticon\email-data-importer\new\email-data-importer\media\raw_files\Rishabh.pdf (ext=.pdf)
+2025-12-21 19:23:39,987 - INFO - Routing file D:\targeticon\email-data-importer\new\email-data-importer\media\raw_files\Customer_P_2.xls (ext=.xls)
+2025-12-21 19:23:39,988 - INFO - Parsing Excel file: D:\targeticon\email-data-importer\new\email-data-importer\media\raw_files\Customer_P_2.xls
+2025-12-21 19:30:41,236 - INFO - Routing file D:\targeticon\email-data-importer\new\email-data-importer\media\raw_files\Customer_P_1_2GqA7Q5.xls (ext=.xls)
+2025-12-21 19:30:41,237 - INFO - Parsing Excel file: D:\targeticon\email-data-importer\new\email-data-importer\media\raw_files\Customer_P_1_2GqA7Q5.xls
+2025-12-21 19:33:23,979 - INFO - Routing file D:\targeticon\email-data-importer\new\email-data-importer\media\raw_files\Customer_P_2_jHAC2R1.xls (ext=.xls)
+2025-12-21 19:33:23,979 - INFO - Parsing Excel file: D:\targeticon\email-data-importer\new\email-data-importer\media\raw_files\Customer_P_2_jHAC2R1.xls
+2025-12-21 19:34:28,991 - INFO - Routing file D:\targeticon\email-data-importer\new\email-data-importer\media\raw_files\Customer_P_1_WhCt0Bh.xls (ext=.xls)
+2025-12-21 19:34:28,992 - INFO - Parsing Excel file: D:\targeticon\email-data-importer\new\email-data-importer\media\raw_files\Customer_P_1_WhCt0Bh.xls
+2025-12-21 19:43:03,284 - INFO - Routing file D:\targeticon\email-data-importer\new\email-data-importer\media\raw_files\Customer_P_2_7d6HIKY.xls (ext=.xls)
+2025-12-21 19:43:03,285 - INFO - Parsing Excel file: D:\targeticon\email-data-importer\new\email-data-importer\media\raw_files\Customer_P_2_7d6HIKY.xls
+2025-12-21 19:47:34,712 - INFO - Routing file D:\targeticon\email-data-importer\new\email-data-importer\media\raw_files\Customer_P_2_jpmg9MV.xls (ext=.xls)
+2025-12-21 19:47:34,712 - INFO - Parsing Excel file: D:\targeticon\email-data-importer\new\email-data-importer\media\raw_files\Customer_P_2_jpmg9MV.xls
+2025-12-21 19:47:34,712 - INFO - Detected .xls file, converting to .xlsx
+2025-12-21 19:47:34,805 - INFO - Converted .xls to .xlsx: C:\Users\RISHAB~1\AppData\Local\Temp\tmpisncimep.xlsx
+2025-12-21 19:54:24,073 - INFO - Routing file: D:\targeticon\email-data-importer\new\email-data-importer\media\raw_files\Customer_P_2_NAjzHj3.xls (ext=.xls)
+2025-12-21 19:54:24,074 - INFO - Parsing Excel file: D:\targeticon\email-data-importer\new\email-data-importer\media\raw_files\Customer_P_2_NAjzHj3.xls
+2025-12-21 19:54:24,151 - INFO - Converted .xls to .xlsx: C:\Users\RISHAB~1\AppData\Local\Temp\tmp7crrt2o7.xlsx
+2025-12-21 19:54:48,595 - INFO - Routing file: D:\targeticon\email-data-importer\new\email-data-importer\media\raw_files\Rishabh_X0UUNnl.pdf (ext=.pdf)
+2025-12-21 19:56:09,682 - INFO - Routing file: D:\targeticon\email-data-importer\new\email-data-importer\media\raw_files\Customer_P_1_MhJtUhb.xls (ext=.xls)
+2025-12-21 19:56:09,682 - INFO - Parsing Excel file: D:\targeticon\email-data-importer\new\email-data-importer\media\raw_files\Customer_P_1_MhJtUhb.xls
+2025-12-21 19:56:09,745 - INFO - Converted .xls to .xlsx: C:\Users\RISHAB~1\AppData\Local\Temp\tmp6hx8oq82.xlsx
+2025-12-21 19:56:22,057 - INFO - Routing file: D:\targeticon\email-data-importer\new\email-data-importer\media\raw_files\Rishabh_10EQLk5.pdf (ext=.pdf)
