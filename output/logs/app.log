@@ -2451,3 +2451,9 @@
 2025-12-21 20:00:59,036 - INFO - Routing file: D:\targeticon\email-data-importer\new\email-data-importer\media\raw_files\Customer_P_1_gRJJsev.xls (ext=.xls)
 2025-12-21 20:00:59,037 - INFO - Parsing Excel file: D:\targeticon\email-data-importer\new\email-data-importer\media\raw_files\Customer_P_1_gRJJsev.xls
 2025-12-21 20:00:59,104 - INFO - Converted .xls to .xlsx: C:\Users\RISHAB~1\AppData\Local\Temp\tmp41q6drvh.xlsx
+2025-12-21 20:22:08,490 - INFO - Routing file: D:\targeticon\email-data-importer\new\email-data-importer\media\raw_files\Customer_P_1_NYCnfP6.xls (ext=.xls)
+2025-12-21 20:22:08,492 - INFO - Parsing Excel file: D:\targeticon\email-data-importer\new\email-data-importer\media\raw_files\Customer_P_1_NYCnfP6.xls
+2025-12-21 20:22:08,551 - INFO - Converted .xls to .xlsx: C:\Users\RISHAB~1\AppData\Local\Temp\tmpusdv8d3q.xlsx
+2025-12-21 20:47:44,390 - INFO - Routing file: D:\targeticon\email-data-importer\new\email-data-importer\media\raw_files\Customer_P_2_EO6TPrp.xls (ext=.xls)
+2025-12-21 20:47:44,391 - INFO - Parsing Excel file: D:\targeticon\email-data-importer\new\email-data-importer\media\raw_files\Customer_P_2_EO6TPrp.xls
+2025-12-21 20:47:44,461 - INFO - Converted .xls to .xlsx: C:\Users\RISHAB~1\AppData\Local\Temp\tmp0zvhjygb.xlsx
