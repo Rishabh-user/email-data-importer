@@ -770,3 +770,1652 @@
 2025-12-19 11:04:05,191 - INFO - Email fetch complete.
 2025-12-19 11:04:05,192 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
 2025-12-19 11:04:05,193 - INFO - Raw folder processing complete.
+2025-12-19 11:06:03,168 - INFO - Connecting to Email Server...
+2025-12-19 11:06:05,002 - INFO - Found 0 unread emails.
+2025-12-19 11:06:05,297 - INFO - Email fetch complete.
+2025-12-19 11:06:05,297 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 11:06:05,298 - INFO - Raw folder processing complete.
+2025-12-19 11:08:02,687 - INFO - Connecting to Email Server...
+2025-12-19 11:08:04,464 - INFO - Found 0 unread emails.
+2025-12-19 11:08:04,730 - INFO - Email fetch complete.
+2025-12-19 11:08:04,730 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 11:08:04,731 - INFO - Raw folder processing complete.
+2025-12-19 11:10:02,842 - INFO - Connecting to Email Server...
+2025-12-19 11:10:04,645 - INFO - Found 0 unread emails.
+2025-12-19 11:10:04,918 - INFO - Email fetch complete.
+2025-12-19 11:10:04,919 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 11:10:04,921 - INFO - Raw folder processing complete.
+2025-12-19 11:12:05,638 - INFO - Connecting to Email Server...
+2025-12-19 11:12:07,322 - INFO - Found 0 unread emails.
+2025-12-19 11:12:07,597 - INFO - Email fetch complete.
+2025-12-19 11:12:07,597 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 11:12:07,598 - INFO - Raw folder processing complete.
+2025-12-19 11:14:03,106 - INFO - Connecting to Email Server...
+2025-12-19 11:14:05,028 - INFO - Found 0 unread emails.
+2025-12-19 11:14:05,357 - INFO - Email fetch complete.
+2025-12-19 11:14:05,358 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 11:14:05,360 - INFO - Raw folder processing complete.
+2025-12-19 11:16:02,859 - INFO - Connecting to Email Server...
+2025-12-19 11:16:04,560 - INFO - Found 0 unread emails.
+2025-12-19 11:16:04,837 - INFO - Email fetch complete.
+2025-12-19 11:16:04,838 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 11:16:04,839 - INFO - Raw folder processing complete.
+2025-12-19 11:18:04,210 - INFO - Connecting to Email Server...
+2025-12-19 11:18:06,455 - INFO - Found 1 unread emails.
+2025-12-19 11:18:07,010 - INFO - Processing Email: asdf
+2025-12-19 11:18:07,012 - INFO - Saved email attachment → /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/CustomerP2.xls
+2025-12-19 11:18:07,013 - INFO - Saved email body → /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/email_body_asdf_b'32'_20251219_111807.txt
+2025-12-19 11:18:07,637 - INFO - Email fetch complete.
+2025-12-19 11:18:07,641 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 11:18:07,641 - INFO - Processing raw file: CustomerP2.xls
+2025-12-19 11:18:07,702 - INFO - Routing file /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/CustomerP2.xls (ext=.xls)
+2025-12-19 11:18:07,702 - INFO - Parsing Excel file: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/CustomerP2.xls
+2025-12-19 11:18:07,936 - INFO - Moved file to processed: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/processed/CustomerP2.xls
+2025-12-19 11:18:07,936 - INFO - Processing raw file: email_body_asdf_b'32'_20251219_111807.txt
+2025-12-19 11:18:07,939 - INFO - Routing file /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/email_body_asdf_b'32'_20251219_111807.txt (ext=.txt)
+2025-12-19 11:18:07,939 - INFO - Parsing text file as table: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/email_body_asdf_b'32'_20251219_111807.txt
+2025-12-19 11:18:07,941 - INFO - Moved file to processed: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/processed/email_body_asdf_b'32'_20251219_111807.txt
+2025-12-19 11:18:07,941 - INFO - Raw folder processing complete.
+2025-12-19 11:20:05,962 - INFO - Connecting to Email Server...
+2025-12-19 11:20:08,080 - INFO - Found 0 unread emails.
+2025-12-19 11:20:08,342 - INFO - Email fetch complete.
+2025-12-19 11:20:08,343 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 11:20:08,345 - INFO - Raw folder processing complete.
+2025-12-19 11:22:03,449 - INFO - Connecting to Email Server...
+2025-12-19 11:22:05,172 - INFO - Found 0 unread emails.
+2025-12-19 11:22:05,463 - INFO - Email fetch complete.
+2025-12-19 11:22:05,463 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 11:22:05,465 - INFO - Raw folder processing complete.
+2025-12-19 11:24:03,891 - INFO - Connecting to Email Server...
+2025-12-19 11:24:05,683 - INFO - Found 1 unread emails.
+2025-12-19 11:24:06,283 - INFO - Processing Email: didi daar gye didi daar gye
+2025-12-19 11:24:06,287 - INFO - Saved email attachment → /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/CustomerP2.xls
+2025-12-19 11:24:06,288 - INFO - Saved email body → /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/email_body_dididaargyedididaargye_b'33'_20251219_112406.txt
+2025-12-19 11:24:06,862 - INFO - Email fetch complete.
+2025-12-19 11:24:06,864 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 11:24:06,864 - INFO - Processing raw file: email_body_dididaargyedididaargye_b'33'_20251219_112406.txt
+2025-12-19 11:24:06,885 - INFO - Routing file /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/email_body_dididaargyedididaargye_b'33'_20251219_112406.txt (ext=.txt)
+2025-12-19 11:24:06,886 - INFO - Parsing text file as table: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/email_body_dididaargyedididaargye_b'33'_20251219_112406.txt
+2025-12-19 11:24:06,906 - INFO - Moved file to processed: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/processed/email_body_dididaargyedididaargye_b'33'_20251219_112406.txt
+2025-12-19 11:24:06,906 - INFO - Processing raw file: CustomerP2.xls
+2025-12-19 11:24:06,919 - INFO - Routing file /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/CustomerP2.xls (ext=.xls)
+2025-12-19 11:24:06,920 - INFO - Parsing Excel file: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/CustomerP2.xls
+2025-12-19 11:24:07,320 - INFO - Moved file to processed: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/processed/CustomerP2.xls
+2025-12-19 11:24:07,320 - INFO - Raw folder processing complete.
+2025-12-19 11:26:02,911 - INFO - Connecting to Email Server...
+2025-12-19 11:26:04,803 - INFO - Found 0 unread emails.
+2025-12-19 11:26:05,066 - INFO - Email fetch complete.
+2025-12-19 11:26:05,067 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 11:26:05,069 - INFO - Raw folder processing complete.
+2025-12-19 11:28:03,939 - INFO - Connecting to Email Server...
+2025-12-19 11:28:05,756 - INFO - Found 0 unread emails.
+2025-12-19 11:28:06,036 - INFO - Email fetch complete.
+2025-12-19 11:28:06,036 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 11:28:06,037 - INFO - Raw folder processing complete.
+2025-12-19 11:30:02,994 - INFO - Connecting to Email Server...
+2025-12-19 11:30:04,846 - INFO - Found 0 unread emails.
+2025-12-19 11:30:05,125 - INFO - Email fetch complete.
+2025-12-19 11:30:05,127 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 11:30:05,128 - INFO - Raw folder processing complete.
+2025-12-19 11:32:03,386 - INFO - Connecting to Email Server...
+2025-12-19 11:32:05,058 - INFO - Found 0 unread emails.
+2025-12-19 11:32:05,322 - INFO - Email fetch complete.
+2025-12-19 11:32:05,323 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 11:32:05,324 - INFO - Raw folder processing complete.
+2025-12-19 11:34:02,564 - INFO - Connecting to Email Server...
+2025-12-19 11:34:04,410 - INFO - Found 0 unread emails.
+2025-12-19 11:34:04,714 - INFO - Email fetch complete.
+2025-12-19 11:34:04,715 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 11:34:04,715 - INFO - Raw folder processing complete.
+2025-12-19 11:36:02,687 - INFO - Connecting to Email Server...
+2025-12-19 11:36:04,342 - INFO - Found 0 unread emails.
+2025-12-19 11:36:04,610 - INFO - Email fetch complete.
+2025-12-19 11:36:04,611 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 11:36:04,612 - INFO - Raw folder processing complete.
+2025-12-19 11:38:02,820 - INFO - Connecting to Email Server...
+2025-12-19 11:38:04,533 - INFO - Found 0 unread emails.
+2025-12-19 11:38:04,818 - INFO - Email fetch complete.
+2025-12-19 11:38:04,819 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 11:38:04,820 - INFO - Raw folder processing complete.
+2025-12-19 11:40:02,764 - INFO - Connecting to Email Server...
+2025-12-19 11:40:04,468 - INFO - Found 0 unread emails.
+2025-12-19 11:40:04,747 - INFO - Email fetch complete.
+2025-12-19 11:40:04,748 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 11:40:04,748 - INFO - Raw folder processing complete.
+2025-12-19 11:42:02,839 - INFO - Connecting to Email Server...
+2025-12-19 11:42:04,660 - INFO - Found 0 unread emails.
+2025-12-19 11:42:04,928 - INFO - Email fetch complete.
+2025-12-19 11:42:04,929 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 11:42:04,931 - INFO - Raw folder processing complete.
+2025-12-19 11:44:03,075 - INFO - Connecting to Email Server...
+2025-12-19 11:44:05,020 - INFO - Found 0 unread emails.
+2025-12-19 11:44:05,320 - INFO - Email fetch complete.
+2025-12-19 11:44:05,321 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 11:44:05,321 - INFO - Raw folder processing complete.
+2025-12-19 11:46:03,649 - INFO - Connecting to Email Server...
+2025-12-19 11:46:05,341 - INFO - Found 0 unread emails.
+2025-12-19 11:46:05,603 - INFO - Email fetch complete.
+2025-12-19 11:46:05,604 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 11:46:05,605 - INFO - Raw folder processing complete.
+2025-12-19 11:48:02,751 - INFO - Connecting to Email Server...
+2025-12-19 11:48:04,624 - INFO - Found 0 unread emails.
+2025-12-19 11:48:04,904 - INFO - Email fetch complete.
+2025-12-19 11:48:04,906 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 11:48:04,907 - INFO - Raw folder processing complete.
+2025-12-19 11:50:02,880 - INFO - Connecting to Email Server...
+2025-12-19 11:50:04,742 - INFO - Found 1 unread emails.
+2025-12-19 11:50:05,165 - INFO - Processing Email: qwerty
+2025-12-19 11:50:05,169 - INFO - Email body structured result: {'invoice_number': None, 'dates': [], 'gstin': None, 'total_amount': None}
+2025-12-19 11:50:05,765 - INFO - Email fetch complete.
+2025-12-19 11:50:05,766 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 11:50:05,767 - INFO - Raw folder processing complete.
+2025-12-19 11:52:02,743 - INFO - Connecting to Email Server...
+2025-12-19 11:52:04,694 - INFO - Found 0 unread emails.
+2025-12-19 11:52:05,020 - INFO - Email fetch complete.
+2025-12-19 11:52:05,021 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 11:52:05,022 - INFO - Raw folder processing complete.
+2025-12-19 11:54:02,561 - INFO - Connecting to Email Server...
+2025-12-19 11:54:04,323 - INFO - Found 0 unread emails.
+2025-12-19 11:54:04,594 - INFO - Email fetch complete.
+2025-12-19 11:54:04,595 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 11:54:04,597 - INFO - Raw folder processing complete.
+2025-12-19 11:56:03,349 - INFO - Connecting to Email Server...
+2025-12-19 11:56:05,142 - INFO - Found 0 unread emails.
+2025-12-19 11:56:05,418 - INFO - Email fetch complete.
+2025-12-19 11:56:05,419 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 11:56:05,419 - INFO - Raw folder processing complete.
+2025-12-19 11:58:02,598 - INFO - Connecting to Email Server...
+2025-12-19 11:58:04,633 - INFO - Found 1 unread emails.
+2025-12-19 11:58:05,201 - INFO - Processing Email: aaa
+2025-12-19 11:58:05,203 - INFO - Saved email attachment → /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/CustomerP1.xls
+2025-12-19 11:58:05,207 - INFO - Email body structured result: {'invoice_number': None, 'dates': [], 'gstin': None, 'total_amount': None}
+2025-12-19 11:58:05,809 - INFO - Email fetch complete.
+2025-12-19 11:58:05,811 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 11:58:05,812 - INFO - Processing raw file: CustomerP1.xls
+2025-12-19 11:58:05,827 - INFO - Routing file /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/CustomerP1.xls (ext=.xls)
+2025-12-19 11:58:05,827 - INFO - Parsing Excel file: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/CustomerP1.xls
+2025-12-19 11:58:05,975 - INFO - Moved file to processed: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/processed/CustomerP1.xls
+2025-12-19 11:58:05,976 - INFO - Raw folder processing complete.
+2025-12-19 12:00:03,130 - INFO - Connecting to Email Server...
+2025-12-19 12:00:04,951 - INFO - Found 1 unread emails.
+2025-12-19 12:00:05,438 - INFO - Processing Email: ghjj
+2025-12-19 12:00:05,440 - INFO - Saved email body → /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/email_body_ghjj_b'36'_20251219_120005.txt
+2025-12-19 12:00:06,085 - INFO - Email fetch complete.
+2025-12-19 12:00:06,086 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 12:00:06,086 - INFO - Processing raw file: email_body_ghjj_b'36'_20251219_120005.txt
+2025-12-19 12:00:06,095 - INFO - Routing file /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/email_body_ghjj_b'36'_20251219_120005.txt (ext=.txt)
+2025-12-19 12:00:06,096 - INFO - Parsing text file as table: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/email_body_ghjj_b'36'_20251219_120005.txt
+2025-12-19 12:00:06,098 - INFO - Moved file to processed: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/processed/email_body_ghjj_b'36'_20251219_120005.txt
+2025-12-19 12:00:06,098 - INFO - Raw folder processing complete.
+2025-12-19 12:02:02,808 - INFO - Connecting to Email Server...
+2025-12-19 12:02:04,486 - INFO - Found 0 unread emails.
+2025-12-19 12:02:04,756 - INFO - Email fetch complete.
+2025-12-19 12:02:04,757 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 12:02:04,758 - INFO - Raw folder processing complete.
+2025-12-19 12:04:02,226 - INFO - Connecting to Email Server...
+2025-12-19 12:04:03,865 - INFO - Found 0 unread emails.
+2025-12-19 12:04:04,129 - INFO - Email fetch complete.
+2025-12-19 12:04:04,130 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 12:04:04,131 - INFO - Raw folder processing complete.
+2025-12-19 12:06:03,207 - INFO - Connecting to Email Server...
+2025-12-19 12:06:04,894 - INFO - Found 0 unread emails.
+2025-12-19 12:06:05,176 - INFO - Email fetch complete.
+2025-12-19 12:06:05,177 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 12:06:05,178 - INFO - Raw folder processing complete.
+2025-12-19 12:08:03,236 - INFO - Connecting to Email Server...
+2025-12-19 12:08:05,046 - INFO - Found 0 unread emails.
+2025-12-19 12:08:05,319 - INFO - Email fetch complete.
+2025-12-19 12:08:05,320 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 12:08:05,321 - INFO - Raw folder processing complete.
+2025-12-19 12:10:03,174 - INFO - Connecting to Email Server...
+2025-12-19 12:10:04,912 - INFO - Found 0 unread emails.
+2025-12-19 12:10:05,185 - INFO - Email fetch complete.
+2025-12-19 12:10:05,186 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 12:10:05,187 - INFO - Raw folder processing complete.
+2025-12-19 12:12:03,882 - INFO - Connecting to Email Server...
+2025-12-19 12:12:05,957 - INFO - Found 0 unread emails.
+2025-12-19 12:12:06,235 - INFO - Email fetch complete.
+2025-12-19 12:12:06,236 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 12:12:06,237 - INFO - Raw folder processing complete.
+2025-12-19 12:14:03,276 - INFO - Connecting to Email Server...
+2025-12-19 12:14:05,005 - INFO - Found 1 unread emails.
+2025-12-19 12:14:05,466 - INFO - Processing Email: anil
+2025-12-19 12:14:05,470 - INFO - Saved email body → /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/email_body_anil_b'37'_20251219_121405.txt
+2025-12-19 12:14:05,473 - INFO - Email body structured result: {'invoice_number': None, 'dates': [], 'gstin': None, 'total_amount': None}
+2025-12-19 12:14:06,105 - INFO - Email fetch complete.
+2025-12-19 12:14:06,106 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 12:14:06,107 - INFO - Processing raw file: email_body_anil_b'37'_20251219_121405.txt
+2025-12-19 12:14:06,125 - INFO - Routing file /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/email_body_anil_b'37'_20251219_121405.txt (ext=.txt)
+2025-12-19 12:14:06,125 - INFO - Parsing text file as table: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/email_body_anil_b'37'_20251219_121405.txt
+2025-12-19 12:14:06,144 - INFO - Moved file to processed: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/processed/email_body_anil_b'37'_20251219_121405.txt
+2025-12-19 12:14:06,144 - INFO - Raw folder processing complete.
+2025-12-19 12:16:03,443 - INFO - Connecting to Email Server...
+2025-12-19 12:16:05,164 - INFO - Found 1 unread emails.
+2025-12-19 12:16:05,713 - INFO - Processing Email: kumar
+2025-12-19 12:16:05,716 - INFO - Saved email attachment → /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/CustomerP1.xls
+2025-12-19 12:16:05,717 - INFO - Saved email body → /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/email_body_kumar_b'38'_20251219_121605.txt
+2025-12-19 12:16:05,720 - INFO - Email body structured result: {'invoice_number': None, 'dates': [], 'gstin': None, 'total_amount': None}
+2025-12-19 12:16:06,355 - INFO - Email fetch complete.
+2025-12-19 12:16:06,356 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 12:16:06,357 - INFO - Processing raw file: email_body_kumar_b'38'_20251219_121605.txt
+2025-12-19 12:16:06,373 - INFO - Routing file /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/email_body_kumar_b'38'_20251219_121605.txt (ext=.txt)
+2025-12-19 12:16:06,374 - INFO - Parsing text file as table: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/email_body_kumar_b'38'_20251219_121605.txt
+2025-12-19 12:16:06,399 - INFO - Moved file to processed: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/processed/email_body_kumar_b'38'_20251219_121605.txt
+2025-12-19 12:16:06,400 - INFO - Processing raw file: CustomerP1.xls
+2025-12-19 12:16:06,403 - INFO - Routing file /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/CustomerP1.xls (ext=.xls)
+2025-12-19 12:16:06,403 - INFO - Parsing Excel file: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/CustomerP1.xls
+2025-12-19 12:16:06,544 - INFO - Moved file to processed: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/processed/CustomerP1.xls
+2025-12-19 12:16:06,544 - INFO - Raw folder processing complete.
+2025-12-19 12:18:03,124 - INFO - Connecting to Email Server...
+2025-12-19 12:18:04,790 - INFO - Found 0 unread emails.
+2025-12-19 12:18:05,065 - INFO - Email fetch complete.
+2025-12-19 12:18:05,067 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 12:18:05,073 - INFO - Raw folder processing complete.
+2025-12-19 12:20:02,862 - INFO - Connecting to Email Server...
+2025-12-19 12:20:04,754 - INFO - Found 1 unread emails.
+2025-12-19 12:20:05,176 - INFO - Processing Email: sunil
+2025-12-19 12:20:05,180 - INFO - Saved email body → /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/email_body_sunil_b'39'_20251219_122005.txt
+2025-12-19 12:20:05,767 - INFO - Email fetch complete.
+2025-12-19 12:20:05,768 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 12:20:05,769 - INFO - Processing raw file: email_body_sunil_b'39'_20251219_122005.txt
+2025-12-19 12:20:05,782 - INFO - Routing file /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/email_body_sunil_b'39'_20251219_122005.txt (ext=.txt)
+2025-12-19 12:20:05,782 - INFO - Parsing text file as table: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/email_body_sunil_b'39'_20251219_122005.txt
+2025-12-19 12:20:05,786 - INFO - Moved file to processed: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/processed/email_body_sunil_b'39'_20251219_122005.txt
+2025-12-19 12:20:05,786 - INFO - Raw folder processing complete.
+2025-12-19 12:22:02,725 - INFO - Connecting to Email Server...
+2025-12-19 12:22:05,776 - INFO - Found 0 unread emails.
+2025-12-19 12:22:06,058 - INFO - Email fetch complete.
+2025-12-19 12:22:06,059 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 12:22:06,059 - INFO - Raw folder processing complete.
+2025-12-19 12:24:02,899 - INFO - Connecting to Email Server...
+2025-12-19 12:24:04,549 - INFO - Found 0 unread emails.
+2025-12-19 12:24:04,816 - INFO - Email fetch complete.
+2025-12-19 12:24:04,817 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 12:24:04,819 - INFO - Raw folder processing complete.
+2025-12-19 12:26:02,631 - INFO - Connecting to Email Server...
+2025-12-19 12:26:04,335 - INFO - Found 0 unread emails.
+2025-12-19 12:26:04,604 - INFO - Email fetch complete.
+2025-12-19 12:26:04,605 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 12:26:04,607 - INFO - Raw folder processing complete.
+2025-12-19 12:28:02,445 - INFO - Connecting to Email Server...
+2025-12-19 12:28:04,218 - INFO - Found 0 unread emails.
+2025-12-19 12:28:04,484 - INFO - Email fetch complete.
+2025-12-19 12:28:04,485 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 12:28:04,486 - INFO - Raw folder processing complete.
+2025-12-19 12:30:06,341 - INFO - Connecting to Email Server...
+2025-12-19 12:30:08,117 - INFO - Found 0 unread emails.
+2025-12-19 12:30:08,396 - INFO - Email fetch complete.
+2025-12-19 12:30:08,396 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 12:30:08,397 - INFO - Raw folder processing complete.
+2025-12-19 12:32:03,344 - INFO - Connecting to Email Server...
+2025-12-19 12:32:05,540 - INFO - Found 1 unread emails.
+2025-12-19 12:32:06,003 - INFO - Processing Email: abc
+2025-12-19 12:32:06,007 - INFO - Saved email body → /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/email_body_abc_b'40'_20251219_123206.txt
+2025-12-19 12:32:06,576 - INFO - Email fetch complete.
+2025-12-19 12:32:06,577 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 12:32:06,578 - INFO - Processing raw file: email_body_abc_b'40'_20251219_123206.txt
+2025-12-19 12:32:06,593 - INFO - Routing file /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/email_body_abc_b'40'_20251219_123206.txt (ext=.txt)
+2025-12-19 12:32:06,593 - INFO - Parsing TXT file: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/email_body_abc_b'40'_20251219_123206.txt
+2025-12-19 12:32:06,594 - INFO - TXT file has no detectable table; stored as raw text
+2025-12-19 12:32:06,598 - INFO - Moved file to processed: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/processed/email_body_abc_b'40'_20251219_123206.txt
+2025-12-19 12:32:06,598 - INFO - Raw folder processing complete.
+2025-12-19 12:34:03,816 - INFO - Connecting to Email Server...
+2025-12-19 12:34:05,781 - INFO - Found 0 unread emails.
+2025-12-19 12:34:06,057 - INFO - Email fetch complete.
+2025-12-19 12:34:06,058 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 12:34:06,059 - INFO - Raw folder processing complete.
+2025-12-19 12:36:04,003 - INFO - Connecting to Email Server...
+2025-12-19 12:36:05,855 - INFO - Found 1 unread emails.
+2025-12-19 12:36:06,284 - INFO - Processing Email: table
+2025-12-19 12:36:06,289 - INFO - Saved email body → /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/email_body_table_b'41'_20251219_123606.txt
+2025-12-19 12:36:06,863 - INFO - Email fetch complete.
+2025-12-19 12:36:06,863 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 12:36:06,864 - INFO - Processing raw file: email_body_table_b'41'_20251219_123606.txt
+2025-12-19 12:36:06,890 - INFO - Routing file /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/email_body_table_b'41'_20251219_123606.txt (ext=.txt)
+2025-12-19 12:36:06,890 - INFO - Parsing TXT file: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/email_body_table_b'41'_20251219_123606.txt
+2025-12-19 12:36:06,891 - INFO - TXT file has no detectable table; stored as raw text
+2025-12-19 12:36:06,909 - INFO - Moved file to processed: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/processed/email_body_table_b'41'_20251219_123606.txt
+2025-12-19 12:36:06,909 - INFO - Raw folder processing complete.
+2025-12-19 12:38:02,630 - INFO - Connecting to Email Server...
+2025-12-19 12:38:04,443 - INFO - Found 0 unread emails.
+2025-12-19 12:38:04,736 - INFO - Email fetch complete.
+2025-12-19 12:38:04,736 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 12:38:04,737 - INFO - Raw folder processing complete.
+2025-12-19 12:40:02,432 - INFO - Connecting to Email Server...
+2025-12-19 12:40:04,348 - INFO - Found 1 unread emails.
+2025-12-19 12:40:04,767 - INFO - Processing Email: babu chal ja ab
+2025-12-19 12:40:04,776 - INFO - Saved email body → /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/email_body_babuchaljaab_b'42'_20251219_124004.txt
+2025-12-19 12:40:05,334 - INFO - Email fetch complete.
+2025-12-19 12:40:05,335 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 12:40:05,335 - INFO - Processing raw file: email_body_babuchaljaab_b'42'_20251219_124004.txt
+2025-12-19 12:40:05,353 - INFO - Routing file /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/email_body_babuchaljaab_b'42'_20251219_124004.txt (ext=.txt)
+2025-12-19 12:40:05,354 - INFO - Parsing TXT file: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/email_body_babuchaljaab_b'42'_20251219_124004.txt
+2025-12-19 12:40:05,354 - INFO - TXT file has no detectable table; stored as raw text
+2025-12-19 12:40:05,359 - INFO - Moved file to processed: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/processed/email_body_babuchaljaab_b'42'_20251219_124004.txt
+2025-12-19 12:40:05,360 - INFO - Raw folder processing complete.
+2025-12-19 12:42:05,149 - INFO - Connecting to Email Server...
+2025-12-19 12:42:06,971 - INFO - Found 0 unread emails.
+2025-12-19 12:42:07,335 - INFO - Email fetch complete.
+2025-12-19 12:42:07,335 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 12:42:07,336 - INFO - Raw folder processing complete.
+2025-12-19 12:44:03,226 - INFO - Connecting to Email Server...
+2025-12-19 12:44:05,023 - INFO - Found 0 unread emails.
+2025-12-19 12:44:05,332 - INFO - Email fetch complete.
+2025-12-19 12:44:05,333 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 12:44:05,334 - INFO - Raw folder processing complete.
+2025-12-19 12:46:02,181 - INFO - Connecting to Email Server...
+2025-12-19 12:46:04,073 - INFO - Found 0 unread emails.
+2025-12-19 12:46:04,360 - INFO - Email fetch complete.
+2025-12-19 12:46:04,361 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 12:46:04,361 - INFO - Raw folder processing complete.
+2025-12-19 12:48:03,122 - INFO - Connecting to Email Server...
+2025-12-19 12:48:04,924 - INFO - Found 0 unread emails.
+2025-12-19 12:48:05,345 - INFO - Email fetch complete.
+2025-12-19 12:48:05,346 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 12:48:05,346 - INFO - Raw folder processing complete.
+2025-12-19 12:50:03,983 - INFO - Connecting to Email Server...
+2025-12-19 12:50:05,712 - INFO - Found 0 unread emails.
+2025-12-19 12:50:05,980 - INFO - Email fetch complete.
+2025-12-19 12:50:05,980 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 12:50:05,981 - INFO - Raw folder processing complete.
+2025-12-19 12:52:02,775 - INFO - Connecting to Email Server...
+2025-12-19 12:52:04,959 - INFO - Found 0 unread emails.
+2025-12-19 12:52:05,273 - INFO - Email fetch complete.
+2025-12-19 12:52:05,275 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 12:52:05,276 - INFO - Raw folder processing complete.
+2025-12-19 12:54:02,389 - INFO - Connecting to Email Server...
+2025-12-19 12:54:03,974 - INFO - Found 0 unread emails.
+2025-12-19 12:54:04,244 - INFO - Email fetch complete.
+2025-12-19 12:54:04,245 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 12:54:04,246 - INFO - Raw folder processing complete.
+2025-12-19 12:56:02,861 - INFO - Connecting to Email Server...
+2025-12-19 12:56:04,576 - INFO - Found 0 unread emails.
+2025-12-19 12:56:04,854 - INFO - Email fetch complete.
+2025-12-19 12:56:04,855 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 12:56:04,857 - INFO - Raw folder processing complete.
+2025-12-19 12:58:03,470 - INFO - Connecting to Email Server...
+2025-12-19 12:58:05,246 - INFO - Found 0 unread emails.
+2025-12-19 12:58:05,512 - INFO - Email fetch complete.
+2025-12-19 12:58:05,513 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 12:58:05,514 - INFO - Raw folder processing complete.
+2025-12-19 13:00:03,546 - INFO - Connecting to Email Server...
+2025-12-19 13:00:05,268 - INFO - Found 0 unread emails.
+2025-12-19 13:00:05,547 - INFO - Email fetch complete.
+2025-12-19 13:00:05,547 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 13:00:05,548 - INFO - Raw folder processing complete.
+2025-12-19 13:02:02,984 - INFO - Connecting to Email Server...
+2025-12-19 13:02:05,005 - INFO - Found 1 unread emails.
+2025-12-19 13:02:05,603 - INFO - Processing Email: asas
+2025-12-19 13:02:05,605 - INFO - Saved email attachment → /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/CustomerP2.xls
+2025-12-19 13:02:05,840 - INFO - Saved email body as Excel → /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/email_body_asas_b'43'_20251219_130205.xlsx
+2025-12-19 13:02:06,522 - INFO - Email fetch complete.
+2025-12-19 13:02:06,523 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 13:02:06,523 - INFO - Processing raw file: email_body_asas_b'43'_20251219_130205.xlsx
+2025-12-19 13:02:06,539 - INFO - Routing file /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/email_body_asas_b'43'_20251219_130205.xlsx (ext=.xlsx)
+2025-12-19 13:02:06,539 - INFO - Parsing Excel file: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/email_body_asas_b'43'_20251219_130205.xlsx
+2025-12-19 13:02:06,648 - INFO - Moved file to processed: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/processed/email_body_asas_b'43'_20251219_130205.xlsx
+2025-12-19 13:02:06,648 - INFO - Processing raw file: CustomerP2.xls
+2025-12-19 13:02:06,650 - INFO - Routing file /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/CustomerP2.xls (ext=.xls)
+2025-12-19 13:02:06,650 - INFO - Parsing Excel file: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/CustomerP2.xls
+2025-12-19 13:02:06,801 - INFO - Moved file to processed: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/processed/CustomerP2.xls
+2025-12-19 13:02:06,801 - INFO - Raw folder processing complete.
+2025-12-19 13:04:02,836 - INFO - Connecting to Email Server...
+2025-12-19 13:04:04,617 - INFO - Found 0 unread emails.
+2025-12-19 13:04:04,879 - INFO - Email fetch complete.
+2025-12-19 13:04:04,880 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 13:04:04,882 - INFO - Raw folder processing complete.
+2025-12-19 13:06:03,519 - INFO - Connecting to Email Server...
+2025-12-19 13:06:05,308 - INFO - Found 0 unread emails.
+2025-12-19 13:06:05,571 - INFO - Email fetch complete.
+2025-12-19 13:06:05,572 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 13:06:05,572 - INFO - Raw folder processing complete.
+2025-12-19 13:08:02,605 - INFO - Connecting to Email Server...
+2025-12-19 13:08:04,443 - INFO - Found 0 unread emails.
+2025-12-19 13:08:04,734 - INFO - Email fetch complete.
+2025-12-19 13:08:04,735 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 13:08:04,738 - INFO - Raw folder processing complete.
+2025-12-19 13:10:02,517 - INFO - Connecting to Email Server...
+2025-12-19 13:10:04,347 - INFO - Found 0 unread emails.
+2025-12-19 13:10:04,635 - INFO - Email fetch complete.
+2025-12-19 13:10:04,635 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 13:10:04,636 - INFO - Raw folder processing complete.
+2025-12-19 13:12:03,820 - INFO - Connecting to Email Server...
+2025-12-19 13:12:05,671 - INFO - Found 0 unread emails.
+2025-12-19 13:12:05,943 - INFO - Email fetch complete.
+2025-12-19 13:12:05,944 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 13:12:05,945 - INFO - Raw folder processing complete.
+2025-12-19 13:14:03,401 - INFO - Connecting to Email Server...
+2025-12-19 13:14:05,258 - INFO - Found 0 unread emails.
+2025-12-19 13:14:05,522 - INFO - Email fetch complete.
+2025-12-19 13:14:05,523 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 13:14:05,524 - INFO - Raw folder processing complete.
+2025-12-19 13:16:02,749 - INFO - Connecting to Email Server...
+2025-12-19 13:16:05,029 - INFO - Found 0 unread emails.
+2025-12-19 13:16:05,312 - INFO - Email fetch complete.
+2025-12-19 13:16:05,313 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 13:16:05,315 - INFO - Raw folder processing complete.
+2025-12-19 13:18:03,430 - INFO - Connecting to Email Server...
+2025-12-19 13:18:05,069 - INFO - Found 0 unread emails.
+2025-12-19 13:18:05,348 - INFO - Email fetch complete.
+2025-12-19 13:18:05,350 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 13:18:05,351 - INFO - Raw folder processing complete.
+2025-12-19 13:20:03,269 - INFO - Connecting to Email Server...
+2025-12-19 13:20:05,243 - INFO - Found 1 unread emails.
+2025-12-19 13:20:05,849 - INFO - Processing Email: Rishabh
+2025-12-19 13:20:05,852 - INFO - Saved email attachment → /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/CustomerP2.xls
+2025-12-19 13:20:06,047 - INFO - Saved email body as Excel → /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/email_body_Rishabh_b'44'_20251219_132005.xlsx
+2025-12-19 13:20:06,618 - INFO - Email fetch complete.
+2025-12-19 13:20:06,619 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 13:20:06,620 - INFO - Processing raw file: email_body_Rishabh_b'44'_20251219_132005.xlsx
+2025-12-19 13:20:06,640 - INFO - Routing file /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/email_body_Rishabh_b'44'_20251219_132005.xlsx (ext=.xlsx)
+2025-12-19 13:20:06,640 - INFO - Parsing Excel file: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/email_body_Rishabh_b'44'_20251219_132005.xlsx
+2025-12-19 13:20:06,915 - INFO - Moved file to processed: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/processed/email_body_Rishabh_b'44'_20251219_132005.xlsx
+2025-12-19 13:20:06,915 - INFO - Processing raw file: CustomerP2.xls
+2025-12-19 13:20:06,918 - INFO - Routing file /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/CustomerP2.xls (ext=.xls)
+2025-12-19 13:20:06,918 - INFO - Parsing Excel file: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/CustomerP2.xls
+2025-12-19 13:20:07,060 - INFO - Moved file to processed: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/processed/CustomerP2.xls
+2025-12-19 13:20:07,060 - INFO - Raw folder processing complete.
+2025-12-19 13:22:03,008 - INFO - Connecting to Email Server...
+2025-12-19 13:22:04,879 - INFO - Found 0 unread emails.
+2025-12-19 13:22:05,153 - INFO - Email fetch complete.
+2025-12-19 13:22:05,153 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 13:22:05,155 - INFO - Raw folder processing complete.
+2025-12-19 13:24:02,982 - INFO - Connecting to Email Server...
+2025-12-19 13:24:05,691 - INFO - Found 0 unread emails.
+2025-12-19 13:24:06,097 - INFO - Email fetch complete.
+2025-12-19 13:24:06,097 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 13:24:06,098 - INFO - Raw folder processing complete.
+2025-12-19 13:26:03,112 - INFO - Connecting to Email Server...
+2025-12-19 13:26:04,783 - INFO - Found 0 unread emails.
+2025-12-19 13:26:05,053 - INFO - Email fetch complete.
+2025-12-19 13:26:05,054 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 13:26:05,054 - INFO - Raw folder processing complete.
+2025-12-19 13:28:02,697 - INFO - Connecting to Email Server...
+2025-12-19 13:28:04,548 - INFO - Found 0 unread emails.
+2025-12-19 13:28:04,834 - INFO - Email fetch complete.
+2025-12-19 13:28:04,835 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 13:28:04,836 - INFO - Raw folder processing complete.
+2025-12-19 13:30:02,862 - INFO - Connecting to Email Server...
+2025-12-19 13:30:04,777 - INFO - Found 0 unread emails.
+2025-12-19 13:30:05,044 - INFO - Email fetch complete.
+2025-12-19 13:30:05,045 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 13:30:05,046 - INFO - Raw folder processing complete.
+2025-12-19 13:32:02,719 - INFO - Connecting to Email Server...
+2025-12-19 13:32:04,818 - INFO - Found 1 unread emails.
+2025-12-19 13:32:05,478 - INFO - Processing Email: aditi
+2025-12-19 13:32:05,481 - INFO - Saved email attachment → /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/CustomerP1.xls
+2025-12-19 13:32:05,667 - INFO - Saved email body as Excel → /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/email_body_aditi_b'45'_20251219_133205.xlsx
+2025-12-19 13:32:06,361 - INFO - Email fetch complete.
+2025-12-19 13:32:06,362 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 13:32:06,363 - INFO - Processing raw file: email_body_aditi_b'45'_20251219_133205.xlsx
+2025-12-19 13:32:06,378 - INFO - Routing file /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/email_body_aditi_b'45'_20251219_133205.xlsx (ext=.xlsx)
+2025-12-19 13:32:06,378 - INFO - Parsing Excel file: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/email_body_aditi_b'45'_20251219_133205.xlsx
+2025-12-19 13:32:06,641 - INFO - Moved file to processed: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/processed/email_body_aditi_b'45'_20251219_133205.xlsx
+2025-12-19 13:32:06,641 - INFO - Processing raw file: CustomerP1.xls
+2025-12-19 13:32:06,644 - INFO - Routing file /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/CustomerP1.xls (ext=.xls)
+2025-12-19 13:32:06,644 - INFO - Parsing Excel file: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/CustomerP1.xls
+2025-12-19 13:32:06,730 - INFO - Moved file to processed: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/processed/CustomerP1.xls
+2025-12-19 13:32:06,730 - INFO - Raw folder processing complete.
+2025-12-19 13:34:03,283 - INFO - Connecting to Email Server...
+2025-12-19 13:34:05,167 - INFO - Found 0 unread emails.
+2025-12-19 13:34:05,451 - INFO - Email fetch complete.
+2025-12-19 13:34:05,451 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 13:34:05,452 - INFO - Raw folder processing complete.
+2025-12-19 13:58:24,029 - INFO - Connecting to Email Server...
+2025-12-19 15:56:31,779 - INFO - Connecting to Email Server...
+2025-12-19 16:50:02,638 - INFO - Connecting to Email Server...
+2025-12-19 16:50:04,407 - INFO - Found 0 unread emails.
+2025-12-19 16:50:04,680 - INFO - Email fetch complete.
+2025-12-19 16:50:04,681 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 16:50:04,684 - INFO - Raw folder processing complete.
+2025-12-19 16:52:03,042 - INFO - Connecting to Email Server...
+2025-12-19 16:52:04,853 - INFO - Found 0 unread emails.
+2025-12-19 16:52:05,121 - INFO - Email fetch complete.
+2025-12-19 16:52:05,122 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 16:52:05,124 - INFO - Raw folder processing complete.
+2025-12-19 16:54:03,131 - INFO - Connecting to Email Server...
+2025-12-19 16:54:04,855 - INFO - Found 0 unread emails.
+2025-12-19 16:54:05,122 - INFO - Email fetch complete.
+2025-12-19 16:54:05,123 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 16:54:05,124 - INFO - Raw folder processing complete.
+2025-12-19 16:56:11,303 - INFO - Connecting to Email Server...
+2025-12-19 16:56:13,125 - INFO - Found 0 unread emails.
+2025-12-19 16:56:13,419 - INFO - Email fetch complete.
+2025-12-19 16:56:13,421 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 16:56:13,421 - INFO - Raw folder processing complete.
+2025-12-19 16:58:29,665 - INFO - Connecting to Email Server...
+2025-12-19 16:58:31,389 - INFO - Found 0 unread emails.
+2025-12-19 16:58:31,662 - INFO - Email fetch complete.
+2025-12-19 16:58:31,664 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 16:58:31,665 - INFO - Raw folder processing complete.
+2025-12-19 17:00:03,327 - INFO - Connecting to Email Server...
+2025-12-19 17:00:04,981 - INFO - Found 0 unread emails.
+2025-12-19 17:00:05,242 - INFO - Email fetch complete.
+2025-12-19 17:00:05,243 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 17:00:05,244 - INFO - Raw folder processing complete.
+2025-12-19 17:02:03,582 - INFO - Connecting to Email Server...
+2025-12-19 17:02:05,371 - INFO - Found 0 unread emails.
+2025-12-19 17:02:05,637 - INFO - Email fetch complete.
+2025-12-19 17:02:05,638 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 17:02:05,639 - INFO - Raw folder processing complete.
+2025-12-19 17:04:02,910 - INFO - Connecting to Email Server...
+2025-12-19 17:04:04,728 - INFO - Found 0 unread emails.
+2025-12-19 17:04:05,001 - INFO - Email fetch complete.
+2025-12-19 17:04:05,002 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 17:04:05,003 - INFO - Raw folder processing complete.
+2025-12-19 17:06:03,019 - INFO - Connecting to Email Server...
+2025-12-19 17:06:04,745 - INFO - Found 0 unread emails.
+2025-12-19 17:06:05,006 - INFO - Email fetch complete.
+2025-12-19 17:06:05,006 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 17:06:05,007 - INFO - Raw folder processing complete.
+2025-12-19 17:08:02,800 - INFO - Connecting to Email Server...
+2025-12-19 17:08:04,635 - INFO - Found 0 unread emails.
+2025-12-19 17:08:04,904 - INFO - Email fetch complete.
+2025-12-19 17:08:04,905 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 17:08:04,905 - INFO - Raw folder processing complete.
+2025-12-19 17:10:02,883 - INFO - Connecting to Email Server...
+2025-12-19 17:10:04,545 - INFO - Found 0 unread emails.
+2025-12-19 17:10:04,824 - INFO - Email fetch complete.
+2025-12-19 17:10:04,825 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 17:10:04,826 - INFO - Raw folder processing complete.
+2025-12-19 17:12:02,822 - INFO - Connecting to Email Server...
+2025-12-19 17:12:07,027 - INFO - Found 0 unread emails.
+2025-12-19 17:12:07,303 - INFO - Email fetch complete.
+2025-12-19 17:12:07,305 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 17:12:07,306 - INFO - Raw folder processing complete.
+2025-12-19 17:14:03,369 - INFO - Connecting to Email Server...
+2025-12-19 17:14:05,087 - INFO - Found 0 unread emails.
+2025-12-19 17:14:05,365 - INFO - Email fetch complete.
+2025-12-19 17:14:05,367 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 17:14:05,368 - INFO - Raw folder processing complete.
+2025-12-19 17:21:27,085 - INFO - Connecting to Email Server...
+2025-12-19 17:21:28,904 - INFO - Found 0 unread emails.
+2025-12-19 17:21:29,176 - INFO - Email fetch complete.
+2025-12-19 17:21:29,177 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 17:21:29,178 - INFO - Raw folder processing complete.
+2025-12-19 17:22:02,697 - INFO - Connecting to Email Server...
+2025-12-19 17:22:04,513 - INFO - Found 0 unread emails.
+2025-12-19 17:22:04,783 - INFO - Email fetch complete.
+2025-12-19 17:22:04,784 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 17:22:04,785 - INFO - Raw folder processing complete.
+2025-12-19 17:28:11,041 - INFO - Connecting to Email Server...
+2025-12-19 17:28:12,725 - INFO - Found 0 unread emails.
+2025-12-19 17:28:12,997 - INFO - Email fetch complete.
+2025-12-19 17:28:12,998 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 17:28:12,999 - INFO - Raw folder processing complete.
+2025-12-19 17:30:02,865 - INFO - Connecting to Email Server...
+2025-12-19 17:30:04,624 - INFO - Found 0 unread emails.
+2025-12-19 17:30:04,890 - INFO - Email fetch complete.
+2025-12-19 17:30:04,891 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 17:30:04,891 - INFO - Raw folder processing complete.
+2025-12-19 17:32:02,565 - INFO - Connecting to Email Server...
+2025-12-19 17:32:04,312 - INFO - Found 0 unread emails.
+2025-12-19 17:32:04,580 - INFO - Email fetch complete.
+2025-12-19 17:32:04,580 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 17:32:04,581 - INFO - Raw folder processing complete.
+2025-12-19 17:34:02,372 - INFO - Connecting to Email Server...
+2025-12-19 17:34:04,175 - INFO - Found 0 unread emails.
+2025-12-19 17:34:04,441 - INFO - Email fetch complete.
+2025-12-19 17:34:04,443 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 17:34:04,444 - INFO - Raw folder processing complete.
+2025-12-19 17:41:56,335 - INFO - Connecting to Email Server...
+2025-12-19 17:41:59,050 - INFO - Found 0 unread emails.
+2025-12-19 17:41:59,363 - INFO - Email fetch complete.
+2025-12-19 17:41:59,364 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 17:41:59,365 - INFO - Raw folder processing complete.
+2025-12-19 17:42:02,401 - INFO - Connecting to Email Server...
+2025-12-19 17:42:02,401 - INFO - Connecting to Email Server...
+2025-12-19 17:42:04,003 - INFO - Found 0 unread emails.
+2025-12-19 17:42:04,108 - INFO - Found 0 unread emails.
+2025-12-19 17:42:04,275 - INFO - Email fetch complete.
+2025-12-19 17:42:04,276 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 17:42:04,277 - INFO - Raw folder processing complete.
+2025-12-19 17:42:04,368 - INFO - Email fetch complete.
+2025-12-19 17:42:04,369 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 17:42:04,369 - INFO - Raw folder processing complete.
+2025-12-19 17:44:13,556 - INFO - Connecting to Email Server...
+2025-12-19 17:44:15,738 - INFO - Found 0 unread emails.
+2025-12-19 17:44:16,030 - INFO - Email fetch complete.
+2025-12-19 17:44:16,031 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 17:44:16,032 - INFO - Raw folder processing complete.
+2025-12-19 17:46:03,027 - INFO - Connecting to Email Server...
+2025-12-19 17:46:06,135 - INFO - Found 0 unread emails.
+2025-12-19 17:46:06,434 - INFO - Email fetch complete.
+2025-12-19 17:46:06,435 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 17:46:06,435 - INFO - Raw folder processing complete.
+2025-12-19 17:48:32,259 - INFO - Connecting to Email Server...
+2025-12-19 17:48:33,973 - INFO - Found 0 unread emails.
+2025-12-19 17:48:34,234 - INFO - Email fetch complete.
+2025-12-19 17:48:34,235 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 17:48:34,236 - INFO - Raw folder processing complete.
+2025-12-19 17:50:11,682 - INFO - Connecting to Email Server...
+2025-12-19 17:50:13,331 - INFO - Found 0 unread emails.
+2025-12-19 17:50:13,601 - INFO - Email fetch complete.
+2025-12-19 17:50:13,602 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 17:50:13,603 - INFO - Raw folder processing complete.
+2025-12-19 17:53:18,887 - INFO - Connecting to Email Server...
+2025-12-19 17:53:20,602 - INFO - Found 0 unread emails.
+2025-12-19 17:53:20,866 - INFO - Email fetch complete.
+2025-12-19 17:53:20,866 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 17:53:20,867 - INFO - Raw folder processing complete.
+2025-12-19 17:57:06,577 - INFO - Connecting to Email Server...
+2025-12-19 17:57:08,194 - INFO - Found 0 unread emails.
+2025-12-19 17:57:08,456 - INFO - Email fetch complete.
+2025-12-19 17:57:08,458 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 17:57:08,458 - INFO - Raw folder processing complete.
+2025-12-19 17:58:02,733 - INFO - Connecting to Email Server...
+2025-12-19 17:58:04,296 - INFO - Found 0 unread emails.
+2025-12-19 17:58:04,559 - INFO - Email fetch complete.
+2025-12-19 17:58:04,560 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 17:58:04,560 - INFO - Raw folder processing complete.
+2025-12-19 18:01:04,015 - INFO - Connecting to Email Server...
+2025-12-19 18:01:09,736 - INFO - Found 0 unread emails.
+2025-12-19 18:01:10,000 - INFO - Email fetch complete.
+2025-12-19 18:01:10,002 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 18:01:10,002 - INFO - Raw folder processing complete.
+2025-12-19 18:05:11,227 - INFO - Connecting to Email Server...
+2025-12-19 18:06:20,033 - INFO - Found 0 unread emails.
+2025-12-19 18:06:20,306 - INFO - Email fetch complete.
+2025-12-19 18:06:20,308 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 18:06:20,308 - INFO - Raw folder processing complete.
+2025-12-19 18:09:06,897 - INFO - Connecting to Email Server...
+2025-12-19 18:09:12,681 - INFO - Found 0 unread emails.
+2025-12-19 18:09:13,026 - INFO - Email fetch complete.
+2025-12-19 18:09:13,027 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 18:09:13,028 - INFO - Raw folder processing complete.
+2025-12-19 18:16:18,425 - INFO - Connecting to Email Server...
+2025-12-19 18:16:21,009 - INFO - Found 0 unread emails.
+2025-12-19 18:16:21,284 - INFO - Email fetch complete.
+2025-12-19 18:16:21,285 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 18:16:21,286 - INFO - Raw folder processing complete.
+2025-12-19 18:18:03,955 - INFO - Connecting to Email Server...
+2025-12-19 18:18:05,705 - INFO - Found 0 unread emails.
+2025-12-19 18:18:05,987 - INFO - Email fetch complete.
+2025-12-19 18:18:05,987 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 18:18:05,988 - INFO - Raw folder processing complete.
+2025-12-19 18:21:20,846 - INFO - Connecting to Email Server...
+2025-12-19 18:21:22,512 - INFO - Found 0 unread emails.
+2025-12-19 18:21:22,792 - INFO - Email fetch complete.
+2025-12-19 18:21:22,793 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 18:21:22,794 - INFO - Raw folder processing complete.
+2025-12-19 18:22:03,262 - INFO - Connecting to Email Server...
+2025-12-19 18:22:05,715 - INFO - Found 0 unread emails.
+2025-12-19 18:22:05,990 - INFO - Email fetch complete.
+2025-12-19 18:22:05,991 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 18:22:05,992 - INFO - Raw folder processing complete.
+2025-12-19 18:24:17,567 - INFO - Connecting to Email Server...
+2025-12-19 18:24:19,792 - INFO - Found 0 unread emails.
+2025-12-19 18:24:20,064 - INFO - Email fetch complete.
+2025-12-19 18:24:20,065 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 18:24:20,066 - INFO - Raw folder processing complete.
+2025-12-19 18:26:06,021 - INFO - Connecting to Email Server...
+2025-12-19 18:26:07,754 - INFO - Found 0 unread emails.
+2025-12-19 18:26:08,015 - INFO - Email fetch complete.
+2025-12-19 18:26:08,016 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 18:26:08,018 - INFO - Raw folder processing complete.
+2025-12-19 18:28:03,357 - INFO - Connecting to Email Server...
+2025-12-19 18:28:05,076 - INFO - Found 0 unread emails.
+2025-12-19 18:28:05,338 - INFO - Email fetch complete.
+2025-12-19 18:28:05,339 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 18:28:05,341 - INFO - Raw folder processing complete.
+2025-12-19 18:31:18,332 - INFO - Connecting to Email Server...
+2025-12-19 18:31:20,177 - INFO - Found 0 unread emails.
+2025-12-19 18:31:20,461 - INFO - Email fetch complete.
+2025-12-19 18:31:20,462 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 18:31:20,463 - INFO - Raw folder processing complete.
+2025-12-19 18:35:03,141 - INFO - Connecting to Email Server...
+2025-12-19 18:35:05,177 - INFO - Found 0 unread emails.
+2025-12-19 18:35:05,491 - INFO - Email fetch complete.
+2025-12-19 18:35:05,492 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 18:35:05,492 - INFO - Raw folder processing complete.
+2025-12-19 18:37:32,558 - INFO - Connecting to Email Server...
+2025-12-19 18:37:34,317 - INFO - Found 0 unread emails.
+2025-12-19 18:37:34,842 - INFO - Email fetch complete.
+2025-12-19 18:37:34,843 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 18:37:34,843 - INFO - Raw folder processing complete.
+2025-12-19 18:38:21,831 - INFO - Connecting to Email Server...
+2025-12-19 18:38:24,793 - INFO - Found 0 unread emails.
+2025-12-19 18:38:25,060 - INFO - Email fetch complete.
+2025-12-19 18:38:25,061 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 18:38:25,062 - INFO - Raw folder processing complete.
+2025-12-19 18:40:04,908 - INFO - Connecting to Email Server...
+2025-12-19 18:40:09,048 - INFO - Found 0 unread emails.
+2025-12-19 18:40:09,339 - INFO - Email fetch complete.
+2025-12-19 18:40:09,340 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 18:40:09,341 - INFO - Raw folder processing complete.
+2025-12-19 18:44:49,712 - INFO - Connecting to Email Server...
+2025-12-19 18:44:51,326 - INFO - Found 0 unread emails.
+2025-12-19 18:44:51,588 - INFO - Email fetch complete.
+2025-12-19 18:44:51,589 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 18:44:51,590 - INFO - Raw folder processing complete.
+2025-12-19 18:49:42,027 - INFO - Connecting to Email Server...
+2025-12-19 18:49:43,649 - INFO - Found 0 unread emails.
+2025-12-19 18:49:44,104 - INFO - Email fetch complete.
+2025-12-19 18:49:44,104 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 18:49:44,105 - INFO - Raw folder processing complete.
+2025-12-19 18:49:46,052 - INFO - Connecting to Email Server...
+2025-12-19 18:49:47,585 - INFO - Found 0 unread emails.
+2025-12-19 18:49:47,848 - INFO - Email fetch complete.
+2025-12-19 18:49:47,849 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 18:49:47,850 - INFO - Raw folder processing complete.
+2025-12-19 18:50:02,695 - INFO - Connecting to Email Server...
+2025-12-19 18:50:04,972 - INFO - Found 0 unread emails.
+2025-12-19 18:50:05,326 - INFO - Email fetch complete.
+2025-12-19 18:50:05,327 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 18:50:05,328 - INFO - Raw folder processing complete.
+2025-12-19 18:55:10,969 - INFO - Connecting to Email Server...
+2025-12-19 18:55:12,773 - INFO - Found 0 unread emails.
+2025-12-19 18:55:13,055 - INFO - Email fetch complete.
+2025-12-19 18:55:13,055 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 18:55:13,056 - INFO - Raw folder processing complete.
+2025-12-19 18:59:16,866 - INFO - Connecting to Email Server...
+2025-12-19 18:59:19,326 - INFO - Found 0 unread emails.
+2025-12-19 18:59:19,656 - INFO - Email fetch complete.
+2025-12-19 18:59:19,657 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 18:59:19,659 - INFO - Raw folder processing complete.
+2025-12-19 19:01:58,676 - INFO - Connecting to Email Server...
+2025-12-19 19:02:00,275 - INFO - Found 0 unread emails.
+2025-12-19 19:02:00,541 - INFO - Email fetch complete.
+2025-12-19 19:02:00,541 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 19:02:00,541 - INFO - Raw folder processing complete.
+2025-12-19 19:02:02,506 - INFO - Connecting to Email Server...
+2025-12-19 19:02:04,141 - INFO - Found 0 unread emails.
+2025-12-19 19:02:04,417 - INFO - Email fetch complete.
+2025-12-19 19:02:04,417 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 19:02:04,418 - INFO - Raw folder processing complete.
+2025-12-19 19:08:41,658 - INFO - Connecting to Email Server...
+2025-12-19 19:08:43,615 - INFO - Found 0 unread emails.
+2025-12-19 19:08:43,882 - INFO - Email fetch complete.
+2025-12-19 19:08:43,883 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 19:08:43,885 - INFO - Raw folder processing complete.
+2025-12-19 19:14:01,693 - INFO - Connecting to Email Server...
+2025-12-19 19:14:03,376 - INFO - Found 0 unread emails.
+2025-12-19 19:14:03,645 - INFO - Email fetch complete.
+2025-12-19 19:14:03,645 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 19:14:03,646 - INFO - Raw folder processing complete.
+2025-12-19 19:14:05,812 - INFO - Connecting to Email Server...
+2025-12-19 19:14:07,345 - INFO - Found 0 unread emails.
+2025-12-19 19:14:07,607 - INFO - Email fetch complete.
+2025-12-19 19:14:07,608 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 19:14:07,608 - INFO - Raw folder processing complete.
+2025-12-19 19:22:26,978 - INFO - Connecting to Email Server...
+2025-12-19 19:22:29,208 - INFO - Found 0 unread emails.
+2025-12-19 19:22:29,555 - INFO - Email fetch complete.
+2025-12-19 19:22:29,556 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 19:22:29,556 - INFO - Raw folder processing complete.
+2025-12-19 19:29:16,808 - INFO - Connecting to Email Server...
+2025-12-19 19:30:29,730 - INFO - Found 0 unread emails.
+2025-12-19 19:30:30,043 - INFO - Email fetch complete.
+2025-12-19 19:30:30,046 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 19:30:30,047 - INFO - Raw folder processing complete.
+2025-12-19 19:30:32,319 - INFO - Connecting to Email Server...
+2025-12-19 19:30:34,088 - INFO - Found 0 unread emails.
+2025-12-19 19:30:34,350 - INFO - Email fetch complete.
+2025-12-19 19:30:34,351 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 19:30:34,351 - INFO - Raw folder processing complete.
+2025-12-19 19:32:32,856 - INFO - Connecting to Email Server...
+2025-12-19 19:32:34,567 - INFO - Found 0 unread emails.
+2025-12-19 19:32:34,842 - INFO - Email fetch complete.
+2025-12-19 19:32:34,843 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 19:32:34,844 - INFO - Raw folder processing complete.
+2025-12-19 19:40:02,834 - INFO - Connecting to Email Server...
+2025-12-19 19:40:04,712 - INFO - Found 0 unread emails.
+2025-12-19 19:40:05,060 - INFO - Email fetch complete.
+2025-12-19 19:40:05,060 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 19:40:05,061 - INFO - Raw folder processing complete.
+2025-12-19 19:40:07,389 - INFO - Connecting to Email Server...
+2025-12-19 19:40:09,193 - INFO - Found 0 unread emails.
+2025-12-19 19:40:09,545 - INFO - Email fetch complete.
+2025-12-19 19:40:09,545 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 19:40:09,546 - INFO - Raw folder processing complete.
+2025-12-19 19:46:12,568 - INFO - Connecting to Email Server...
+2025-12-19 19:46:14,657 - INFO - Found 0 unread emails.
+2025-12-19 19:46:14,923 - INFO - Email fetch complete.
+2025-12-19 19:46:14,924 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 19:46:14,925 - INFO - Raw folder processing complete.
+2025-12-19 20:01:49,611 - INFO - Connecting to Email Server...
+2025-12-19 20:01:51,771 - INFO - Found 0 unread emails.
+2025-12-19 20:01:52,046 - INFO - Email fetch complete.
+2025-12-19 20:01:52,048 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 20:01:52,050 - INFO - Raw folder processing complete.
+2025-12-19 20:04:32,537 - INFO - Connecting to Email Server...
+2025-12-19 20:04:34,502 - INFO - Found 0 unread emails.
+2025-12-19 20:04:34,759 - INFO - Email fetch complete.
+2025-12-19 20:04:34,760 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 20:04:34,760 - INFO - Raw folder processing complete.
+2025-12-19 20:12:39,889 - INFO - Connecting to Email Server...
+2025-12-19 20:12:42,568 - INFO - Found 0 unread emails.
+2025-12-19 20:12:42,830 - INFO - Email fetch complete.
+2025-12-19 20:12:42,831 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 20:12:42,832 - INFO - Raw folder processing complete.
+2025-12-19 20:44:22,117 - INFO - Connecting to Email Server...
+2025-12-19 20:44:24,694 - INFO - Found 0 unread emails.
+2025-12-19 20:44:25,112 - INFO - Email fetch complete.
+2025-12-19 20:44:25,112 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 20:44:25,113 - INFO - Raw folder processing complete.
+2025-12-19 20:53:29,043 - INFO - Connecting to Email Server...
+2025-12-19 20:53:31,745 - INFO - Found 0 unread emails.
+2025-12-19 20:53:32,007 - INFO - Email fetch complete.
+2025-12-19 20:53:32,007 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 20:53:32,007 - INFO - Raw folder processing complete.
+2025-12-19 20:54:02,679 - INFO - Connecting to Email Server...
+2025-12-19 20:54:04,442 - INFO - Found 0 unread emails.
+2025-12-19 20:54:04,712 - INFO - Email fetch complete.
+2025-12-19 20:54:04,712 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 20:54:04,713 - INFO - Raw folder processing complete.
+2025-12-19 21:51:58,795 - INFO - Connecting to Email Server...
+2025-12-19 21:52:00,710 - INFO - Found 0 unread emails.
+2025-12-19 21:52:00,986 - INFO - Email fetch complete.
+2025-12-19 21:52:00,987 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 21:52:00,988 - INFO - Raw folder processing complete.
+2025-12-19 21:52:02,935 - INFO - Connecting to Email Server...
+2025-12-19 21:52:04,521 - INFO - Found 0 unread emails.
+2025-12-19 21:52:04,791 - INFO - Email fetch complete.
+2025-12-19 21:52:04,792 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 21:52:04,793 - INFO - Raw folder processing complete.
+2025-12-19 23:24:25,195 - INFO - Connecting to Email Server...
+2025-12-19 23:24:26,895 - INFO - Found 0 unread emails.
+2025-12-19 23:24:27,160 - INFO - Email fetch complete.
+2025-12-19 23:24:27,161 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-19 23:24:27,163 - INFO - Raw folder processing complete.
+2025-12-20 00:14:03,068 - INFO - Connecting to Email Server...
+2025-12-20 00:14:05,252 - INFO - Found 0 unread emails.
+2025-12-20 00:14:05,513 - INFO - Email fetch complete.
+2025-12-20 00:14:05,514 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 00:14:05,515 - INFO - Raw folder processing complete.
+2025-12-20 00:46:04,403 - INFO - Connecting to Email Server...
+2025-12-20 00:46:06,493 - INFO - Found 0 unread emails.
+2025-12-20 00:46:06,753 - INFO - Email fetch complete.
+2025-12-20 00:46:06,754 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 00:46:06,756 - INFO - Raw folder processing complete.
+2025-12-20 00:48:03,551 - INFO - Connecting to Email Server...
+2025-12-20 00:48:05,866 - INFO - Found 0 unread emails.
+2025-12-20 00:48:06,136 - INFO - Email fetch complete.
+2025-12-20 00:48:06,137 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 00:48:06,137 - INFO - Raw folder processing complete.
+2025-12-20 01:50:05,371 - INFO - Connecting to Email Server...
+2025-12-20 01:50:07,115 - INFO - Found 0 unread emails.
+2025-12-20 01:50:07,373 - INFO - Email fetch complete.
+2025-12-20 01:50:07,373 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 01:50:07,374 - INFO - Raw folder processing complete.
+2025-12-20 01:52:06,378 - INFO - Connecting to Email Server...
+2025-12-20 01:52:07,909 - INFO - Found 0 unread emails.
+2025-12-20 01:52:08,166 - INFO - Email fetch complete.
+2025-12-20 01:52:08,167 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 01:52:08,168 - INFO - Raw folder processing complete.
+2025-12-20 02:06:03,434 - INFO - Connecting to Email Server...
+2025-12-20 02:06:06,063 - INFO - Found 0 unread emails.
+2025-12-20 02:06:06,324 - INFO - Email fetch complete.
+2025-12-20 02:06:06,324 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 02:06:06,324 - INFO - Raw folder processing complete.
+2025-12-20 02:08:04,428 - INFO - Connecting to Email Server...
+2025-12-20 02:08:06,299 - INFO - Found 0 unread emails.
+2025-12-20 02:08:06,562 - INFO - Email fetch complete.
+2025-12-20 02:08:06,563 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 02:08:06,564 - INFO - Raw folder processing complete.
+2025-12-20 02:10:04,289 - INFO - Connecting to Email Server...
+2025-12-20 02:10:06,136 - INFO - Found 0 unread emails.
+2025-12-20 02:10:06,401 - INFO - Email fetch complete.
+2025-12-20 02:10:06,402 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 02:10:06,402 - INFO - Raw folder processing complete.
+2025-12-20 02:19:41,522 - INFO - Connecting to Email Server...
+2025-12-20 02:19:43,524 - INFO - Found 0 unread emails.
+2025-12-20 02:19:43,782 - INFO - Email fetch complete.
+2025-12-20 02:19:43,783 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 02:19:43,783 - INFO - Raw folder processing complete.
+2025-12-20 02:20:02,426 - INFO - Connecting to Email Server...
+2025-12-20 02:20:04,125 - INFO - Found 0 unread emails.
+2025-12-20 02:20:04,383 - INFO - Email fetch complete.
+2025-12-20 02:20:04,384 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 02:20:04,385 - INFO - Raw folder processing complete.
+2025-12-20 02:23:01,203 - INFO - Connecting to Email Server...
+2025-12-20 02:23:03,698 - INFO - Found 0 unread emails.
+2025-12-20 02:23:03,965 - INFO - Email fetch complete.
+2025-12-20 02:23:03,965 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 02:23:03,967 - INFO - Raw folder processing complete.
+2025-12-20 02:24:05,120 - INFO - Connecting to Email Server...
+2025-12-20 02:24:13,892 - INFO - Found 0 unread emails.
+2025-12-20 02:24:14,391 - INFO - Email fetch complete.
+2025-12-20 02:24:14,391 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 02:24:14,392 - INFO - Raw folder processing complete.
+2025-12-20 02:26:02,812 - INFO - Connecting to Email Server...
+2025-12-20 02:26:04,608 - INFO - Found 0 unread emails.
+2025-12-20 02:26:04,871 - INFO - Email fetch complete.
+2025-12-20 02:26:04,872 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 02:26:04,872 - INFO - Raw folder processing complete.
+2025-12-20 02:58:03,820 - INFO - Connecting to Email Server...
+2025-12-20 02:58:06,260 - INFO - Found 0 unread emails.
+2025-12-20 02:58:06,517 - INFO - Email fetch complete.
+2025-12-20 02:58:06,518 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 02:58:06,519 - INFO - Raw folder processing complete.
+2025-12-20 03:00:02,225 - INFO - Connecting to Email Server...
+2025-12-20 03:00:03,812 - INFO - Found 0 unread emails.
+2025-12-20 03:00:04,712 - INFO - Email fetch complete.
+2025-12-20 03:00:04,713 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 03:00:04,713 - INFO - Raw folder processing complete.
+2025-12-20 03:35:29,310 - INFO - Connecting to Email Server...
+2025-12-20 03:35:31,180 - INFO - Found 0 unread emails.
+2025-12-20 03:35:31,451 - INFO - Email fetch complete.
+2025-12-20 03:35:31,452 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 03:35:31,453 - INFO - Raw folder processing complete.
+2025-12-20 03:52:04,520 - INFO - Connecting to Email Server...
+2025-12-20 03:52:06,303 - INFO - Found 0 unread emails.
+2025-12-20 03:52:06,566 - INFO - Email fetch complete.
+2025-12-20 03:52:06,567 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 03:52:06,567 - INFO - Raw folder processing complete.
+2025-12-20 03:54:04,851 - INFO - Connecting to Email Server...
+2025-12-20 03:54:06,570 - INFO - Found 0 unread emails.
+2025-12-20 03:54:06,835 - INFO - Email fetch complete.
+2025-12-20 03:54:06,837 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 03:54:06,837 - INFO - Raw folder processing complete.
+2025-12-20 03:56:03,455 - INFO - Connecting to Email Server...
+2025-12-20 03:56:05,822 - INFO - Found 0 unread emails.
+2025-12-20 03:56:06,111 - INFO - Email fetch complete.
+2025-12-20 03:56:06,112 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 03:56:06,113 - INFO - Raw folder processing complete.
+2025-12-20 04:18:26,421 - INFO - Connecting to Email Server...
+2025-12-20 04:18:29,195 - INFO - Found 0 unread emails.
+2025-12-20 04:18:29,453 - INFO - Email fetch complete.
+2025-12-20 04:18:29,454 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 04:18:29,456 - INFO - Raw folder processing complete.
+2025-12-20 04:20:09,629 - INFO - Connecting to Email Server...
+2025-12-20 04:20:11,332 - INFO - Found 0 unread emails.
+2025-12-20 04:20:11,594 - INFO - Email fetch complete.
+2025-12-20 04:20:11,595 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 04:20:11,596 - INFO - Raw folder processing complete.
+2025-12-20 04:22:03,331 - INFO - Connecting to Email Server...
+2025-12-20 04:22:05,527 - INFO - Found 0 unread emails.
+2025-12-20 04:22:05,793 - INFO - Email fetch complete.
+2025-12-20 04:22:05,795 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 04:22:05,796 - INFO - Raw folder processing complete.
+2025-12-20 04:25:17,394 - INFO - Connecting to Email Server...
+2025-12-20 04:25:19,526 - INFO - Found 0 unread emails.
+2025-12-20 04:25:19,800 - INFO - Email fetch complete.
+2025-12-20 04:25:19,801 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 04:25:19,801 - INFO - Raw folder processing complete.
+2025-12-20 04:26:03,615 - INFO - Connecting to Email Server...
+2025-12-20 04:26:05,368 - INFO - Found 0 unread emails.
+2025-12-20 04:26:05,638 - INFO - Email fetch complete.
+2025-12-20 04:26:05,640 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 04:26:05,641 - INFO - Raw folder processing complete.
+2025-12-20 04:28:04,922 - INFO - Connecting to Email Server...
+2025-12-20 04:28:07,897 - INFO - Found 0 unread emails.
+2025-12-20 04:28:08,161 - INFO - Email fetch complete.
+2025-12-20 04:28:08,161 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 04:28:08,162 - INFO - Raw folder processing complete.
+2025-12-20 04:36:33,326 - INFO - Connecting to Email Server...
+2025-12-20 04:36:35,194 - INFO - Found 0 unread emails.
+2025-12-20 04:36:35,455 - INFO - Email fetch complete.
+2025-12-20 04:36:35,456 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 04:36:35,456 - INFO - Raw folder processing complete.
+2025-12-20 05:06:48,527 - INFO - Connecting to Email Server...
+2025-12-20 05:06:50,708 - INFO - Found 0 unread emails.
+2025-12-20 05:06:50,973 - INFO - Email fetch complete.
+2025-12-20 05:06:50,973 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 05:06:50,974 - INFO - Raw folder processing complete.
+2025-12-20 05:08:04,970 - INFO - Connecting to Email Server...
+2025-12-20 05:08:07,256 - INFO - Found 0 unread emails.
+2025-12-20 05:08:07,652 - INFO - Email fetch complete.
+2025-12-20 05:08:07,653 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 05:08:07,654 - INFO - Raw folder processing complete.
+2025-12-20 05:10:39,527 - INFO - Connecting to Email Server...
+2025-12-20 05:10:41,726 - INFO - Found 0 unread emails.
+2025-12-20 05:10:42,019 - INFO - Email fetch complete.
+2025-12-20 05:10:42,019 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 05:10:42,019 - INFO - Raw folder processing complete.
+2025-12-20 05:13:01,499 - INFO - Connecting to Email Server...
+2025-12-20 05:13:03,216 - INFO - Found 0 unread emails.
+2025-12-20 05:13:03,480 - INFO - Email fetch complete.
+2025-12-20 05:13:03,481 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 05:13:03,482 - INFO - Raw folder processing complete.
+2025-12-20 05:25:40,022 - INFO - Routing file /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/523202410I3356700S20241011110303.pdf (ext=.pdf)
+2025-12-20 05:26:02,578 - INFO - Connecting to Email Server...
+2025-12-20 05:26:04,306 - INFO - Found 0 unread emails.
+2025-12-20 05:26:04,577 - INFO - Email fetch complete.
+2025-12-20 05:26:04,578 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 05:26:04,578 - INFO - Processing raw file: 523202410I3356700S20241011110303.pdf
+2025-12-20 05:26:04,594 - INFO - Routing file /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/523202410I3356700S20241011110303.pdf (ext=.pdf)
+2025-12-20 05:26:07,608 - INFO - Moved file to processed: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/processed/523202410I3356700S20241011110303.pdf
+2025-12-20 05:26:07,608 - INFO - Raw folder processing complete.
+2025-12-20 05:28:02,544 - INFO - Connecting to Email Server...
+2025-12-20 05:28:08,061 - INFO - Found 0 unread emails.
+2025-12-20 05:28:08,342 - INFO - Email fetch complete.
+2025-12-20 05:28:08,342 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 05:28:08,343 - INFO - Raw folder processing complete.
+2025-12-20 05:30:03,063 - INFO - Connecting to Email Server...
+2025-12-20 05:30:05,071 - INFO - Found 0 unread emails.
+2025-12-20 05:30:05,332 - INFO - Email fetch complete.
+2025-12-20 05:30:05,333 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 05:30:05,335 - INFO - Raw folder processing complete.
+2025-12-20 05:32:02,414 - INFO - Connecting to Email Server...
+2025-12-20 05:32:04,165 - INFO - Found 0 unread emails.
+2025-12-20 05:32:04,433 - INFO - Email fetch complete.
+2025-12-20 05:32:04,434 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 05:32:04,435 - INFO - Raw folder processing complete.
+2025-12-20 05:34:03,018 - INFO - Connecting to Email Server...
+2025-12-20 05:34:04,856 - INFO - Found 0 unread emails.
+2025-12-20 05:34:05,143 - INFO - Email fetch complete.
+2025-12-20 05:34:05,143 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 05:34:05,143 - INFO - Raw folder processing complete.
+2025-12-20 05:36:03,668 - INFO - Connecting to Email Server...
+2025-12-20 05:36:05,800 - INFO - Found 0 unread emails.
+2025-12-20 05:36:06,055 - INFO - Email fetch complete.
+2025-12-20 05:36:06,056 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 05:36:06,058 - INFO - Raw folder processing complete.
+2025-12-20 05:38:04,268 - INFO - Connecting to Email Server...
+2025-12-20 05:38:06,082 - INFO - Found 0 unread emails.
+2025-12-20 05:38:06,347 - INFO - Email fetch complete.
+2025-12-20 05:38:06,350 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 05:38:06,351 - INFO - Raw folder processing complete.
+2025-12-20 05:40:03,090 - INFO - Connecting to Email Server...
+2025-12-20 05:40:04,934 - INFO - Found 0 unread emails.
+2025-12-20 05:40:05,213 - INFO - Email fetch complete.
+2025-12-20 05:40:05,215 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 05:40:05,217 - INFO - Raw folder processing complete.
+2025-12-20 05:42:03,264 - INFO - Connecting to Email Server...
+2025-12-20 05:42:05,379 - INFO - Found 0 unread emails.
+2025-12-20 05:42:05,665 - INFO - Email fetch complete.
+2025-12-20 05:42:05,666 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 05:42:05,667 - INFO - Raw folder processing complete.
+2025-12-20 05:44:02,364 - INFO - Connecting to Email Server...
+2025-12-20 05:44:04,134 - INFO - Found 0 unread emails.
+2025-12-20 05:44:04,392 - INFO - Email fetch complete.
+2025-12-20 05:44:04,393 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 05:44:04,394 - INFO - Raw folder processing complete.
+2025-12-20 05:46:22,238 - INFO - Connecting to Email Server...
+2025-12-20 05:46:23,968 - INFO - Found 0 unread emails.
+2025-12-20 05:46:24,227 - INFO - Email fetch complete.
+2025-12-20 05:46:24,228 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 05:46:24,229 - INFO - Raw folder processing complete.
+2025-12-20 06:02:05,307 - INFO - Connecting to Email Server...
+2025-12-20 06:02:07,338 - INFO - Found 0 unread emails.
+2025-12-20 06:02:07,597 - INFO - Email fetch complete.
+2025-12-20 06:02:07,597 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 06:02:07,598 - INFO - Raw folder processing complete.
+2025-12-20 06:04:04,059 - INFO - Connecting to Email Server...
+2025-12-20 06:04:05,684 - INFO - Found 0 unread emails.
+2025-12-20 06:04:05,953 - INFO - Email fetch complete.
+2025-12-20 06:04:05,954 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 06:04:05,963 - INFO - Raw folder processing complete.
+2025-12-20 06:06:04,843 - INFO - Connecting to Email Server...
+2025-12-20 06:06:06,763 - INFO - Found 0 unread emails.
+2025-12-20 06:06:07,110 - INFO - Email fetch complete.
+2025-12-20 06:06:07,111 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 06:06:07,112 - INFO - Raw folder processing complete.
+2025-12-20 06:08:02,488 - INFO - Connecting to Email Server...
+2025-12-20 06:08:04,272 - INFO - Found 0 unread emails.
+2025-12-20 06:08:04,543 - INFO - Email fetch complete.
+2025-12-20 06:08:04,545 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 06:08:04,546 - INFO - Raw folder processing complete.
+2025-12-20 06:10:02,454 - INFO - Connecting to Email Server...
+2025-12-20 06:10:04,199 - INFO - Found 0 unread emails.
+2025-12-20 06:10:04,467 - INFO - Email fetch complete.
+2025-12-20 06:10:04,467 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 06:10:04,468 - INFO - Raw folder processing complete.
+2025-12-20 06:12:02,983 - INFO - Connecting to Email Server...
+2025-12-20 06:12:04,766 - INFO - Found 0 unread emails.
+2025-12-20 06:12:05,072 - INFO - Email fetch complete.
+2025-12-20 06:12:05,073 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 06:12:05,073 - INFO - Raw folder processing complete.
+2025-12-20 06:14:03,187 - INFO - Connecting to Email Server...
+2025-12-20 06:14:05,200 - INFO - Found 0 unread emails.
+2025-12-20 06:14:05,459 - INFO - Email fetch complete.
+2025-12-20 06:14:05,460 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 06:14:05,460 - INFO - Raw folder processing complete.
+2025-12-20 06:16:02,236 - INFO - Connecting to Email Server...
+2025-12-20 06:16:03,983 - INFO - Found 0 unread emails.
+2025-12-20 06:16:04,249 - INFO - Email fetch complete.
+2025-12-20 06:16:04,250 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 06:16:04,251 - INFO - Raw folder processing complete.
+2025-12-20 06:18:03,029 - INFO - Connecting to Email Server...
+2025-12-20 06:18:04,665 - INFO - Found 0 unread emails.
+2025-12-20 06:18:04,925 - INFO - Email fetch complete.
+2025-12-20 06:18:04,925 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 06:18:04,927 - INFO - Raw folder processing complete.
+2025-12-20 06:20:02,728 - INFO - Connecting to Email Server...
+2025-12-20 06:20:04,348 - INFO - Found 0 unread emails.
+2025-12-20 06:20:04,614 - INFO - Email fetch complete.
+2025-12-20 06:20:04,615 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 06:20:04,615 - INFO - Raw folder processing complete.
+2025-12-20 06:22:03,387 - INFO - Connecting to Email Server...
+2025-12-20 06:22:06,009 - INFO - Found 0 unread emails.
+2025-12-20 06:22:07,820 - INFO - Email fetch complete.
+2025-12-20 06:22:07,821 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 06:22:07,822 - INFO - Raw folder processing complete.
+2025-12-20 06:24:03,093 - INFO - Connecting to Email Server...
+2025-12-20 06:24:04,808 - INFO - Found 0 unread emails.
+2025-12-20 06:24:05,073 - INFO - Email fetch complete.
+2025-12-20 06:24:05,074 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 06:24:05,075 - INFO - Raw folder processing complete.
+2025-12-20 06:26:03,023 - INFO - Connecting to Email Server...
+2025-12-20 06:26:04,704 - INFO - Found 0 unread emails.
+2025-12-20 06:26:04,959 - INFO - Email fetch complete.
+2025-12-20 06:26:04,959 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 06:26:04,961 - INFO - Raw folder processing complete.
+2025-12-20 06:28:02,890 - INFO - Connecting to Email Server...
+2025-12-20 06:28:04,742 - INFO - Found 0 unread emails.
+2025-12-20 06:28:05,008 - INFO - Email fetch complete.
+2025-12-20 06:28:05,008 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 06:28:05,009 - INFO - Raw folder processing complete.
+2025-12-20 06:30:03,090 - INFO - Connecting to Email Server...
+2025-12-20 06:30:04,825 - INFO - Found 0 unread emails.
+2025-12-20 06:30:05,088 - INFO - Email fetch complete.
+2025-12-20 06:30:05,089 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 06:30:05,089 - INFO - Raw folder processing complete.
+2025-12-20 06:32:04,024 - INFO - Connecting to Email Server...
+2025-12-20 06:32:05,721 - INFO - Found 0 unread emails.
+2025-12-20 06:32:05,984 - INFO - Email fetch complete.
+2025-12-20 06:32:05,985 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 06:32:05,985 - INFO - Raw folder processing complete.
+2025-12-20 06:34:03,149 - INFO - Connecting to Email Server...
+2025-12-20 06:34:04,973 - INFO - Found 0 unread emails.
+2025-12-20 06:34:05,251 - INFO - Email fetch complete.
+2025-12-20 06:34:05,251 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 06:34:05,252 - INFO - Raw folder processing complete.
+2025-12-20 06:51:20,646 - INFO - Connecting to Email Server...
+2025-12-20 06:51:23,879 - INFO - Connecting to Email Server...
+2025-12-20 10:48:02,784 - INFO - Connecting to Email Server...
+2025-12-20 10:50:02,512 - INFO - Connecting to Email Server...
+2025-12-20 10:52:02,482 - INFO - Connecting to Email Server...
+2025-12-20 10:54:02,551 - INFO - Connecting to Email Server...
+2025-12-20 10:56:03,392 - INFO - Connecting to Email Server...
+2025-12-20 10:56:06,872 - INFO - Found 0 unread emails.
+2025-12-20 10:56:07,548 - INFO - Email fetch complete.
+2025-12-20 10:56:07,575 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 10:56:07,575 - INFO - Raw folder processing complete.
+2025-12-20 10:56:09,616 - INFO - Routing file /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/523202410I3356700S20241011110303.pdf (ext=.pdf)
+2025-12-20 10:58:03,315 - INFO - Connecting to Email Server...
+2025-12-20 10:58:05,583 - INFO - Found 0 unread emails.
+2025-12-20 10:58:06,155 - INFO - Email fetch complete.
+2025-12-20 10:58:06,156 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 10:58:06,157 - INFO - Processing raw file: 523202410I3356700S20241011110303.pdf
+2025-12-20 10:58:06,178 - INFO - Routing file /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/523202410I3356700S20241011110303.pdf (ext=.pdf)
+2025-12-20 10:58:09,341 - INFO - Moved file to processed: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/processed/523202410I3356700S20241011110303.pdf
+2025-12-20 10:58:09,342 - INFO - Raw folder processing complete.
+2025-12-20 11:00:03,543 - INFO - Connecting to Email Server...
+2025-12-20 11:02:02,770 - INFO - Connecting to Email Server...
+2025-12-20 11:04:04,013 - INFO - Connecting to Email Server...
+2025-12-20 11:04:18,029 - INFO - Found 0 unread emails.
+2025-12-20 11:04:18,747 - INFO - Email fetch complete.
+2025-12-20 11:04:18,748 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 11:04:18,762 - INFO - Raw folder processing complete.
+2025-12-20 11:06:03,742 - INFO - Connecting to Email Server...
+2025-12-20 11:06:06,003 - INFO - Found 0 unread emails.
+2025-12-20 11:06:06,483 - INFO - Email fetch complete.
+2025-12-20 11:06:06,484 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 11:06:06,484 - INFO - Raw folder processing complete.
+2025-12-20 11:16:44,149 - INFO - Connecting to Email Server...
+2025-12-20 13:52:50,751 - INFO - Connecting to Email Server...
+2025-12-20 14:42:08,461 - INFO - Connecting to Email Server...
+2025-12-20 14:42:10,304 - INFO - Found 0 unread emails.
+2025-12-20 15:10:03,578 - INFO - Connecting to Email Server...
+2025-12-20 15:10:05,497 - INFO - Found 0 unread emails.
+2025-12-20 15:10:05,754 - INFO - Email fetch complete.
+2025-12-20 15:10:05,755 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 15:10:05,755 - INFO - Raw folder processing complete.
+2025-12-20 15:46:22,177 - INFO - Connecting to Email Server...
+2025-12-20 15:46:24,859 - INFO - Found 0 unread emails.
+2025-12-20 15:46:25,120 - INFO - Email fetch complete.
+2025-12-20 15:46:25,122 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 15:46:25,126 - INFO - Raw folder processing complete.
+2025-12-20 15:48:03,131 - INFO - Connecting to Email Server...
+2025-12-20 15:48:04,832 - INFO - Found 0 unread emails.
+2025-12-20 15:48:05,101 - INFO - Email fetch complete.
+2025-12-20 15:48:05,102 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 15:48:05,103 - INFO - Raw folder processing complete.
+2025-12-20 15:50:02,937 - INFO - Connecting to Email Server...
+2025-12-20 15:50:04,606 - INFO - Found 0 unread emails.
+2025-12-20 15:50:04,916 - INFO - Email fetch complete.
+2025-12-20 15:50:04,917 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 15:50:04,917 - INFO - Raw folder processing complete.
+2025-12-20 15:52:03,541 - INFO - Connecting to Email Server...
+2025-12-20 15:52:05,523 - INFO - Found 0 unread emails.
+2025-12-20 15:52:05,851 - INFO - Email fetch complete.
+2025-12-20 15:52:05,852 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 15:52:05,854 - INFO - Raw folder processing complete.
+2025-12-20 15:54:03,085 - INFO - Connecting to Email Server...
+2025-12-20 15:54:06,683 - INFO - Found 0 unread emails.
+2025-12-20 15:54:07,051 - INFO - Email fetch complete.
+2025-12-20 15:54:07,052 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 15:54:07,053 - INFO - Raw folder processing complete.
+2025-12-20 15:56:03,364 - INFO - Connecting to Email Server...
+2025-12-20 15:56:05,554 - INFO - Found 0 unread emails.
+2025-12-20 15:56:05,825 - INFO - Email fetch complete.
+2025-12-20 15:56:05,827 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 15:56:05,830 - INFO - Raw folder processing complete.
+2025-12-20 15:58:03,528 - INFO - Connecting to Email Server...
+2025-12-20 15:58:05,306 - INFO - Found 0 unread emails.
+2025-12-20 15:58:09,269 - INFO - Email fetch complete.
+2025-12-20 15:58:09,271 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 15:58:09,271 - INFO - Raw folder processing complete.
+2025-12-20 16:14:02,995 - INFO - Connecting to Email Server...
+2025-12-20 16:14:04,841 - INFO - Found 0 unread emails.
+2025-12-20 16:14:05,104 - INFO - Email fetch complete.
+2025-12-20 16:14:05,111 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 16:14:05,113 - INFO - Raw folder processing complete.
+2025-12-20 16:16:02,763 - INFO - Connecting to Email Server...
+2025-12-20 16:16:04,797 - INFO - Found 0 unread emails.
+2025-12-20 16:16:05,061 - INFO - Email fetch complete.
+2025-12-20 16:16:05,066 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 16:16:05,067 - INFO - Raw folder processing complete.
+2025-12-20 16:18:02,630 - INFO - Connecting to Email Server...
+2025-12-20 16:18:04,419 - INFO - Found 0 unread emails.
+2025-12-20 16:18:04,685 - INFO - Email fetch complete.
+2025-12-20 16:18:04,686 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 16:18:04,687 - INFO - Raw folder processing complete.
+2025-12-20 16:36:02,897 - INFO - Connecting to Email Server...
+2025-12-20 16:36:04,632 - INFO - Found 0 unread emails.
+2025-12-20 16:36:04,890 - INFO - Email fetch complete.
+2025-12-20 16:36:04,891 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 16:36:04,891 - INFO - Raw folder processing complete.
+2025-12-20 16:38:03,025 - INFO - Connecting to Email Server...
+2025-12-20 16:38:04,616 - INFO - Found 0 unread emails.
+2025-12-20 16:38:04,874 - INFO - Email fetch complete.
+2025-12-20 16:38:04,875 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 16:38:04,877 - INFO - Raw folder processing complete.
+2025-12-20 16:40:02,502 - INFO - Connecting to Email Server...
+2025-12-20 16:40:04,305 - INFO - Found 0 unread emails.
+2025-12-20 16:40:04,567 - INFO - Email fetch complete.
+2025-12-20 16:40:04,568 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 16:40:04,570 - INFO - Raw folder processing complete.
+2025-12-20 16:42:02,471 - INFO - Connecting to Email Server...
+2025-12-20 16:42:04,183 - INFO - Found 0 unread emails.
+2025-12-20 16:42:04,523 - INFO - Email fetch complete.
+2025-12-20 16:42:04,524 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 16:42:04,524 - INFO - Raw folder processing complete.
+2025-12-20 16:44:02,084 - INFO - Connecting to Email Server...
+2025-12-20 16:44:03,757 - INFO - Found 0 unread emails.
+2025-12-20 16:44:04,023 - INFO - Email fetch complete.
+2025-12-20 16:44:04,024 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 16:44:04,025 - INFO - Raw folder processing complete.
+2025-12-20 16:46:02,692 - INFO - Connecting to Email Server...
+2025-12-20 16:46:04,283 - INFO - Found 0 unread emails.
+2025-12-20 16:46:04,543 - INFO - Email fetch complete.
+2025-12-20 16:46:04,544 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 16:46:04,545 - INFO - Raw folder processing complete.
+2025-12-20 16:48:03,362 - INFO - Connecting to Email Server...
+2025-12-20 16:48:05,116 - INFO - Found 0 unread emails.
+2025-12-20 16:48:05,384 - INFO - Email fetch complete.
+2025-12-20 16:48:05,385 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 16:48:05,386 - INFO - Raw folder processing complete.
+2025-12-20 16:50:02,277 - INFO - Connecting to Email Server...
+2025-12-20 16:50:04,027 - INFO - Found 0 unread emails.
+2025-12-20 16:50:04,309 - INFO - Email fetch complete.
+2025-12-20 16:50:04,310 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 16:50:04,311 - INFO - Raw folder processing complete.
+2025-12-20 17:01:14,911 - INFO - Connecting to Email Server...
+2025-12-20 17:01:16,762 - INFO - Found 0 unread emails.
+2025-12-20 17:01:17,022 - INFO - Email fetch complete.
+2025-12-20 17:01:17,022 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 17:01:17,022 - INFO - Raw folder processing complete.
+2025-12-20 17:02:02,965 - INFO - Connecting to Email Server...
+2025-12-20 17:02:04,852 - INFO - Found 0 unread emails.
+2025-12-20 17:02:05,126 - INFO - Email fetch complete.
+2025-12-20 17:02:05,127 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 17:02:05,127 - INFO - Raw folder processing complete.
+2025-12-20 17:04:02,631 - INFO - Connecting to Email Server...
+2025-12-20 17:04:04,490 - INFO - Found 0 unread emails.
+2025-12-20 17:04:04,766 - INFO - Email fetch complete.
+2025-12-20 17:04:04,767 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 17:04:04,768 - INFO - Raw folder processing complete.
+2025-12-20 17:06:02,778 - INFO - Connecting to Email Server...
+2025-12-20 17:06:04,482 - INFO - Found 0 unread emails.
+2025-12-20 17:06:04,760 - INFO - Email fetch complete.
+2025-12-20 17:06:04,761 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 17:06:04,762 - INFO - Raw folder processing complete.
+2025-12-20 17:10:51,622 - INFO - Connecting to Email Server...
+2025-12-20 17:10:54,037 - INFO - Found 0 unread emails.
+2025-12-20 17:10:54,392 - INFO - Email fetch complete.
+2025-12-20 17:10:54,394 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 17:10:54,395 - INFO - Raw folder processing complete.
+2025-12-20 17:12:01,974 - INFO - Connecting to Email Server...
+2025-12-20 17:12:03,711 - INFO - Found 0 unread emails.
+2025-12-20 17:12:03,989 - INFO - Email fetch complete.
+2025-12-20 17:12:03,990 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 17:12:03,990 - INFO - Raw folder processing complete.
+2025-12-20 17:17:17,765 - INFO - Connecting to Email Server...
+2025-12-20 17:17:19,726 - INFO - Found 0 unread emails.
+2025-12-20 17:17:19,995 - INFO - Email fetch complete.
+2025-12-20 17:17:20,006 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 17:17:20,006 - INFO - Raw folder processing complete.
+2025-12-20 17:18:03,763 - INFO - Connecting to Email Server...
+2025-12-20 17:18:05,406 - INFO - Found 0 unread emails.
+2025-12-20 17:18:05,677 - INFO - Email fetch complete.
+2025-12-20 17:18:05,678 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 17:18:05,679 - INFO - Raw folder processing complete.
+2025-12-20 17:20:02,806 - INFO - Connecting to Email Server...
+2025-12-20 17:20:04,429 - INFO - Found 0 unread emails.
+2025-12-20 17:20:04,693 - INFO - Email fetch complete.
+2025-12-20 17:20:04,694 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 17:20:04,695 - INFO - Raw folder processing complete.
+2025-12-20 17:22:02,685 - INFO - Connecting to Email Server...
+2025-12-20 17:22:04,417 - INFO - Found 0 unread emails.
+2025-12-20 17:22:04,852 - INFO - Email fetch complete.
+2025-12-20 17:22:04,853 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 17:22:04,853 - INFO - Raw folder processing complete.
+2025-12-20 17:24:02,550 - INFO - Connecting to Email Server...
+2025-12-20 17:24:04,290 - INFO - Found 0 unread emails.
+2025-12-20 17:24:04,551 - INFO - Email fetch complete.
+2025-12-20 17:24:04,551 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 17:24:04,552 - INFO - Raw folder processing complete.
+2025-12-20 17:26:03,343 - INFO - Connecting to Email Server...
+2025-12-20 17:26:05,074 - INFO - Found 0 unread emails.
+2025-12-20 17:26:05,344 - INFO - Email fetch complete.
+2025-12-20 17:26:05,345 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 17:26:05,346 - INFO - Raw folder processing complete.
+2025-12-20 17:29:13,108 - INFO - Connecting to Email Server...
+2025-12-20 17:29:14,902 - INFO - Found 0 unread emails.
+2025-12-20 17:29:15,161 - INFO - Email fetch complete.
+2025-12-20 17:29:15,161 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 17:29:15,162 - INFO - Raw folder processing complete.
+2025-12-20 17:30:02,965 - INFO - Connecting to Email Server...
+2025-12-20 17:30:04,757 - INFO - Found 0 unread emails.
+2025-12-20 17:30:05,022 - INFO - Email fetch complete.
+2025-12-20 17:30:05,023 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 17:30:05,024 - INFO - Raw folder processing complete.
+2025-12-20 17:32:02,725 - INFO - Connecting to Email Server...
+2025-12-20 17:32:04,555 - INFO - Found 0 unread emails.
+2025-12-20 17:32:04,816 - INFO - Email fetch complete.
+2025-12-20 17:32:04,817 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 17:32:04,817 - INFO - Raw folder processing complete.
+2025-12-20 17:34:02,297 - INFO - Connecting to Email Server...
+2025-12-20 17:34:03,998 - INFO - Found 0 unread emails.
+2025-12-20 17:34:04,267 - INFO - Email fetch complete.
+2025-12-20 17:34:04,269 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 17:34:04,269 - INFO - Raw folder processing complete.
+2025-12-20 17:36:03,281 - INFO - Connecting to Email Server...
+2025-12-20 17:36:05,007 - INFO - Found 0 unread emails.
+2025-12-20 17:36:05,269 - INFO - Email fetch complete.
+2025-12-20 17:36:05,270 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 17:36:05,272 - INFO - Raw folder processing complete.
+2025-12-20 17:38:02,829 - INFO - Connecting to Email Server...
+2025-12-20 17:38:04,555 - INFO - Found 0 unread emails.
+2025-12-20 17:38:04,815 - INFO - Email fetch complete.
+2025-12-20 17:38:04,816 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 17:38:04,817 - INFO - Raw folder processing complete.
+2025-12-20 17:40:02,585 - INFO - Connecting to Email Server...
+2025-12-20 17:40:04,427 - INFO - Found 0 unread emails.
+2025-12-20 17:40:04,694 - INFO - Email fetch complete.
+2025-12-20 17:40:04,695 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 17:40:04,698 - INFO - Raw folder processing complete.
+2025-12-20 17:42:02,466 - INFO - Connecting to Email Server...
+2025-12-20 17:42:04,232 - INFO - Found 0 unread emails.
+2025-12-20 17:42:04,491 - INFO - Email fetch complete.
+2025-12-20 17:42:04,492 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 17:42:04,493 - INFO - Raw folder processing complete.
+2025-12-20 17:44:01,997 - INFO - Connecting to Email Server...
+2025-12-20 17:44:03,813 - INFO - Found 0 unread emails.
+2025-12-20 17:44:04,108 - INFO - Email fetch complete.
+2025-12-20 17:44:04,110 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 17:44:04,111 - INFO - Raw folder processing complete.
+2025-12-20 17:46:02,670 - INFO - Connecting to Email Server...
+2025-12-20 17:46:04,532 - INFO - Found 0 unread emails.
+2025-12-20 17:46:04,796 - INFO - Email fetch complete.
+2025-12-20 17:46:04,797 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 17:46:04,802 - INFO - Raw folder processing complete.
+2025-12-20 17:48:02,522 - INFO - Connecting to Email Server...
+2025-12-20 17:48:04,192 - INFO - Found 0 unread emails.
+2025-12-20 17:48:04,451 - INFO - Email fetch complete.
+2025-12-20 17:48:04,452 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 17:48:04,454 - INFO - Raw folder processing complete.
+2025-12-20 17:50:01,891 - INFO - Connecting to Email Server...
+2025-12-20 17:50:03,653 - INFO - Found 0 unread emails.
+2025-12-20 17:50:03,908 - INFO - Email fetch complete.
+2025-12-20 17:50:03,909 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-20 17:50:03,910 - INFO - Raw folder processing complete.
+2025-12-21 02:06:03,217 - INFO - Connecting to Email Server...
+2025-12-21 02:06:05,668 - INFO - Found 0 unread emails.
+2025-12-21 02:06:05,926 - INFO - Email fetch complete.
+2025-12-21 02:06:05,927 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-21 02:06:05,928 - INFO - Raw folder processing complete.
+2025-12-21 03:42:58,209 - INFO - Connecting to Email Server...
+2025-12-21 03:43:00,384 - INFO - Found 0 unread emails.
+2025-12-21 03:43:00,667 - INFO - Email fetch complete.
+2025-12-21 03:43:00,668 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-21 03:43:00,669 - INFO - Raw folder processing complete.
+2025-12-21 03:44:03,354 - INFO - Connecting to Email Server...
+2025-12-21 03:44:05,385 - INFO - Found 0 unread emails.
+2025-12-21 03:44:05,817 - INFO - Email fetch complete.
+2025-12-21 03:44:05,817 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-21 03:44:05,817 - INFO - Raw folder processing complete.
+2025-12-21 03:46:02,019 - INFO - Connecting to Email Server...
+2025-12-21 03:46:03,616 - INFO - Found 0 unread emails.
+2025-12-21 03:46:03,880 - INFO - Email fetch complete.
+2025-12-21 03:46:03,881 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-21 03:46:03,882 - INFO - Raw folder processing complete.
+2025-12-21 03:48:02,649 - INFO - Connecting to Email Server...
+2025-12-21 03:48:04,242 - INFO - Found 0 unread emails.
+2025-12-21 03:48:04,515 - INFO - Email fetch complete.
+2025-12-21 03:48:04,516 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-21 03:48:04,516 - INFO - Raw folder processing complete.
+2025-12-21 03:50:02,449 - INFO - Connecting to Email Server...
+2025-12-21 03:50:04,145 - INFO - Found 0 unread emails.
+2025-12-21 03:50:04,409 - INFO - Email fetch complete.
+2025-12-21 03:50:04,410 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-21 03:50:04,411 - INFO - Raw folder processing complete.
+2025-12-21 03:52:02,864 - INFO - Connecting to Email Server...
+2025-12-21 03:52:04,718 - INFO - Found 0 unread emails.
+2025-12-21 03:52:05,025 - INFO - Email fetch complete.
+2025-12-21 03:52:05,026 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-21 03:52:05,026 - INFO - Raw folder processing complete.
+2025-12-21 03:54:02,316 - INFO - Connecting to Email Server...
+2025-12-21 03:54:03,976 - INFO - Found 0 unread emails.
+2025-12-21 03:54:04,236 - INFO - Email fetch complete.
+2025-12-21 03:54:04,237 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-21 03:54:04,239 - INFO - Raw folder processing complete.
+2025-12-21 03:56:03,251 - INFO - Connecting to Email Server...
+2025-12-21 03:56:04,972 - INFO - Found 0 unread emails.
+2025-12-21 03:56:05,235 - INFO - Email fetch complete.
+2025-12-21 03:56:05,236 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-21 03:56:05,237 - INFO - Raw folder processing complete.
+2025-12-21 03:58:16,686 - INFO - Connecting to Email Server...
+2025-12-21 03:58:18,359 - INFO - Found 0 unread emails.
+2025-12-21 03:58:18,615 - INFO - Email fetch complete.
+2025-12-21 03:58:18,616 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-21 03:58:18,617 - INFO - Raw folder processing complete.
+2025-12-21 04:00:02,371 - INFO - Connecting to Email Server...
+2025-12-21 04:00:03,972 - INFO - Found 0 unread emails.
+2025-12-21 04:00:04,235 - INFO - Email fetch complete.
+2025-12-21 04:00:04,236 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-21 04:00:04,237 - INFO - Raw folder processing complete.
+2025-12-21 04:02:03,321 - INFO - Connecting to Email Server...
+2025-12-21 04:02:04,918 - INFO - Found 0 unread emails.
+2025-12-21 04:02:05,184 - INFO - Email fetch complete.
+2025-12-21 04:02:05,185 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-21 04:02:05,186 - INFO - Raw folder processing complete.
+2025-12-21 04:04:03,361 - INFO - Connecting to Email Server...
+2025-12-21 04:04:05,436 - INFO - Found 0 unread emails.
+2025-12-21 04:04:05,920 - INFO - Email fetch complete.
+2025-12-21 04:04:05,921 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-21 04:04:05,922 - INFO - Raw folder processing complete.
+2025-12-21 04:06:02,516 - INFO - Connecting to Email Server...
+2025-12-21 04:06:04,329 - INFO - Found 0 unread emails.
+2025-12-21 04:06:04,598 - INFO - Email fetch complete.
+2025-12-21 04:06:04,599 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-21 04:06:04,601 - INFO - Raw folder processing complete.
+2025-12-21 04:08:02,490 - INFO - Connecting to Email Server...
+2025-12-21 04:08:04,355 - INFO - Found 0 unread emails.
+2025-12-21 04:08:04,626 - INFO - Email fetch complete.
+2025-12-21 04:08:04,628 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-21 04:08:04,629 - INFO - Raw folder processing complete.
+2025-12-21 04:10:02,216 - INFO - Connecting to Email Server...
+2025-12-21 04:10:04,128 - INFO - Found 0 unread emails.
+2025-12-21 04:10:04,428 - INFO - Email fetch complete.
+2025-12-21 04:10:04,429 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-21 04:10:04,430 - INFO - Raw folder processing complete.
+2025-12-21 05:55:10,699 - INFO - Connecting to Email Server...
+2025-12-21 05:55:12,382 - INFO - Found 0 unread emails.
+2025-12-21 05:55:12,660 - INFO - Email fetch complete.
+2025-12-21 05:55:12,661 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-21 05:55:12,661 - INFO - Raw folder processing complete.
+2025-12-21 05:56:16,554 - INFO - Connecting to Email Server...
+2025-12-21 05:56:18,294 - INFO - Found 0 unread emails.
+2025-12-21 05:56:18,552 - INFO - Email fetch complete.
+2025-12-21 05:56:18,553 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-21 05:56:18,553 - INFO - Raw folder processing complete.
+2025-12-21 05:58:04,102 - INFO - Connecting to Email Server...
+2025-12-21 05:58:05,824 - INFO - Found 0 unread emails.
+2025-12-21 05:58:06,082 - INFO - Email fetch complete.
+2025-12-21 05:58:06,083 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-21 05:58:06,083 - INFO - Raw folder processing complete.
+2025-12-21 06:00:03,229 - INFO - Connecting to Email Server...
+2025-12-21 06:00:04,913 - INFO - Found 0 unread emails.
+2025-12-21 06:00:05,174 - INFO - Email fetch complete.
+2025-12-21 06:00:05,175 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-21 06:00:05,176 - INFO - Raw folder processing complete.
+2025-12-21 06:02:03,327 - INFO - Connecting to Email Server...
+2025-12-21 06:02:05,070 - INFO - Found 0 unread emails.
+2025-12-21 06:02:05,333 - INFO - Email fetch complete.
+2025-12-21 06:02:05,333 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-21 06:02:05,338 - INFO - Raw folder processing complete.
+2025-12-21 06:04:01,908 - INFO - Connecting to Email Server...
+2025-12-21 06:04:03,635 - INFO - Found 0 unread emails.
+2025-12-21 06:04:03,896 - INFO - Email fetch complete.
+2025-12-21 06:04:03,898 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-21 06:04:03,899 - INFO - Raw folder processing complete.
+2025-12-21 06:06:02,544 - INFO - Connecting to Email Server...
+2025-12-21 06:06:04,118 - INFO - Found 0 unread emails.
+2025-12-21 06:06:04,375 - INFO - Email fetch complete.
+2025-12-21 06:06:04,376 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-21 06:06:04,378 - INFO - Raw folder processing complete.
+2025-12-21 06:08:02,023 - INFO - Connecting to Email Server...
+2025-12-21 06:08:03,716 - INFO - Found 0 unread emails.
+2025-12-21 06:08:04,050 - INFO - Email fetch complete.
+2025-12-21 06:08:04,051 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-21 06:08:04,052 - INFO - Raw folder processing complete.
+2025-12-21 06:10:02,424 - INFO - Connecting to Email Server...
+2025-12-21 06:10:04,136 - INFO - Found 0 unread emails.
+2025-12-21 06:10:04,395 - INFO - Email fetch complete.
+2025-12-21 06:10:04,396 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-21 06:10:04,397 - INFO - Raw folder processing complete.
+2025-12-21 06:12:02,080 - INFO - Connecting to Email Server...
+2025-12-21 06:12:03,781 - INFO - Found 0 unread emails.
+2025-12-21 06:12:04,053 - INFO - Email fetch complete.
+2025-12-21 06:12:04,054 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-21 06:12:04,055 - INFO - Raw folder processing complete.
+2025-12-21 06:31:06,171 - INFO - Routing file /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/523202410I3356700S20241011110303.pdf (ext=.pdf)
+2025-12-21 06:32:03,115 - INFO - Connecting to Email Server...
+2025-12-21 06:32:05,032 - INFO - Found 0 unread emails.
+2025-12-21 06:32:05,291 - INFO - Email fetch complete.
+2025-12-21 06:32:05,293 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-21 06:32:05,293 - INFO - Processing raw file: 523202410I3356700S20241011110303.pdf
+2025-12-21 06:32:05,308 - INFO - Routing file /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/523202410I3356700S20241011110303.pdf (ext=.pdf)
+2025-12-21 06:32:08,503 - INFO - Moved file to processed: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/processed/523202410I3356700S20241011110303.pdf
+2025-12-21 06:32:08,503 - INFO - Raw folder processing complete.
+2025-12-21 06:34:02,682 - INFO - Connecting to Email Server...
+2025-12-21 06:34:04,460 - INFO - Found 0 unread emails.
+2025-12-21 06:34:04,721 - INFO - Email fetch complete.
+2025-12-21 06:34:04,723 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-21 06:34:04,724 - INFO - Raw folder processing complete.
+2025-12-21 06:36:03,143 - INFO - Connecting to Email Server...
+2025-12-21 06:36:04,852 - INFO - Found 0 unread emails.
+2025-12-21 06:36:05,111 - INFO - Email fetch complete.
+2025-12-21 06:36:05,111 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-21 06:36:05,112 - INFO - Raw folder processing complete.
+2025-12-21 06:38:03,035 - INFO - Connecting to Email Server...
+2025-12-21 06:38:04,757 - INFO - Found 0 unread emails.
+2025-12-21 06:38:05,017 - INFO - Email fetch complete.
+2025-12-21 06:38:05,018 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-21 06:38:05,019 - INFO - Raw folder processing complete.
+2025-12-21 06:40:02,888 - INFO - Connecting to Email Server...
+2025-12-21 06:40:04,669 - INFO - Found 0 unread emails.
+2025-12-21 06:40:04,934 - INFO - Email fetch complete.
+2025-12-21 06:40:04,935 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-21 06:40:04,936 - INFO - Raw folder processing complete.
+2025-12-21 06:42:02,996 - INFO - Connecting to Email Server...
+2025-12-21 06:42:04,921 - INFO - Found 0 unread emails.
+2025-12-21 06:42:05,216 - INFO - Email fetch complete.
+2025-12-21 06:42:05,217 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-21 06:42:05,217 - INFO - Raw folder processing complete.
+2025-12-21 06:44:02,911 - INFO - Connecting to Email Server...
+2025-12-21 06:44:04,457 - INFO - Found 0 unread emails.
+2025-12-21 06:44:04,720 - INFO - Email fetch complete.
+2025-12-21 06:44:04,721 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-21 06:44:04,721 - INFO - Raw folder processing complete.
+2025-12-21 06:46:02,558 - INFO - Connecting to Email Server...
+2025-12-21 06:46:04,308 - INFO - Found 0 unread emails.
+2025-12-21 06:46:04,570 - INFO - Email fetch complete.
+2025-12-21 06:46:04,571 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-21 06:46:04,572 - INFO - Raw folder processing complete.
+2025-12-21 06:48:02,762 - INFO - Connecting to Email Server...
+2025-12-21 06:48:04,932 - INFO - Found 0 unread emails.
+2025-12-21 06:48:05,200 - INFO - Email fetch complete.
+2025-12-21 06:48:05,201 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-21 06:48:05,202 - INFO - Raw folder processing complete.
+2025-12-21 06:50:04,078 - INFO - Connecting to Email Server...
+2025-12-21 06:50:05,951 - INFO - Found 0 unread emails.
+2025-12-21 06:50:06,219 - INFO - Email fetch complete.
+2025-12-21 06:50:06,220 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-21 06:50:06,222 - INFO - Raw folder processing complete.
+2025-12-21 06:52:03,331 - INFO - Connecting to Email Server...
+2025-12-21 06:52:04,948 - INFO - Found 0 unread emails.
+2025-12-21 06:52:05,208 - INFO - Email fetch complete.
+2025-12-21 06:52:05,209 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-21 06:52:05,210 - INFO - Raw folder processing complete.
+2025-12-21 06:56:03,948 - INFO - Connecting to Email Server...
+2025-12-21 06:56:05,691 - INFO - Found 0 unread emails.
+2025-12-21 06:56:05,950 - INFO - Email fetch complete.
+2025-12-21 06:56:05,951 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-21 06:56:05,952 - INFO - Raw folder processing complete.
+2025-12-21 06:58:02,858 - INFO - Connecting to Email Server...
+2025-12-21 06:58:04,707 - INFO - Found 0 unread emails.
+2025-12-21 06:58:04,975 - INFO - Email fetch complete.
+2025-12-21 06:58:04,976 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-21 06:58:04,978 - INFO - Raw folder processing complete.
+2025-12-21 07:00:03,380 - INFO - Connecting to Email Server...
+2025-12-21 07:00:04,978 - INFO - Found 0 unread emails.
+2025-12-21 07:00:05,237 - INFO - Email fetch complete.
+2025-12-21 07:00:05,238 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-21 07:00:05,239 - INFO - Raw folder processing complete.
+2025-12-21 07:02:03,163 - INFO - Connecting to Email Server...
+2025-12-21 07:02:04,796 - INFO - Found 0 unread emails.
+2025-12-21 07:02:05,056 - INFO - Email fetch complete.
+2025-12-21 07:02:05,056 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-21 07:02:05,057 - INFO - Raw folder processing complete.
+2025-12-21 07:04:03,645 - INFO - Connecting to Email Server...
+2025-12-21 07:04:05,482 - INFO - Found 0 unread emails.
+2025-12-21 07:04:05,745 - INFO - Email fetch complete.
+2025-12-21 07:04:05,747 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-21 07:04:05,748 - INFO - Raw folder processing complete.
+2025-12-21 07:04:21,600 - INFO - Routing file /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/523202410I3356700S20241011110303.pdf (ext=.pdf)
+2025-12-21 07:06:02,935 - INFO - Connecting to Email Server...
+2025-12-21 07:06:04,847 - INFO - Found 0 unread emails.
+2025-12-21 07:06:05,105 - INFO - Email fetch complete.
+2025-12-21 07:06:05,106 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-21 07:06:05,108 - INFO - Processing raw file: 523202410I3356700S20241011110303.pdf
+2025-12-21 07:06:05,128 - INFO - Routing file /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/523202410I3356700S20241011110303.pdf (ext=.pdf)
+2025-12-21 07:06:08,517 - INFO - Moved file to processed: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/processed/523202410I3356700S20241011110303.pdf
+2025-12-21 07:06:08,518 - INFO - Raw folder processing complete.
+2025-12-21 07:08:04,667 - INFO - Connecting to Email Server...
+2025-12-21 07:08:06,992 - INFO - Found 0 unread emails.
+2025-12-21 07:08:07,295 - INFO - Email fetch complete.
+2025-12-21 07:08:07,296 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-21 07:08:07,296 - INFO - Raw folder processing complete.
+2025-12-21 07:10:04,347 - INFO - Connecting to Email Server...
+2025-12-21 07:10:06,081 - INFO - Found 0 unread emails.
+2025-12-21 07:10:06,359 - INFO - Email fetch complete.
+2025-12-21 07:10:06,365 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-21 07:10:06,366 - INFO - Raw folder processing complete.
+2025-12-21 07:11:44,153 - INFO - Routing file /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/523202410I3356700S20241011110303.pdf (ext=.pdf)
+2025-12-21 07:12:04,664 - INFO - Connecting to Email Server...
+2025-12-21 07:12:06,466 - INFO - Found 0 unread emails.
+2025-12-21 07:12:06,726 - INFO - Email fetch complete.
+2025-12-21 07:12:06,726 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-21 07:12:06,727 - INFO - Processing raw file: 523202410I3356700S20241011110303.pdf
+2025-12-21 07:12:06,738 - INFO - Routing file /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/523202410I3356700S20241011110303.pdf (ext=.pdf)
+2025-12-21 07:12:09,598 - INFO - Moved file to processed: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/processed/523202410I3356700S20241011110303.pdf
+2025-12-21 07:12:09,599 - INFO - Raw folder processing complete.
+2025-12-21 07:13:08,504 - INFO - Routing file /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/523202410I3356700S20241011110303.pdf (ext=.pdf)
+2025-12-21 07:14:02,919 - INFO - Connecting to Email Server...
+2025-12-21 07:14:04,508 - INFO - Found 0 unread emails.
+2025-12-21 07:14:04,769 - INFO - Email fetch complete.
+2025-12-21 07:14:04,770 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-21 07:14:04,771 - INFO - Processing raw file: 523202410I3356700S20241011110303.pdf
+2025-12-21 07:14:04,806 - INFO - Routing file /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files/523202410I3356700S20241011110303.pdf (ext=.pdf)
+2025-12-21 07:14:08,089 - INFO - Moved file to processed: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/processed/523202410I3356700S20241011110303.pdf
+2025-12-21 07:14:08,089 - INFO - Raw folder processing complete.
+2025-12-21 07:16:04,319 - INFO - Connecting to Email Server...
+2025-12-21 07:16:06,028 - INFO - Found 0 unread emails.
+2025-12-21 07:16:06,288 - INFO - Email fetch complete.
+2025-12-21 07:16:06,288 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-new-git/email-data-importer/media/raw_files
+2025-12-21 07:16:06,289 - INFO - Raw folder processing complete.
