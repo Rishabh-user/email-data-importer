@@ -34,6 +34,7 @@ def process_extracted_records():
             continue
 
         payload = json.dumps([record.full_row_json])
+        print(payload)
 
         try:
             conn.request("POST", API_ENDPOINT, payload, headers)

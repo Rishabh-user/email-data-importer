@@ -16,7 +16,7 @@ import csv
 from django.http import HttpResponse
 from django.contrib.admin import DateFieldListFilter
 from django.contrib import admin
-from django.db.models import Exists, OuterRef
+
 
 
 
@@ -90,7 +90,6 @@ class ExtractedRecordAdmin(admin.ModelAdmin):
         "id",
         "po_number",
         "customer_part",
-        "quantity",
         "open_qty",
         "raw_file",
         "created_at",
@@ -101,12 +100,23 @@ class ExtractedRecordAdmin(admin.ModelAdmin):
     change_list_template = "admin/importer/extractedrecord/change_list.html"
     actions = ["mark_as_unprocessed"]
 
+    # ✅ THIS is what you were missing
+    exclude = (
+        "need_date",
+        "promised_date",
+        "ship_date",
+        "quantity",
+    )
+
+
     def mark_as_unprocessed(self, request, queryset):
         updated = queryset.update(is_processed=False)
         messages.success(
             request,
             f"{updated} records marked as unprocessed."
         )
+
+    
 
     mark_as_unprocessed.short_description = "🔁 Mark selected records as UNPROCESSED"
 
@@ -131,14 +141,7 @@ class ExtractedRecordAdmin(admin.ModelAdmin):
 
    
     def process_records(self, request):
-        
-        records = ExtractedRecord.objects.filter(
-            is_processed=False
-        ).annotate(
-            has_zso=Exists(
-                ZSODemand.objects.filter(extracted_record=OuterRef("pk"))
-            )
-        ).filter(has_zso=False)
+        records = ExtractedRecord.objects.filter(is_processed=False)
 
         if not records.exists():
             messages.warning(request, "No unprocessed records found.")

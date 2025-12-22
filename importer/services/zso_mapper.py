@@ -68,38 +68,38 @@ def map_extracted_to_zso(extracted):
         except Exception:
             sales_month = None
 
-    zso = ZSODemand.objects.create(
-        raw_file=extracted.raw_file,
-        extracted_record=extracted,
+    # zso = ZSODemand.objects.create(
+    #     raw_file=extracted.raw_file,
+    #     extracted_record=extracted,
 
-        # requested columns
-        kas_name=g("KAS Name", "kas_name"),
-        customer_name=g("Customer Name", "customer_name"),
-        site_location=g("Site location", "Site Location", "site_location"),
-        country=g("Country", "country"),
-        incoterms=g("Incoterms", "Incoterm", "Line Incoterm"),
-        sales_type=g("Direct Sales / WH Movement", "sales_type", "Direct Sales"),
-        po_or_forecast=po_or_forecast,
-        category=g("Category", "category"),
-        sub_category=g("Sub Category", "Sub Category", "sub_category"),
+    #     # requested columns
+    #     kas_name=g("KAS Name", "kas_name"),
+    #     customer_name=g("Customer Name", "customer_name"),
+    #     site_location=g("Site location", "Site Location", "site_location"),
+    #     country=g("Country", "country"),
+    #     incoterms=g("Incoterms", "Incoterm", "Line Incoterm"),
+    #     sales_type=g("Direct Sales / WH Movement", "sales_type", "Direct Sales"),
+    #     po_or_forecast=po_or_forecast,
+    #     category=g("Category", "category"),
+    #     sub_category=g("Sub Category", "Sub Category", "sub_category"),
 
-        customer_part=customer_part,
-        maini_part=g("Maini part #", "Maini part", "maini_part"),
+    #     customer_part=customer_part,
+    #     maini_part=g("Maini part #", "Maini part", "maini_part"),
 
-        open_qty=_safe_float(open_qty),
-        unit_price=_safe_float(g("Unit Price", "unit_price")),
-        currency=g("Currency", "currency"),
-        unit_price_inr=_safe_float(g("Unit Price in INR", "unit_price_inr")),
-        total_inr=_safe_float(g("Total in INR", "total_inr")),
+    #     open_qty=_safe_float(open_qty),
+    #     unit_price=_safe_float(g("Unit Price", "unit_price")),
+    #     currency=g("Currency", "currency"),
+    #     unit_price_inr=_safe_float(g("Unit Price in INR", "unit_price_inr")),
+    #     total_inr=_safe_float(g("Total in INR", "total_inr")),
 
-        doc_date=doc_date,
-        ship_date=ship_date,
-        sales_month=sales_month,
+    #     doc_date=doc_date,
+    #     ship_date=ship_date,
+    #     sales_month=sales_month,
 
-        confidence_score=calculate_confidence(row)
-    )
+    #     confidence_score=calculate_confidence(row)
+    # )
 
-    return zso
+    # return zso
 
 
 def _safe_float(v):

@@ -120,19 +120,22 @@ def process_file(raw_file: RawFile):
 
                         po_number=(
                             row.get("PO")
-                            or row.get("PO Number")
-                            or row.get("PURCHASE_ORDER")
+                            or row.get("PO Nbr")
+                            or row.get("PURCHASE_ORDER") 
+                            or row.get("PO Number")  
                         ),
 
                         customer_part=(
                             row.get("ERP Code")
                             or row.get("Customer Material Number")
                             or row.get("ITEM_NO")
+                            or row.get("Part Nbr")
                         ),
 
                         description=(
                             row.get("Description")
                             or row.get("DESCRIPTION")
+                            or row.get("Part Description")
                         ),
 
                         quantity=(
