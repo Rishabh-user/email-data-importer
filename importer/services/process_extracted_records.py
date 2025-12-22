@@ -3,9 +3,9 @@ import http.client
 from importer.models import ExtractedRecord, ZSODemand
 
 
-API_HOST = "stageanalyse.skillmotion.ai"
+API_HOST = "zso-api-production.up.railway.app"
 API_ENDPOINT = "/api/zso/get_report"
-API_TOKEN = "Bearer YOUR_TOKEN_HERE"
+
 
 
 def process_extracted_records():
@@ -22,8 +22,7 @@ def process_extracted_records():
 
     conn = http.client.HTTPSConnection(API_HOST)
     headers = {
-        "Content-Type": "application/json",
-        "Authorization": API_TOKEN,
+        "Content-Type": "application/json"
     }
 
     processed = 0

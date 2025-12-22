@@ -147,6 +147,7 @@ def process_file(raw_file: RawFile):
                             row.get("Open Sched Qty")
                             or row.get("Balance Due")
                             or row.get("QUANTITY")
+                            or row.get("Yr Req/Rem Bal")
                         ),
 
                         need_date=(

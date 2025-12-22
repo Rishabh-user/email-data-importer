@@ -6324,3 +6324,708 @@ django.contrib.admin.exceptions.AlreadyRegistered: The model RawFile is already 
 📧 Starting email fetch...
 📦 Processing raw files...
 ✅ Email fetch & extraction completed
+2025-12-22 09:00:05,021 - INFO - Connecting to Email Server...
+2025-12-22 09:00:06,799 - INFO - Found 0 unread emails.
+2025-12-22 09:00:07,076 - INFO - Email fetch complete.
+2025-12-22 09:00:07,077 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-22 09:00:07,078 - INFO - Processing raw file: Body_of_the_Mail_OP-Excel.xlsx
+2025-12-22 09:00:07,110 - INFO - Routing file: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files/Body_of_the_Mail_OP-Excel.xlsx (ext=.xlsx)
+2025-12-22 09:00:07,110 - INFO - Parsing Excel file: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files/Body_of_the_Mail_OP-Excel.xlsx
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+2025-12-22 09:00:07,254 - INFO - Moved file to processed: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/processed/Body_of_the_Mail_OP-Excel.xlsx
+2025-12-22 09:00:07,254 - INFO - Processing raw file: Customer_P_1_Schedules.xls
+2025-12-22 09:00:07,256 - INFO - Routing file: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files/Customer_P_1_Schedules.xls (ext=.xls)
+2025-12-22 09:00:07,256 - INFO - Parsing Excel file: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files/Customer_P_1_Schedules.xls
+2025-12-22 09:00:07,292 - INFO - Converted .xls to .xlsx: /tmp/tmpzx3qxble.xlsx
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+2025-12-22 09:00:07,432 - INFO - Moved file to processed: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/processed/Customer_P_1_Schedules.xls
+2025-12-22 09:00:07,432 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+2025-12-22 09:02:03,023 - INFO - Connecting to Email Server...
+2025-12-22 09:02:05,173 - INFO - Found 0 unread emails.
+2025-12-22 09:02:05,450 - INFO - Email fetch complete.
+2025-12-22 09:02:05,451 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-22 09:02:05,452 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+2025-12-22 09:04:02,760 - INFO - Connecting to Email Server...
+2025-12-22 09:04:04,750 - INFO - Found 0 unread emails.
+2025-12-22 09:04:05,033 - INFO - Email fetch complete.
+2025-12-22 09:04:05,034 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-22 09:04:05,036 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+2025-12-22 09:06:03,309 - INFO - Connecting to Email Server...
+2025-12-22 09:06:05,254 - INFO - Found 0 unread emails.
+2025-12-22 09:06:05,544 - INFO - Email fetch complete.
+2025-12-22 09:06:05,545 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-22 09:06:05,546 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+2025-12-22 09:08:02,875 - INFO - Connecting to Email Server...
+2025-12-22 09:08:05,195 - INFO - Found 0 unread emails.
+2025-12-22 09:08:05,522 - INFO - Email fetch complete.
+2025-12-22 09:08:05,525 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-22 09:08:05,526 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+2025-12-22 09:10:03,262 - INFO - Connecting to Email Server...
+2025-12-22 09:10:05,158 - INFO - Found 0 unread emails.
+2025-12-22 09:10:05,421 - INFO - Email fetch complete.
+2025-12-22 09:10:05,421 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-22 09:10:05,422 - INFO - Processing raw file: Body_of_the_Mail_OP-Excel.xlsx
+2025-12-22 09:10:05,440 - INFO - Routing file: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files/Body_of_the_Mail_OP-Excel.xlsx (ext=.xlsx)
+2025-12-22 09:10:05,440 - INFO - Parsing Excel file: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files/Body_of_the_Mail_OP-Excel.xlsx
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+2025-12-22 09:10:05,582 - INFO - Moved file to processed: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/processed/Body_of_the_Mail_OP-Excel.xlsx
+2025-12-22 09:10:05,582 - INFO - Processing raw file: Customer_P_2_Schedules.xls
+2025-12-22 09:10:05,585 - INFO - Routing file: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files/Customer_P_2_Schedules.xls (ext=.xls)
+2025-12-22 09:10:05,585 - INFO - Parsing Excel file: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files/Customer_P_2_Schedules.xls
+2025-12-22 09:10:06,169 - INFO - Converted .xls to .xlsx: /tmp/tmpcfctr72h.xlsx
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+2025-12-22 09:10:08,771 - INFO - Moved file to processed: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/processed/Customer_P_2_Schedules.xls
+2025-12-22 09:10:08,771 - INFO - Processing raw file: Customer_P_1_Schedules.xls
+2025-12-22 09:10:08,773 - INFO - Routing file: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files/Customer_P_1_Schedules.xls (ext=.xls)
+2025-12-22 09:10:08,773 - INFO - Parsing Excel file: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files/Customer_P_1_Schedules.xls
+2025-12-22 09:10:08,815 - INFO - Converted .xls to .xlsx: /tmp/tmplcgk4tw9.xlsx
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+2025-12-22 09:10:08,950 - INFO - Moved file to processed: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/processed/Customer_P_1_Schedules.xls
+2025-12-22 09:10:08,950 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+2025-12-22 09:12:03,245 - INFO - Connecting to Email Server...
+2025-12-22 09:12:05,490 - INFO - Found 0 unread emails.
+2025-12-22 09:12:05,789 - INFO - Email fetch complete.
+2025-12-22 09:12:05,790 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-22 09:12:05,792 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+2025-12-22 09:14:03,060 - INFO - Connecting to Email Server...
+2025-12-22 09:14:04,869 - INFO - Found 0 unread emails.
+2025-12-22 09:14:05,160 - INFO - Email fetch complete.
+2025-12-22 09:14:05,160 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-22 09:14:05,161 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+2025-12-22 09:16:03,557 - INFO - Connecting to Email Server...
+2025-12-22 09:16:05,406 - INFO - Found 0 unread emails.
+2025-12-22 09:16:05,676 - INFO - Email fetch complete.
+2025-12-22 09:16:05,677 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-22 09:16:05,679 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+2025-12-22 09:18:03,086 - INFO - Connecting to Email Server...
+2025-12-22 09:18:04,915 - INFO - Found 0 unread emails.
+2025-12-22 09:18:05,200 - INFO - Email fetch complete.
+2025-12-22 09:18:05,201 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-22 09:18:05,202 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+2025-12-22 09:20:03,560 - INFO - Connecting to Email Server...
+2025-12-22 09:20:05,569 - INFO - Found 0 unread emails.
+2025-12-22 09:20:05,848 - INFO - Email fetch complete.
+2025-12-22 09:20:05,850 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-22 09:20:05,851 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+2025-12-22 09:22:03,530 - INFO - Connecting to Email Server...
+2025-12-22 09:22:05,268 - INFO - Found 0 unread emails.
+2025-12-22 09:22:05,556 - INFO - Email fetch complete.
+2025-12-22 09:22:05,557 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-22 09:22:05,558 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+2025-12-22 09:24:03,315 - INFO - Connecting to Email Server...
+2025-12-22 09:24:05,300 - INFO - Found 0 unread emails.
+2025-12-22 09:24:05,597 - INFO - Email fetch complete.
+2025-12-22 09:24:05,598 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-22 09:24:05,600 - INFO - Processing raw file: Customer_S_1.xlsx
+2025-12-22 09:24:05,620 - INFO - Routing file: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files/Customer_S_1.xlsx (ext=.xlsx)
+2025-12-22 09:24:05,621 - INFO - Parsing Excel file: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files/Customer_S_1.xlsx
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+2025-12-22 09:24:24,562 - INFO - Moved file to processed: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/processed/Customer_S_1.xlsx
+2025-12-22 09:24:24,563 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+2025-12-22 09:26:02,992 - INFO - Connecting to Email Server...
+2025-12-22 09:26:05,163 - INFO - Found 0 unread emails.
+2025-12-22 09:26:05,434 - INFO - Email fetch complete.
+2025-12-22 09:26:05,437 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-22 09:26:05,438 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+2025-12-22 09:28:03,266 - INFO - Connecting to Email Server...
+2025-12-22 09:28:05,142 - INFO - Found 0 unread emails.
+2025-12-22 09:28:05,410 - INFO - Email fetch complete.
+2025-12-22 09:28:05,411 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-22 09:28:05,414 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+2025-12-22 09:32:26,247 - INFO - Connecting to Email Server...
+2025-12-22 09:32:26,250 - INFO - Connecting to Email Server...
+2025-12-22 09:32:28,141 - INFO - Found 0 unread emails.
+2025-12-22 09:32:28,270 - INFO - Found 0 unread emails.
+2025-12-22 09:32:28,415 - INFO - Email fetch complete.
+2025-12-22 09:32:28,415 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-22 09:32:28,416 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+2025-12-22 09:32:28,540 - INFO - Email fetch complete.
+2025-12-22 09:32:28,541 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-22 09:32:28,541 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+2025-12-22 09:34:03,011 - INFO - Connecting to Email Server...
+2025-12-22 09:34:05,058 - INFO - Found 0 unread emails.
+2025-12-22 09:34:05,334 - INFO - Email fetch complete.
+2025-12-22 09:34:05,335 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-22 09:34:05,336 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+2025-12-22 09:36:03,151 - INFO - Connecting to Email Server...
+2025-12-22 09:36:04,933 - INFO - Found 0 unread emails.
+2025-12-22 09:36:05,239 - INFO - Email fetch complete.
+2025-12-22 09:36:05,239 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-22 09:36:05,240 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+2025-12-22 09:38:03,652 - INFO - Connecting to Email Server...
+2025-12-22 09:38:05,694 - INFO - Found 0 unread emails.
+2025-12-22 09:38:06,112 - INFO - Email fetch complete.
+2025-12-22 09:38:06,113 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-22 09:38:06,113 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+2025-12-22 09:40:02,854 - INFO - Connecting to Email Server...
+2025-12-22 09:40:04,643 - INFO - Found 0 unread emails.
+2025-12-22 09:40:04,911 - INFO - Email fetch complete.
+2025-12-22 09:40:04,912 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-22 09:40:04,912 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+2025-12-22 09:42:02,987 - INFO - Connecting to Email Server...
+2025-12-22 09:42:05,008 - INFO - Found 0 unread emails.
+2025-12-22 09:42:05,300 - INFO - Email fetch complete.
+2025-12-22 09:42:05,302 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-22 09:42:05,302 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+2025-12-22 09:44:03,391 - INFO - Connecting to Email Server...
+2025-12-22 09:44:05,543 - INFO - Found 0 unread emails.
+2025-12-22 09:44:05,810 - INFO - Email fetch complete.
+2025-12-22 09:44:05,811 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-22 09:44:05,812 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+2025-12-22 09:46:02,789 - INFO - Connecting to Email Server...
+2025-12-22 09:46:05,222 - INFO - Found 0 unread emails.
+2025-12-22 09:46:05,491 - INFO - Email fetch complete.
+2025-12-22 09:46:05,492 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-22 09:46:05,498 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+2025-12-22 09:54:23,250 - INFO - Connecting to Email Server...
+2025-12-22 09:54:25,214 - INFO - Found 0 unread emails.
+2025-12-22 09:54:25,493 - INFO - Email fetch complete.
+2025-12-22 09:54:25,801 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-22 09:54:25,809 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory
+/bin/sh: /Users/adititomar/PycharmProjects/email-data-importer/venv/bin/python: No such file or directory

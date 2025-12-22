@@ -20,7 +20,7 @@ from django.contrib import admin
 
 
 
-ZSO_API_TOKEN = os.getenv("ZSO_API_TOKEN")
+
 admin.site.site_header = "JKMGAL Demand Portal"
 admin.site.site_title = "JKMGAL Demand Portal"
 admin.site.index_title = "JKMGAL Demand Portal"
@@ -147,13 +147,12 @@ class ExtractedRecordAdmin(admin.ModelAdmin):
             messages.warning(request, "No unprocessed records found.")
             return redirect("..")
 
-        conn = http.client.HTTPSConnection("stageanalyse.skillmotion.ai")
+        conn = http.client.HTTPSConnection("zso-api-production.up.railway.app")
         headers = {
-            "Content-Type": "application/json",
-            "Authorization": f"Bearer {ZSO_API_TOKEN}",
+            "Content-Type": "application/json"
         }
 
-        print(ZSO_API_TOKEN)
+       
 
         success = 0
         failed = 0
@@ -163,12 +162,14 @@ class ExtractedRecordAdmin(admin.ModelAdmin):
                 failed += 1
                 continue
 
-            payload = json.dumps([record.full_row_json])
+            payload = json.dumps(record.full_row_json)
+
+            
 
             try:
                 conn.request(
                     "POST",
-                    "/api/zso/get_report",
+                    "/zso/get_report",
                     payload,
                     headers,
                 )
@@ -176,13 +177,14 @@ class ExtractedRecordAdmin(admin.ModelAdmin):
                 res = conn.getresponse()
                 
                 data = json.loads(res.read().decode())
-                print(data)
+                
+            
 
-                report = data.get("report", [])
+                report = data.get("report", {})
                 if not report:
                     raise ValueError("Empty report")
 
-                row = report[0]
+                row = report
 
             except Exception as e:
                 failed += 1
@@ -191,6 +193,7 @@ class ExtractedRecordAdmin(admin.ModelAdmin):
             # ✅ SAVE ATOMIC PER RECORD
             with transaction.atomic():
                 confidence_score = self.calculate_confidence_score(row)
+                print(f"Confidence Score: {confidence_score}")
                 ZSODemand.objects.create(
                     raw_file=record.raw_file,
                     extracted_record=record,
