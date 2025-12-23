@@ -153,3 +153,13 @@ class ExtractionLog(models.Model):
 
     def __str__(self):
         return f"{self.level} | {self.raw_file.file_name}"
+    
+class ProcessProgress(models.Model):
+    key = models.CharField(max_length=100, unique=True)
+    total = models.IntegerField(default=0)
+    processed = models.IntegerField(default=0)
+    failed = models.IntegerField(default=0)
+    is_running = models.BooleanField(default=False)
+    updated_at = models.DateTimeField(auto_now=True)
+
+
