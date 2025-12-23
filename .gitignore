@@ -73,3 +73,4 @@ coverage.xml
 logs/
 db.sqlite3
 db.*
+db.sqlite3
