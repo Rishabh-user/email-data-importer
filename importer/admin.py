@@ -1,5 +1,5 @@
 from django.contrib import admin
-from django.db import transaction
+from django.db import connection, transaction
 from django.contrib.auth.models import Group
 from django.urls import path
 from django.shortcuts import redirect
@@ -24,6 +24,9 @@ import json
 import http.client
 import csv
 from datetime import datetime
+import threading 
+from django.views.decorators.csrf import csrf_exempt
+from django.utils.decorators import method_decorator
 
 
 # ─────────────────────────────────────────────
@@ -89,45 +92,27 @@ class RawFileAdmin(admin.ModelAdmin):
 
 
 # ─────────────────────────────────────────────
-# ExtractedRecord Admin (WITH PROGRESS BAR)
+# ExtractedRecord Admin (PROGRESS BAR ENABLED)
 # ─────────────────────────────────────────────
 @admin.register(ExtractedRecord)
 class ExtractedRecordAdmin(admin.ModelAdmin):
     list_display = (
-        "id",
-        "po_number",
-        "customer_part",
-        "open_qty",
-        "raw_file",
-        "created_at",
-        "is_processed",
+        "id", "po_number", "customer_part", "open_qty",
+        "raw_file", "created_at", "is_processed"
     )
-
     list_filter = ("raw_file", "is_processed")
     search_fields = ("po_number", "customer_part")
     change_list_template = "admin/importer/extractedrecord/change_list.html"
-
-    exclude = (
-        "need_date",
-        "promised_date",
-        "ship_date",
-        "quantity",
-    )
-
+    exclude = ("need_date", "promised_date", "ship_date", "quantity")
     actions = ["mark_as_unprocessed"]
 
-    # ─────────────────────────────
-    # Actions
-    # ─────────────────────────────
+    # -------------------- Actions --------------------
     def mark_as_unprocessed(self, request, queryset):
         count = queryset.update(is_processed=False)
         messages.success(request, f"{count} records marked as UNPROCESSED")
-
     mark_as_unprocessed.short_description = "🔁 Mark selected as UNPROCESSED"
 
-    # ─────────────────────────────
-    # URLs
-    # ─────────────────────────────
+    # -------------------- URLs --------------------
     def get_urls(self):
         urls = super().get_urls()
         custom = [
@@ -141,12 +126,15 @@ class ExtractedRecordAdmin(admin.ModelAdmin):
                 self.admin_site.admin_view(self.process_status),
                 name="process_status",
             ),
+            path(
+                "process-reset/",
+                self.admin_site.admin_view(self.process_reset),
+                name="process_reset",
+            ),
         ]
         return custom + urls
 
-    # ─────────────────────────────
-    # Helpers
-    # ─────────────────────────────
+    # -------------------- Helpers --------------------
     def calculate_confidence_score(self, row: dict) -> float:
         filled = sum(
             1 for field in EXPECTED_FIELDS
@@ -154,18 +142,20 @@ class ExtractedRecordAdmin(admin.ModelAdmin):
         )
         return round((filled / len(EXPECTED_FIELDS)) * 100, 2)
 
-    # ─────────────────────────────
-    # PROCESS RECORDS (MAIN)
-    # ─────────────────────────────
+    # -------------------- Process Records --------------------
+    @method_decorator(csrf_exempt, name='dispatch')
     def process_records(self, request):
+        if request.method != "POST":
+            return JsonResponse({"status": "error", "message": "POST required"}, status=405)
+
         records = ExtractedRecord.objects.filter(is_processed=False)
         total = records.count()
 
         if total == 0:
-            messages.warning(request, "No unprocessed records found.")
-            return redirect("..")
+            return JsonResponse({"status": "nothing"})
 
-        progress, _ = ProcessProgress.objects.update_or_create(
+        # Initialize progress
+        ProcessProgress.objects.update_or_create(
             key="extracted_records",
             defaults={
                 "total": total,
@@ -175,19 +165,25 @@ class ExtractedRecordAdmin(admin.ModelAdmin):
             },
         )
 
+        # Run processing in background thread
+        import threading
+        threading.Thread(target=self._run_processing, daemon=True).start()
+
+        return JsonResponse({"status": "started"})
+
+    def _run_processing(self):
+        # Must close DB connection for new thread
+        connection.close()
+
+        records = ExtractedRecord.objects.filter(is_processed=False)
+        progress = ProcessProgress.objects.get(key="extracted_records")
+
         conn = http.client.HTTPSConnection("zso-api-production.up.railway.app")
         headers = {"Content-Type": "application/json"}
 
-        success = 0
-        failed = 0
-
         for record in records:
             try:
-                if not record.full_row_json:
-                    raise ValueError("Empty row JSON")
-
-                payload = json.dumps(record.full_row_json)
-
+                payload = json.dumps(record.full_row_json or {})
                 conn.request("POST", "/zso/get_report", payload, headers)
                 res = conn.getresponse()
                 data = json.loads(res.read().decode())
@@ -197,12 +193,10 @@ class ExtractedRecordAdmin(admin.ModelAdmin):
                     raise ValueError("Empty report")
 
                 with transaction.atomic():
-                    confidence_score = self.calculate_confidence_score(row)
-
                     ZSODemand.objects.create(
                         raw_file=record.raw_file,
                         extracted_record=record,
-                        kas_name=request.user.username,
+                        kas_name="Praveen",
                         customer_name=row.get("customer_name", ""),
                         site_location=row.get("site_location", ""),
                         country=row.get("country", ""),
@@ -221,46 +215,30 @@ class ExtractedRecordAdmin(admin.ModelAdmin):
                         doc_date=parse_any_date(row.get("document_date")),
                         ship_date=parse_any_date(row.get("ship_date")),
                         sales_month=row.get("sales_month", ""),
-                        confidence_score=confidence_score,
+                        confidence_score=self.calculate_confidence_score(row),
                     )
 
                     record.is_processed = True
                     record.save(update_fields=["is_processed"])
 
-                success += 1
                 progress.processed += 1
 
-            except Exception:
-                failed += 1
+            except Exception as e:
                 progress.failed += 1
+                print(f"[PROCESS ERROR] Record {record.id}: {e}")
 
-            progress.save(update_fields=["processed", "failed", "updated_at"])
+            progress.save(update_fields=["processed", "failed"])
 
         progress.is_running = False
         progress.save(update_fields=["is_running"])
 
-        messages.success(
-            request,
-            f"Processing complete → Success: {success}, Failed: {failed}"
-        )
-        return redirect("..")
-
-    # ─────────────────────────────
-    # PROGRESS STATUS API
-    # ─────────────────────────────
+    # -------------------- Progress APIs --------------------
     def process_status(self, request):
-        progress = ProcessProgress.objects.filter(
-            key="extracted_records"
-        ).first()
-
+        progress = ProcessProgress.objects.filter(key="extracted_records").first()
         if not progress:
             return JsonResponse({"running": False})
 
-        percent = (
-            int((progress.processed / progress.total) * 100)
-            if progress.total else 0
-        )
-
+        percent = int((progress.processed / progress.total) * 100) if progress.total else 0
         return JsonResponse({
             "running": progress.is_running,
             "total": progress.total,
@@ -268,6 +246,12 @@ class ExtractedRecordAdmin(admin.ModelAdmin):
             "failed": progress.failed,
             "percent": percent,
         })
+
+    def process_reset(self, request):
+        ProcessProgress.objects.filter(key="extracted_records").update(
+            total=0, processed=0, failed=0, is_running=False
+        )
+        return JsonResponse({"status": "reset"})
 
 
 # ─────────────────────────────────────────────

@@ -1,36 +1,16 @@
 {% extends "admin/change_list.html" %}
 {% load static %}
 
-{# ========================================================= #}
-{# OBJECT TOOLS + PROGRESS BAR                               #}
-{# ========================================================= #}
 {% block object-tools %}
 {{ block.super }}
 
-<!-- 🚀 Process Records Button -->
-<li class="object-tools">
-    <a href="process/"
-       id="process-records-btn"
-       class="button"
-       style="
-           background:#2563eb;
-           color:white;
-           padding:8px 14px;
-           font-weight:600;
-           border-radius:8px;
-           margin-left:8px;
-           position: relative;
-           right: 500px;
-       ">
-        🚀 Process Records
-    </a>
-</li>
+<div id="admin-message-box" style="margin-top:10px;"></div>
 
-<!-- ✅ Progress Box (directly under buttons) -->
+<!-- ✅ PROGRESS BOX -->
 <div id="progress-box"
      style="
         display:none;
-        margin:14px 0 0 0;
+        margin-top:12px;
         padding:12px;
         border:1px solid #ddd;
         border-radius:8px;
@@ -38,93 +18,179 @@
         max-width:600px;
      ">
 
-    <strong>Processing Extracted Records</strong>
+    <strong>Processing Records</strong>
 
-    <div style="border:1px solid #ccc; width:100%; height:26px; margin-top:8px;">
+    <div style="border:1px solid #ccc;height:26px;margin-top:8px;">
         <div id="progress-bar"
              style="
-                 background:#22c55e;
-                 height:100%;
-                 width:0%;
-                 color:white;
-                 text-align:center;
-                 line-height:26px;
-                 font-weight:600;
+                width:0%;
+                height:100%;
+                background:#22c55e;
+                color:white;
+                text-align:center;
+                line-height:26px;
+                font-weight:600;
              ">
             0 / 0
         </div>
     </div>
 
-    <p id="progress-text" style="margin-top:6px; font-weight:600;"></p>
+    <div id="progress-text" style="margin-top:6px;font-weight:600;"></div>
 </div>
 {% endblock %}
 
-{# ========================================================= #}
-{# JAVASCRIPT                                                #}
-{# ========================================================= #}
 {% block extrahead %}
 {{ block.super }}
 <script>
-(function () {
-    function ready(fn) {
-        if (document.readyState !== "loading") fn();
-        else document.addEventListener("DOMContentLoaded", fn);
+function getCookie(name) {
+    let cookieValue = null;
+    if (document.cookie && document.cookie !== "") {
+        const cookies = document.cookie.split(";");
+        for (let i = 0; i < cookies.length; i++) {
+            const cookie = cookies[i].trim();
+            if (cookie.substring(0, name.length + 1) === (name + "=")) {
+                cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                break;
+            }
+        }
+    }
+    return cookieValue;
+}
+const csrftoken = getCookie("csrftoken");
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    const ul = document.querySelector(".object-tools");
+    if (!ul) return;
+
+    /* ---------- BUTTON ---------- */
+    const li = document.createElement("li");
+    const btn = document.createElement("a");
+    btn.href = "#";
+    btn.className = "button";
+    btn.textContent = "🚀 Process Records";
+    btn.style.cssText = `
+        background:#2563eb;
+        color:white;
+        padding:8px 14px;
+        font-weight:600;
+        border-radius:8px;
+        margin-left:8px;
+    `;
+    li.appendChild(btn);
+    ul.appendChild(li);
+
+    /* ---------- UI ---------- */
+    const box = document.getElementById("progress-box");
+    const bar = document.getElementById("progress-bar");
+    const text = document.getElementById("progress-text");
+    const msgBox = document.getElementById("admin-message-box");
+
+    let polling = false;
+
+    function showMessage(type, message) {
+        msgBox.innerHTML = `
+            <ul class="messagelist">
+                <li class="${type}">${message}</li>
+            </ul>
+        `;
     }
 
-    ready(function () {
-        const btn = document.getElementById("process-records-btn");
-        const box = document.getElementById("progress-box");
-        const bar = document.getElementById("progress-bar");
-        const text = document.getElementById("progress-text");
+    function clearMessage() {
+        msgBox.innerHTML = "";
+    }
 
-        if (!btn) return;
+    function resetUI() {
+        polling = false;
+        bar.style.width = "0%";
+        bar.textContent = "0 / 0";
+        text.textContent = "";
+        box.style.display = "none";
+        btn.style.pointerEvents = "auto";
+        btn.textContent = "🚀 Process Records";
+    }
 
-        btn.addEventListener("click", function (e) {
-            e.preventDefault();
+    /* ---------- CLICK ---------- */
+    btn.addEventListener("click", function (e) {
+        e.preventDefault();
+        if (polling) return;
 
-            if (!confirm("Process all unprocessed records?")) return;
+        clearMessage();
+        btn.style.pointerEvents = "none";
+        btn.textContent = "⏳ Starting…";
 
-            btn.style.pointerEvents = "none";
-            btn.innerText = "⏳ Processing…";
+        fetch("process/", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "X-CSRFToken": csrftoken
+            },
+        })
+        .then(res => {
+            if (!res.ok) throw new Error("HTTP " + res.status);
+            return res.json();
+        })
+        .then(data => {
 
-            fetch("process/").then(() => {
-                box.style.display = "block";
-                poll();
-            });
+            if (data.status === "nothing") {
+                showMessage("warning", "No unprocessed records found.");
+                resetUI();
+                return;
+            }
+
+            polling = true;
+            box.style.display = "block";
+            btn.textContent = "⏳ Processing…";
+            poll();
+        })
+        .catch(err => {
+            console.error(err);
+            showMessage("error", "Unable to start processing.");
+            resetUI();
         });
-
-        function poll() {
-            fetch("process-status/")
-                .then(res => res.json())
-                .then(data => {
-                    if (!data.total) return;
-
-                    box.style.display = "block";
-
-                    const percent = Math.round(
-                        (data.processed / data.total) * 100
-                    );
-
-                    bar.style.width = percent + "%";
-                    bar.innerText = `${data.processed} / ${data.total}`;
-
-                    text.innerText =
-                        `Processed ${data.processed} of ${data.total} | Failed ${data.failed}`;
-
-                    if (data.running) {
-                        setTimeout(poll, 1000);
-                    } else {
-                        btn.innerText = "✅ Completed";
-                    }
-                })
-                .catch(() => {
-                    text.innerText = "⚠ Unable to fetch progress";
-                });
-        }
-
-        // Resume if page refreshed
-        poll();
     });
-})();
+
+    /* ---------- POLLING ---------- */
+    function poll() {
+        if (!polling) return;
+
+        fetch("process-status/")
+            .then(res => {
+                if (!res.ok) throw new Error("HTTP " + res.status);
+                return res.json();
+            })
+            .then(data => {
+
+                if (!data.total || data.total === 0) {
+                    showMessage("warning", "No records to process.");
+                    resetUI();
+                    return;
+                }
+
+                const percent = data.percent || 0;
+                bar.style.width = percent + "%";
+                bar.textContent = `${data.processed} / ${data.total}`;
+                text.textContent =
+                    `Processed ${data.processed} of ${data.total} | Failed ${data.failed}`;
+
+                if (data.running) {
+                    setTimeout(poll, 1000);
+                } else {
+                    btn.textContent = "✅ Completed";
+
+                    setTimeout(() => {
+                        fetch("process-reset/", {method:"POST", headers: {"X-CSRFToken": csrftoken}});
+                        resetUI();
+                    }, 1500);
+                }
+            })
+            .catch(err => {
+                console.error(err);
+                showMessage("error", "Unable to fetch progress status.");
+                resetUI();
+            });
+    }
+});
 </script>
+
 {% endblock %}

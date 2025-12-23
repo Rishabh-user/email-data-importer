@@ -162,4 +162,7 @@ class ProcessProgress(models.Model):
     is_running = models.BooleanField(default=False)
     updated_at = models.DateTimeField(auto_now=True)
 
+    def __str__(self):
+        return self.key
+
 
