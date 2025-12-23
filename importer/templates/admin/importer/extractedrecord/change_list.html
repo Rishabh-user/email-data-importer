@@ -131,7 +131,6 @@ document.addEventListener("DOMContentLoaded", function () {
             return res.json();
         })
         .then(data => {
-
             if (data.status === "nothing") {
                 showMessage("warning", "No unprocessed records found.");
                 resetUI();
@@ -145,8 +144,7 @@ document.addEventListener("DOMContentLoaded", function () {
         })
         .catch(err => {
             console.error(err);
-            showMessage("error", "Unable to start processing.");
-            resetUI();
+            resetUI(); // no intermediate error message
         });
     });
 
@@ -160,9 +158,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 return res.json();
             })
             .then(data => {
-
                 if (!data.total || data.total === 0) {
-                    showMessage("warning", "No records to process.");
                     resetUI();
                     return;
                 }
@@ -177,17 +173,23 @@ document.addEventListener("DOMContentLoaded", function () {
                     setTimeout(poll, 1000);
                 } else {
                     btn.textContent = "✅ Completed";
+                    polling = false;
 
                     setTimeout(() => {
-                        fetch("process-reset/", {method:"POST", headers: {"X-CSRFToken": csrftoken}});
+                        fetch("process-reset/", {
+                            method: "POST",
+                            headers: { "X-CSRFToken": csrftoken }
+                        });
                         resetUI();
+
+                        // ✅ Show final success message only
+                        showMessage("success", `Processing complete → Success: ${data.processed}, Failed: ${data.failed}`);
                     }, 1500);
                 }
             })
             .catch(err => {
                 console.error(err);
-                showMessage("error", "Unable to fetch progress status.");
-                resetUI();
+                resetUI(); // no intermediate error message
             });
     }
 });
