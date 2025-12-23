@@ -59,7 +59,7 @@ class ExtractedRecord(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
-        return f"{self.po_number or 'NO-PO'} | {self.customer_part}"
+        return f"{self.po_number or 'NO-PO'} | {self.customer_part}  | {self.id}"
 
 
 # -----------------------------

@@ -16,6 +16,8 @@ import csv
 from django.http import HttpResponse
 from django.contrib.admin import DateFieldListFilter
 from django.contrib import admin
+from rangefilter.filters import DateRangeFilter
+
 
 
 
@@ -258,7 +260,9 @@ class ZSODemandAdmin(admin.ModelAdmin):
     # ✅ BUILT-IN DATE RANGE FILTER
     list_filter = (
         ("ship_date", DateFieldListFilter),
+         ("ship_date", DateRangeFilter),
         "sales_month",
+        "raw_file",
     )
 
     search_fields = ("po_or_forecast", "customer_part")
