@@ -88,3 +88,779 @@
 📧 Starting email fetch...
 📦 Processing raw files...
 ✅ Email fetch & extraction completed
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/venv/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+2025-12-23 09:36:03,536 - INFO - Connecting to Email Server...
+2025-12-23 09:36:05,154 - INFO - Found 0 unread emails.
+2025-12-23 09:36:05,424 - INFO - Email fetch complete.
+2025-12-23 09:36:05,426 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-23 09:36:05,427 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/venv/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+2025-12-23 09:38:02,225 - INFO - Connecting to Email Server...
+2025-12-23 09:38:03,924 - INFO - Found 0 unread emails.
+2025-12-23 09:38:04,183 - INFO - Email fetch complete.
+2025-12-23 09:38:04,184 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-23 09:38:04,184 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/venv/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+2025-12-23 09:40:03,564 - INFO - Connecting to Email Server...
+2025-12-23 09:40:05,268 - INFO - Found 0 unread emails.
+2025-12-23 09:40:05,546 - INFO - Email fetch complete.
+2025-12-23 09:40:05,547 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-23 09:40:05,549 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/venv/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+2025-12-23 09:42:03,397 - INFO - Connecting to Email Server...
+2025-12-23 09:42:05,064 - INFO - Found 0 unread emails.
+2025-12-23 09:42:05,328 - INFO - Email fetch complete.
+2025-12-23 09:42:05,328 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-23 09:42:05,329 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/venv/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+2025-12-23 09:44:02,909 - INFO - Connecting to Email Server...
+2025-12-23 09:44:04,808 - INFO - Found 0 unread emails.
+2025-12-23 09:44:05,108 - INFO - Email fetch complete.
+2025-12-23 09:44:05,109 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-23 09:44:05,118 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/venv/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+2025-12-23 09:46:02,877 - INFO - Connecting to Email Server...
+2025-12-23 09:46:04,770 - INFO - Found 0 unread emails.
+2025-12-23 09:46:05,052 - INFO - Email fetch complete.
+2025-12-23 09:46:05,053 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-23 09:46:05,055 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/venv/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+2025-12-23 09:48:07,786 - INFO - Connecting to Email Server...
+2025-12-23 09:48:09,389 - INFO - Found 0 unread emails.
+2025-12-23 09:48:09,655 - INFO - Email fetch complete.
+2025-12-23 09:48:09,657 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-23 09:48:09,658 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/venv/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+2025-12-23 09:50:02,588 - INFO - Connecting to Email Server...
+2025-12-23 09:50:04,216 - INFO - Found 0 unread emails.
+2025-12-23 09:50:04,505 - INFO - Email fetch complete.
+2025-12-23 09:50:04,506 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-23 09:50:04,507 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/venv/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+2025-12-23 09:52:02,065 - INFO - Connecting to Email Server...
+2025-12-23 09:52:03,730 - INFO - Found 0 unread emails.
+2025-12-23 09:52:03,996 - INFO - Email fetch complete.
+2025-12-23 09:52:03,997 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-23 09:52:03,997 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/venv/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+2025-12-23 09:54:02,969 - INFO - Connecting to Email Server...
+2025-12-23 09:54:04,649 - INFO - Found 0 unread emails.
+2025-12-23 09:54:04,915 - INFO - Email fetch complete.
+2025-12-23 09:54:04,916 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-23 09:54:04,917 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/venv/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+2025-12-23 09:56:02,920 - INFO - Connecting to Email Server...
+2025-12-23 09:56:04,542 - INFO - Found 0 unread emails.
+2025-12-23 09:56:04,805 - INFO - Email fetch complete.
+2025-12-23 09:56:04,806 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-23 09:56:04,807 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/venv/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+2025-12-23 09:58:02,048 - INFO - Connecting to Email Server...
+2025-12-23 09:58:03,902 - INFO - Found 0 unread emails.
+2025-12-23 09:58:04,181 - INFO - Email fetch complete.
+2025-12-23 09:58:04,182 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-23 09:58:04,183 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/venv/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+2025-12-23 10:00:02,388 - INFO - Connecting to Email Server...
+2025-12-23 10:00:04,376 - INFO - Found 0 unread emails.
+2025-12-23 10:00:04,661 - INFO - Email fetch complete.
+2025-12-23 10:00:04,662 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-23 10:00:04,662 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/venv/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+2025-12-23 10:04:16,633 - INFO - Connecting to Email Server...
+2025-12-23 10:04:18,240 - INFO - Found 0 unread emails.
+2025-12-23 10:04:18,505 - INFO - Email fetch complete.
+2025-12-23 10:04:18,506 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-23 10:04:18,506 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/venv/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+2025-12-23 10:06:02,892 - INFO - Connecting to Email Server...
+2025-12-23 10:06:04,694 - INFO - Found 0 unread emails.
+2025-12-23 10:06:04,971 - INFO - Email fetch complete.
+2025-12-23 10:06:04,972 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-23 10:06:04,972 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/venv/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+2025-12-23 10:08:02,329 - INFO - Connecting to Email Server...
+2025-12-23 10:08:04,163 - INFO - Found 0 unread emails.
+2025-12-23 10:08:04,443 - INFO - Email fetch complete.
+2025-12-23 10:08:04,445 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-23 10:08:04,445 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/venv/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+2025-12-23 10:10:02,083 - INFO - Connecting to Email Server...
+2025-12-23 10:10:04,005 - INFO - Found 0 unread emails.
+2025-12-23 10:10:04,274 - INFO - Email fetch complete.
+2025-12-23 10:10:04,275 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-23 10:10:04,275 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/venv/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+2025-12-23 10:12:02,973 - INFO - Connecting to Email Server...
+2025-12-23 10:12:04,631 - INFO - Found 0 unread emails.
+2025-12-23 10:12:04,900 - INFO - Email fetch complete.
+2025-12-23 10:12:04,901 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-23 10:12:04,901 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/venv/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+2025-12-23 10:14:02,323 - INFO - Connecting to Email Server...
+2025-12-23 10:14:04,034 - INFO - Found 0 unread emails.
+2025-12-23 10:14:04,296 - INFO - Email fetch complete.
+2025-12-23 10:14:04,297 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-23 10:14:04,297 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/venv/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+2025-12-23 10:16:02,733 - INFO - Connecting to Email Server...
+2025-12-23 10:16:04,558 - INFO - Found 0 unread emails.
+2025-12-23 10:16:04,835 - INFO - Email fetch complete.
+2025-12-23 10:16:04,835 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-23 10:16:04,836 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/venv/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+2025-12-23 10:18:02,214 - INFO - Connecting to Email Server...
+2025-12-23 10:18:04,164 - INFO - Found 0 unread emails.
+2025-12-23 10:18:04,431 - INFO - Email fetch complete.
+2025-12-23 10:18:04,432 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-23 10:18:04,432 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/venv/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+2025-12-23 10:20:02,191 - INFO - Connecting to Email Server...
+2025-12-23 10:20:04,031 - INFO - Found 0 unread emails.
+2025-12-23 10:20:04,311 - INFO - Email fetch complete.
+2025-12-23 10:20:04,312 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-23 10:20:04,312 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/venv/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+2025-12-23 10:22:02,647 - INFO - Connecting to Email Server...
+2025-12-23 10:22:04,505 - INFO - Found 0 unread emails.
+2025-12-23 10:22:04,852 - INFO - Email fetch complete.
+2025-12-23 10:22:04,853 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-23 10:22:04,853 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/venv/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+2025-12-23 10:24:02,549 - INFO - Connecting to Email Server...
+2025-12-23 10:24:04,416 - INFO - Found 0 unread emails.
+2025-12-23 10:24:04,699 - INFO - Email fetch complete.
+2025-12-23 10:24:04,700 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-23 10:24:04,701 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/venv/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+2025-12-23 10:26:03,042 - INFO - Connecting to Email Server...
+2025-12-23 10:26:04,801 - INFO - Found 0 unread emails.
+2025-12-23 10:26:05,103 - INFO - Email fetch complete.
+2025-12-23 10:26:05,104 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-23 10:26:05,105 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/venv/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+2025-12-23 10:28:02,852 - INFO - Connecting to Email Server...
+2025-12-23 10:28:04,684 - INFO - Found 0 unread emails.
+2025-12-23 10:28:04,944 - INFO - Email fetch complete.
+2025-12-23 10:28:04,945 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-23 10:28:04,946 - INFO - Processing raw file: PO_Customer_W_1_4.xlsx
+2025-12-23 10:28:04,962 - INFO - Routing file: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files/PO_Customer_W_1_4.xlsx (ext=.xlsx)
+2025-12-23 10:28:04,962 - INFO - Parsing Excel file: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files/PO_Customer_W_1_4.xlsx
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+2025-12-23 10:28:05,100 - INFO - Moved file to processed: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/processed/PO_Customer_W_1_4.xlsx
+2025-12-23 10:28:05,100 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/venv/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+2025-12-23 10:30:02,554 - INFO - Connecting to Email Server...
+2025-12-23 10:30:04,446 - INFO - Found 0 unread emails.
+2025-12-23 10:30:04,731 - INFO - Email fetch complete.
+2025-12-23 10:30:04,733 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-23 10:30:04,733 - INFO - Processing raw file: Forecast_Customer_W_1_4.xlsx
+2025-12-23 10:30:04,750 - INFO - Routing file: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files/Forecast_Customer_W_1_4.xlsx (ext=.xlsx)
+2025-12-23 10:30:04,751 - INFO - Parsing Excel file: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files/Forecast_Customer_W_1_4.xlsx
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+2025-12-23 10:30:05,016 - INFO - Moved file to processed: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/processed/Forecast_Customer_W_1_4.xlsx
+2025-12-23 10:30:05,016 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/venv/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+2025-12-23 10:32:02,561 - INFO - Connecting to Email Server...
+2025-12-23 10:32:04,296 - INFO - Found 0 unread emails.
+2025-12-23 10:32:04,580 - INFO - Email fetch complete.
+2025-12-23 10:32:04,581 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-23 10:32:04,581 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/venv/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+2025-12-23 10:34:02,117 - INFO - Connecting to Email Server...
+2025-12-23 10:34:04,122 - INFO - Found 0 unread emails.
+2025-12-23 10:34:04,400 - INFO - Email fetch complete.
+2025-12-23 10:34:04,401 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-23 10:34:04,402 - INFO - Processing raw file: Forecast_Customer_W_1_4_ZaOIgNc.xlsx
+2025-12-23 10:34:04,417 - INFO - Routing file: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files/Forecast_Customer_W_1_4_ZaOIgNc.xlsx (ext=.xlsx)
+2025-12-23 10:34:04,417 - INFO - Parsing Excel file: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files/Forecast_Customer_W_1_4_ZaOIgNc.xlsx
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+2025-12-23 10:34:04,666 - INFO - Moved file to processed: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/processed/Forecast_Customer_W_1_4_ZaOIgNc.xlsx
+2025-12-23 10:34:04,666 - INFO - Processing raw file: Forecast_Customer_W_1_4.xlsx
+2025-12-23 10:34:04,669 - INFO - Routing file: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files/Forecast_Customer_W_1_4.xlsx (ext=.xlsx)
+2025-12-23 10:34:04,669 - INFO - Parsing Excel file: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files/Forecast_Customer_W_1_4.xlsx
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+2025-12-23 10:34:04,901 - INFO - Moved file to processed: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/processed/Forecast_Customer_W_1_4.xlsx
+2025-12-23 10:34:04,901 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/venv/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+2025-12-23 10:36:02,358 - INFO - Connecting to Email Server...
+2025-12-23 10:36:04,088 - INFO - Found 0 unread emails.
+2025-12-23 10:36:04,405 - INFO - Email fetch complete.
+2025-12-23 10:36:04,405 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-23 10:36:04,405 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/venv/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+2025-12-23 10:38:02,791 - INFO - Connecting to Email Server...
+2025-12-23 10:38:04,642 - INFO - Found 0 unread emails.
+2025-12-23 10:38:04,908 - INFO - Email fetch complete.
+2025-12-23 10:38:04,909 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-23 10:38:04,910 - INFO - Processing raw file: Forecast_Customer_W_1_4.xlsx
+2025-12-23 10:38:04,923 - INFO - Routing file: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files/Forecast_Customer_W_1_4.xlsx (ext=.xlsx)
+2025-12-23 10:38:04,924 - INFO - Parsing Excel file: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files/Forecast_Customer_W_1_4.xlsx
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/importer/extraction/unified/normalize.py:34: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(
+2025-12-23 10:38:05,187 - INFO - Moved file to processed: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/processed/Forecast_Customer_W_1_4.xlsx
+2025-12-23 10:38:05,187 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/venv/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+2025-12-23 10:40:02,574 - INFO - Connecting to Email Server...
+2025-12-23 10:40:04,502 - INFO - Found 0 unread emails.
+2025-12-23 10:40:04,767 - INFO - Email fetch complete.
+2025-12-23 10:40:04,768 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-23 10:40:04,770 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/venv/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+2025-12-23 10:42:02,449 - INFO - Connecting to Email Server...
+2025-12-23 10:42:04,491 - INFO - Found 0 unread emails.
+2025-12-23 10:42:04,760 - INFO - Email fetch complete.
+2025-12-23 10:42:04,761 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-23 10:42:04,762 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/venv/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+2025-12-23 10:44:02,320 - INFO - Connecting to Email Server...
+2025-12-23 10:44:04,149 - INFO - Found 0 unread emails.
+2025-12-23 10:44:04,429 - INFO - Email fetch complete.
+2025-12-23 10:44:04,430 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-23 10:44:04,431 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/venv/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+2025-12-23 10:46:03,115 - INFO - Connecting to Email Server...
+2025-12-23 10:46:05,109 - INFO - Found 0 unread emails.
+2025-12-23 10:46:05,410 - INFO - Email fetch complete.
+2025-12-23 10:46:05,411 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-23 10:46:05,412 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/venv/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+2025-12-23 10:48:02,876 - INFO - Connecting to Email Server...
+2025-12-23 10:48:04,992 - INFO - Found 0 unread emails.
+2025-12-23 10:48:05,270 - INFO - Email fetch complete.
+2025-12-23 10:48:05,271 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-23 10:48:05,273 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/venv/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+2025-12-23 10:50:03,037 - INFO - Connecting to Email Server...
+2025-12-23 10:50:05,234 - INFO - Found 0 unread emails.
+2025-12-23 10:50:05,556 - INFO - Email fetch complete.
+2025-12-23 10:50:05,558 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-23 10:50:05,559 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/venv/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+2025-12-23 10:52:02,093 - INFO - Connecting to Email Server...
+2025-12-23 10:52:04,100 - INFO - Found 0 unread emails.
+2025-12-23 10:52:04,384 - INFO - Email fetch complete.
+2025-12-23 10:52:04,385 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-23 10:52:04,385 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/venv/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+2025-12-23 10:54:02,882 - INFO - Connecting to Email Server...
+2025-12-23 10:54:04,724 - INFO - Found 0 unread emails.
+2025-12-23 10:54:04,989 - INFO - Email fetch complete.
+2025-12-23 10:54:04,990 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-23 10:54:04,992 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/venv/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+2025-12-23 10:56:02,389 - INFO - Connecting to Email Server...
+2025-12-23 10:56:04,622 - INFO - Found 0 unread emails.
+2025-12-23 10:56:04,947 - INFO - Email fetch complete.
+2025-12-23 10:56:04,948 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-23 10:56:04,949 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/venv/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+2025-12-23 10:58:02,407 - INFO - Connecting to Email Server...
+2025-12-23 10:58:04,230 - INFO - Found 0 unread emails.
+2025-12-23 10:58:04,517 - INFO - Email fetch complete.
+2025-12-23 10:58:04,518 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-23 10:58:04,518 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/venv/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+2025-12-23 11:21:07,105 - INFO - Connecting to Email Server...
+2025-12-23 11:21:08,743 - INFO - Found 0 unread emails.
+2025-12-23 11:21:09,019 - INFO - Email fetch complete.
+2025-12-23 11:21:09,020 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-23 11:21:09,021 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/venv/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+2025-12-23 11:22:15,871 - INFO - Connecting to Email Server...
+2025-12-23 11:22:17,834 - INFO - Found 0 unread emails.
+2025-12-23 11:22:18,112 - INFO - Email fetch complete.
+2025-12-23 11:22:18,113 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-23 11:22:18,114 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/venv/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+2025-12-23 11:24:02,638 - INFO - Connecting to Email Server...
+2025-12-23 11:24:04,496 - INFO - Found 0 unread emails.
+2025-12-23 11:24:04,779 - INFO - Email fetch complete.
+2025-12-23 11:24:04,781 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-23 11:24:04,781 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/venv/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+2025-12-23 11:26:02,369 - INFO - Connecting to Email Server...
+2025-12-23 11:26:04,257 - INFO - Found 0 unread emails.
+2025-12-23 11:26:04,526 - INFO - Email fetch complete.
+2025-12-23 11:26:04,527 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-23 11:26:04,527 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/venv/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+2025-12-23 11:28:02,156 - INFO - Connecting to Email Server...
+2025-12-23 11:28:04,212 - INFO - Found 0 unread emails.
+2025-12-23 11:28:04,471 - INFO - Email fetch complete.
+2025-12-23 11:28:04,472 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-23 11:28:04,472 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed
+/Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/venv/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+2025-12-23 11:30:03,121 - INFO - Connecting to Email Server...
+2025-12-23 11:30:04,788 - INFO - Found 0 unread emails.
+2025-12-23 11:30:05,050 - INFO - Email fetch complete.
+2025-12-23 11:30:05,051 - INFO - Scanning raw folder: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files
+2025-12-23 11:30:05,052 - INFO - Raw folder processing complete.
+📧 Starting email fetch...
+📦 Processing raw files...
+✅ Email fetch & extraction completed

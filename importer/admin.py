@@ -202,7 +202,7 @@ class ExtractedRecordAdmin(admin.ModelAdmin):
                     ZSODemand.objects.create(
                         raw_file=record.raw_file,
                         extracted_record=record,
-                        kas_name=request.user.username,
+                        kas_name='Praveen',
                         customer_name=row.get("customer_name", ""),
                         site_location=row.get("site_location", ""),
                         country=row.get("country", ""),
