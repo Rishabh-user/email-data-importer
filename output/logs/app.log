@@ -3914,3 +3914,14 @@
 2025-12-23 06:34:05,534 - INFO - Parsing Excel file: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/raw_files/email_table_hellossss_b'57'_20251223_063404.xlsx
 2025-12-23 06:34:05,683 - INFO - Moved file to processed: /Users/adititomar/PycharmProjects/email-data-importer-GIT/email-data-importer/media/processed/email_table_hellossss_b'57'_20251223_063404.xlsx
 2025-12-23 06:34:05,684 - INFO - Raw folder processing complete.
+2025-12-24 11:04:37,528 - INFO - Routing file: E:\sites\zso\email-data-importer\media\raw_files\Customer_P_1_rETHhe1.xls (ext=.xls)
+2025-12-24 11:04:37,532 - INFO - Parsing Excel file: E:\sites\zso\email-data-importer\media\raw_files\Customer_P_1_rETHhe1.xls
+2025-12-24 11:04:37,626 - INFO - Converted .xls to .xlsx: C:\Users\sunil\AppData\Local\Temp\tmpq6m9bdnu.xlsx
+2025-12-24 11:31:09,092 - INFO - Routing file: E:\sites\zso\email-data-importer\media\raw_files\Customer_P_2.xls (ext=.xls)
+2025-12-24 11:31:09,092 - INFO - Parsing Excel file: E:\sites\zso\email-data-importer\media\raw_files\Customer_P_2.xls
+2025-12-24 11:31:09,172 - INFO - Converted .xls to .xlsx: C:\Users\sunil\AppData\Local\Temp\tmpf4fgpw8h.xlsx
+2025-12-24 11:39:28,818 - INFO - Routing file: E:\sites\zso\email-data-importer\media\raw_files\Customer_P_1_Schedules.xls (ext=.xls)
+2025-12-24 11:39:28,818 - INFO - Parsing Excel file: E:\sites\zso\email-data-importer\media\raw_files\Customer_P_1_Schedules.xls
+2025-12-24 11:39:28,887 - INFO - Converted .xls to .xlsx: C:\Users\sunil\AppData\Local\Temp\tmpvaocqt7y.xlsx
+2025-12-24 11:47:18,841 - INFO - Routing file: E:\sites\zso\email-data-importer\media\raw_files\Forecast_Customer_W_1_4.xlsx (ext=.xlsx)
+2025-12-24 11:47:18,841 - INFO - Parsing Excel file: E:\sites\zso\email-data-importer\media\raw_files\Forecast_Customer_W_1_4.xlsx

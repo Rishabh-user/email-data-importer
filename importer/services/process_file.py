@@ -54,14 +54,7 @@ def process_file(raw_file: RawFile):
     """
     Main orchestration:
     RawFile → ExtractedRecord → ZSODemand
-    """
-
-    ExtractionLog.objects.create(
-        raw_file=raw_file,
-        level="INFO",
-        message="Extraction started",
-    )
-
+    """    
     try:
         importer = UnifiedImporter()
 
