@@ -82,11 +82,17 @@ except admin.sites.NotRegistered:
 # ─────────────────────────────────────────────
 @admin.register(RawFile)
 class RawFileAdmin(admin.ModelAdmin):
-    fields = ("raw_file",)
-    list_display = ("file_name", "file_type", "uploaded_at")
-    change_form_template = "admin/importer/rawfile/change_form.html"
+    list_display = ("file_name", "file_type", "uploaded_at", "user")
+
+    def get_queryset(self, request):
+        qs = super().get_queryset(request)
+        if request.user.is_superuser:
+            return qs
+        return qs.filter(user=request.user)
 
     def save_model(self, request, obj, form, change):
+        if not obj.pk:
+            obj.user = request.user
         super().save_model(request, obj, form, change)
         transaction.on_commit(lambda: process_file(obj))
 
@@ -106,41 +112,27 @@ class ExtractedRecordAdmin(admin.ModelAdmin):
     exclude = ("need_date", "promised_date", "ship_date", "quantity")
     actions = ["mark_as_unprocessed"]
 
-    # -------------------- Actions --------------------
+    # Only show current user's records unless superuser
+    def get_queryset(self, request):
+        qs = super().get_queryset(request)
+        if request.user.is_superuser:
+            return qs
+        return qs.filter(raw_file__user=request.user)
+
     def mark_as_unprocessed(self, request, queryset):
         count = queryset.update(is_processed=False)
         messages.success(request, f"{count} records marked as UNPROCESSED")
     mark_as_unprocessed.short_description = "🔁 Mark selected as UNPROCESSED"
 
-    # -------------------- URLs --------------------
+    # URLs for processing
     def get_urls(self):
         urls = super().get_urls()
         custom = [
-            path(
-                "process/",
-                self.admin_site.admin_view(self.process_records),
-                name="process_extracted_records",
-            ),
-            path(
-                "process-status/",
-                self.admin_site.admin_view(self.process_status),
-                name="process_status",
-            ),
-            path(
-                "process-reset/",
-                self.admin_site.admin_view(self.process_reset),
-                name="process_reset",
-            ),
+            path("process/", self.admin_site.admin_view(self.process_records), name="process_extracted_records"),
+            path("process-status/", self.admin_site.admin_view(self.process_status), name="process_status"),
+            path("process-reset/", self.admin_site.admin_view(self.process_reset), name="process_reset"),
         ]
         return custom + urls
-
-    # -------------------- Helpers --------------------
-    def calculate_confidence_score(self, row: dict) -> float:
-        filled = sum(
-            1 for field in EXPECTED_FIELDS
-            if row.get(field) not in (None, "", [], {})
-        )
-        return round((filled / len(EXPECTED_FIELDS)) * 100, 2)
 
     # -------------------- Process Records --------------------
     @method_decorator(csrf_exempt, name='dispatch')
@@ -148,35 +140,34 @@ class ExtractedRecordAdmin(admin.ModelAdmin):
         if request.method != "POST":
             return JsonResponse({"status": "error", "message": "POST required"}, status=405)
 
-        records = ExtractedRecord.objects.filter(is_processed=False)
+        records = ExtractedRecord.objects.filter(is_processed=False, raw_file__user=request.user)
         total = records.count()
-
         if total == 0:
             return JsonResponse({"status": "nothing"})
 
-        # Initialize progress
         ProcessProgress.objects.update_or_create(
-            key="extracted_records",
-            defaults={
-                "total": total,
-                "processed": 0,
-                "failed": 0,
-                "is_running": True,
-            },
+            key=f"extracted_records_{request.user.id}",
+            defaults={"total": total, "processed": 0, "failed": 0, "is_running": True},
         )
 
-        # Run processing in background thread
-        import threading
-        threading.Thread(target=self._run_processing, daemon=True).start()
-
+        threading.Thread(target=self._run_processing, args=(request.user.id,), daemon=True).start()
         return JsonResponse({"status": "started"})
+    
+    def calculate_confidence_score(self, row):
+        score = 0
+        fields = [
+            "customer_name", "po_or_forecast", "customer_part_number",
+            "open_quantity", "unit_price", "document_date"
+        ]
+        for f in fields:
+            if row.get(f):
+                score += 1
+        return int((score / len(fields)) * 100)
 
-    def _run_processing(self):
-        # Must close DB connection for new thread
+    def _run_processing(self, user_id):
         connection.close()
-
-        records = ExtractedRecord.objects.filter(is_processed=False)
-        progress = ProcessProgress.objects.get(key="extracted_records")
+        records = ExtractedRecord.objects.filter(is_processed=False, raw_file__user_id=user_id)
+        progress = ProcessProgress.objects.get(key=f"extracted_records_{user_id}")
 
         conn = http.client.HTTPSConnection("zso-api-production.up.railway.app")
         headers = {"Content-Type": "application/json"}
@@ -187,7 +178,6 @@ class ExtractedRecordAdmin(admin.ModelAdmin):
                 conn.request("POST", "/zso/get_report", payload, headers)
                 res = conn.getresponse()
                 data = json.loads(res.read().decode())
-
                 row = data.get("report")
                 if not row:
                     raise ValueError("Empty report")
@@ -196,7 +186,7 @@ class ExtractedRecordAdmin(admin.ModelAdmin):
                     ZSODemand.objects.create(
                         raw_file=record.raw_file,
                         extracted_record=record,
-                        kas_name="Praveen",
+                        kas_name=record.raw_file.user.get_full_name() if record.raw_file.user else "N/A",
                         customer_name=row.get("customer_name", ""),
                         site_location=row.get("site_location", ""),
                         country=row.get("country", ""),
@@ -217,10 +207,8 @@ class ExtractedRecordAdmin(admin.ModelAdmin):
                         sales_month=row.get("sales_month", ""),
                         confidence_score=self.calculate_confidence_score(row),
                     )
-
                     record.is_processed = True
                     record.save(update_fields=["is_processed"])
-
                 progress.processed += 1
 
             except Exception as e:
@@ -234,10 +222,9 @@ class ExtractedRecordAdmin(admin.ModelAdmin):
 
     # -------------------- Progress APIs --------------------
     def process_status(self, request):
-        progress = ProcessProgress.objects.filter(key="extracted_records").first()
+        progress = ProcessProgress.objects.filter(key=f"extracted_records_{request.user.id}").first()
         if not progress:
             return JsonResponse({"running": False})
-
         percent = int((progress.processed / progress.total) * 100) if progress.total else 0
         return JsonResponse({
             "running": progress.is_running,
@@ -248,7 +235,7 @@ class ExtractedRecordAdmin(admin.ModelAdmin):
         })
 
     def process_reset(self, request):
-        ProcessProgress.objects.filter(key="extracted_records").update(
+        ProcessProgress.objects.filter(key=f"extracted_records_{request.user.id}").update(
             total=0, processed=0, failed=0, is_running=False
         )
         return JsonResponse({"status": "reset"})
@@ -263,29 +250,29 @@ class ExtractionLogAdmin(admin.ModelAdmin):
     list_filter = ("level",)
     search_fields = ("message",)
 
+    def get_queryset(self, request):
+        qs = super().get_queryset(request)
+        if request.user.is_superuser:
+            return qs
+        return qs.filter(raw_file__user=request.user)
+
 
 # ─────────────────────────────────────────────
 # ZSO Demand Admin
 # ─────────────────────────────────────────────
 @admin.register(ZSODemand)
 class ZSODemandAdmin(admin.ModelAdmin):
-    list_display = (
-        "po_or_forecast",
-        "customer_part",
-        "open_qty",
-        "sales_month",
-        "confidence_score",
-    )
-
-    list_filter = (
-        ("ship_date", DateFieldListFilter),
-        ("ship_date", DateRangeFilter),
-        "sales_month",
-        "raw_file",
-    )
-
+    list_display = ("po_or_forecast", "customer_part", "open_qty", "sales_month", "confidence_score", "kas_name")
+    list_filter = (("ship_date", DateFieldListFilter), ("ship_date", DateRangeFilter), "sales_month", "raw_file")
     search_fields = ("po_or_forecast", "customer_part")
     actions = ["download_csv"]
+
+    def get_queryset(self, request):
+        qs = super().get_queryset(request)
+        if request.user.is_superuser:
+            return qs
+        return qs.filter(raw_file__user=request.user)
+    
 
     def get_urls(self):
         urls = super().get_urls()

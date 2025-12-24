@@ -1,24 +1,24 @@
 from django.db import models
 import os
+from django.conf import settings
 
 
 # -----------------------------
 # RAW UPLOADED FILE
 # -----------------------------
 class RawFile(models.Model):
-    raw_file = models.FileField(
-        upload_to="raw_files/",
-        verbose_name="Upload File",
-    )
-
-    class Meta:
-        verbose_name = "Upload File"
-        verbose_name_plural = "Upload Files"
-
-
+    raw_file = models.FileField(upload_to="raw_files/", verbose_name="Upload File")
     file_name = models.CharField(max_length=255, blank=True)
     file_type = models.CharField(max_length=50, blank=True)
     uploaded_at = models.DateTimeField(auto_now_add=True)
+    user = models.ForeignKey(
+        settings.AUTH_USER_MODEL,
+        null=True,
+        blank=True,
+        on_delete=models.SET_NULL,
+        related_name="raw_files",
+        help_text="User who uploaded this file"
+    )
 
     raw_text = models.TextField(null=True, blank=True)
     raw_json = models.JSONField(null=True, blank=True)

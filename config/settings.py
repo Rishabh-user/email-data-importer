@@ -16,4 +16,5 @@ OUTPUT_DIR.mkdir(exist_ok=True)
 (OUTPUT_DIR / "html").mkdir(parents=True, exist_ok=True)
 
 ATTACHMENTS_DIR.mkdir(parents=True, exist_ok=True)
+DATA_UPLOAD_MAX_NUMBER_FIELDS=50000
 
